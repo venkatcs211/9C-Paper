@@ -245,9 +245,82 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
              	\end{tabular}
              \end{table}
             		
-            
-\section{HC-L Derivatives and off balance sheet items}
+\subsection{HC-N Past Due and Non Accrual Loans and Leases}
+	Schedule HC-N of FR Y-9C provides details about the quality of the loan portfolio of the bank in terms of debt repayments by the counterparties for each loan. This data is provided at an aggregated loan basis. In order to have a consistent view of the performance of each segment of the loan portfolio, HC-C and HC-N have the same row taxonomy till Line 4. 
+	
+	However each MDRM in HC-C corresponds to three MDRMs in HC-N with the exception of the domestic offices MDRM for HC-C Line 3 which has been totally ignored for the purposes of HC-N. The reason for 3 MDRMs is because each line item in HC-C has been split based on the days past due for repayments for each of the loans. There are three buckets defined for days past due. The first bucket is days past due from 30 to 89 and the second bucket is the days past due from 90 to 180. These two buckets have the loan interest still accruing. However if any loan becomes past due beyond 180 days, that particular loan will be classified as non accrual loan which is represented in the third bucket. Please note that loans which dont have a past due status need not be reported in HC-N.
+	
+	\begin{figure}[htbp]
+		\centerline{\includegraphics{hcn_flowchart.png}}
+		\caption{HC-N Buckets}
+		\label{fig}
+	\end{figure}
+	
+	There are also certain shifts between HC-C and HC-N with regard to line numbers but there will be a relationship between an MDRM in HC-C and HC-N. The Fed does not remove lines when MDRMs are not required for reporting but makes the particular line not applicable to maintain consistency while referring line numbers in the reports. So these redundant MDRMs are removed and the corresponding line numbers are marked non-applicable. Removing the lines in such cases, the nature of the lines in HC-C and HC-N usually similar till Line 8 HC-C. Line 7 in HC-N is the catch all bucket for loans in each status which is unlike Line 9 in HC-C which details loans to non-depository financial institutions.
+	
+\subsection{HC-L Derivatives and off balance sheet items}
+    Schedule HC-L of FR Y-9C deals with derivatives and off balance sheet items. While derivatives need not be directly linked to a loan, derivatives can be used for hedging the risks of loans. In this angle, the most important aspects of derivatives covered in HC-L are unused commitments,Letters of Credit and guarantees. The previously mentioned instruments may be provided at a counterparty level and sometimes not exactly explicitly at a loan level. However these can be used as handy means of analytics. Given that all the three mentioned are off balance sheet items , taking these data from FR Y-9C makes the FR Y-9C a very handy for an overall analysis of Off balance sheet items.
     
+    The use of these off balance sheet items may be varied. Firms and individuals who have got facilities which are not unconditionally cancellable tend to use these facilities in a higher manner during times of stress similar to individuals using their credit cards higher during times of need.
+    
+    A letter of credit is an implicit guarantee by the bank stating to pay in case the borrower does not pay. These letters of credit are common in trade finance and again are much sought after instruments spiking in use during economic downturns when trust on the counterparties is at a low.
+    
+    HC-L data is also used in the CCAR(Comprehensive Capital Analysis and Review) or DFAST(Dodd Frank Annual Stress Test) modeling to model the growth of credit derivatives and other risk mitigants include the use of these instruments during periods of stress. A useful corollary on the use of these contingent instruments is that bank liquidity takes a beating and so we can use liquidity and use of the contingent instruments as a barometer to measure a downturn.
+    
+    The fees generated out of these contingent instruments form a major part of the non interest income for any bank and so analysis of these commitments provides a better view of the income statements of banks as a whole.
+    
+    \subsubsection{Commitments}
+         For the purpose of loan analysis , a commitment refers to a pledge made by the bank to a counterparty to fund a particular amount. Based on the loan contract terms a commitment may be conditionally or unconditionally cancellable.  
+         
+         In the FR Y-9C the lines under line 1 are the lines to be reported under unused commitments. These commitment data can be loosely linked to the HC-C loans to get a better picture of the loan book of the bank. The table below gives an idea of the linkages.
+         \begin{table}[htbp]
+         	\centering
+         	\caption{Mapping of HC-L to Equivalent HC-C Lines}
+         	\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{4cm}|}
+         		\hline
+         		\textbf{HC-L Line} & \textbf{Equivalent HC-C Line} & \textbf{Remark} \\
+         		\hline
+         		1.a & 1.c.1 &  \\
+         		\hline
+         		1.b.1 & 6.a &  \\
+         		\hline
+         		1.b.2 & 6.b &  \\
+         		\hline
+         		1.c.1.a & 1.a.1 &  \\
+         		\hline
+         		1.c.1.b, 1.c.2 & 1.a.2 & Commercial real estate is included in HC-L but not in equivalent HC-C Line \\
+         		\hline
+         		1.d & No equivalent in HC-C &  \\
+         		\hline
+         		1.e.1 & 4.a, 4.b, 4.c &  \\
+         		\hline
+         		1.e.2 & 2.a, 2.b, 9.a, 9.b.1, 9.b.2, 9.b.3 &  \\
+         		\hline
+         		1.e.3 &  & Catch all bucket for all other commitments \\
+         		\hline
+         	\end{tabular}
+         \end{table}
+         
+         Since the schedule HC-L of FR Y-9C deals with Off Balance sheet items alone, only the unused portion of the commitments need to be reported.
+       
+       \subsubsection{Letters of Credit}
+       Banks are required to report three types of Letters of Credit which are 
+       
+       1. \textbf{Financial standby letters of credit} : These are letters of credit which are given to guarantee performance of financial instruments issued by the client. These are irrevocable and long term. These letters of credit are reported in line 2.a of schedule HC-L
+       
+       2. \textbf{Performance standby letters of credit} : These are guarantees which are provided on a contractual basis for the bank's clients for specific contracts where the bank has to pay in case the performance of the client in certain aspects of the contract are not met. These are reported in lines 3 and 3.a
+       
+       3. \textbf{Commercial letters of credit} : These are guarantees for trade finance contracts issued on behalf of client for certain trades and have a smaller scope than performance letters of credit. These are reported in line 4 of HC-L.
+       
+       \subsubsection{Credit Derivatives}
+       Credit Derivatives are reported in two sets of lines in Schedule HC-L. These derivatives are usually at a counterparty level though it can be taken at a transaction level as well. Lines 7.a.1 through 7.a.4 report the Notional amounts for Credit Default Swaps(CDS), Total Return Swaps(TRS), Credit Options and other exotic derivatives. While Total Return Swaps are not exactly used in loans, there is a possibility of clients dealing with banks using Total Return Swaps to provide temporary relief and so are taken into the fold of loans. 
+       
+       Given the sensitivity of these Credit Derivatives, multiple aspects of the derivatives are analyzed. 7.a looks at the notional amounts, 7.b looks at the Gross fair value, 7.c looks at the notional amounts by regulatory treatment and 7.d looks at the remaining maturity. In addition the same set of credit derivatives are analyzed by the type of contracts i.e Interest Rate Contracts, Equity Contracts, Foreign Exchange Contracts and Commodity Contracts in lines 11 through 14 in HC-L.
+       
+       The level of detail gone into for Credit Derivatives provides huge opportunities for analytics. These Credit derivatives may not be directly involved in Loan analytics but can be used in counterparty analytics as required.
+    
+    \subsection{HI-B Charge offs and Recoveries in Loans and Leases and Allowances for Credit Losses}
+    \subsection{HC-D Trading Assets and Liabilities}
 
 \section{Plan of the paper}
 1. Introduction
@@ -578,10 +651,10 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 
 \section{Appendix}
 
-\subsection{Appendix I - Line descriptions in HC-C}
+\subsection{Appendix I - Line descriptions in HC-C for Loan relevant lines}
 \begin{table*}[htbp]
 	\centering
-	\caption{Loan Categories and Descriptions}
+	\caption{HC-C Loan Categories and Descriptions}
 	\begin{tabular}{|p{3cm}|p{12cm}|}
 		\hline
 		\textbf{Line} & \textbf{Description} \\
@@ -650,6 +723,94 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 		\hline
 	\end{tabular}
 \end{table*}
+
+\subsection{Line descriptions for Loan relevant lines in HC-L}
+\begin{table*}[htbp]
+	\centering
+	\caption{Schedule HC-L Selected Line Items (Unused Commitments, Standby Letters, Credit Derivatives)}
+	\begin{tabular}{|p{3cm}|p{12cm}|}
+		\hline
+		\textbf{Line} & \textbf{Description} \\
+		\hline
+		1.a & Unused commitments: Revolving, open-end loans secured by 1--4 family residential properties (e.g., home equity lines) \\
+		\hline
+		1.b.(1) & Unused commitments: Consumer credit card lines \\
+		\hline
+		1.b.(2) & Unused commitments: Other unused credit card lines \\
+		\hline
+		1.c.(1) & Unused commitments: Commitments to fund commercial real estate, construction, and land development loans secured by real estate (sum of items 1.c.(1)(a) and (b) must equal item 1.c.(1)) \\
+		\hline
+		1.c.(1)(a) & Unused commitments: 1--4 family residential construction loan commitments \\
+		\hline
+		1.c.(1)(b) & Unused commitments: Commercial real estate, other construction loan, and land development loan commitments \\
+		\hline
+		1.c.(2) & Unused commitments: Commitments to fund commercial real estate, construction, and land development loans NOT secured by real estate \\
+		\hline
+		1.d & Unused commitments: Securities underwriting \\
+		\hline
+		1.e.(1) & Unused commitments: Commercial and industrial loans \\
+		\hline
+		1.e.(2) & Unused commitments: Loans to financial institutions \\
+		\hline
+		1.e.(3) & Unused commitments: All other unused commitments \\
+		\hline
+		2.a & Financial standby letters of credit and foreign office guarantees. Amount of financial standby letters of credit conveyed to others (for BHCs with \$5 billion+ in total assets) \\
+		\hline
+		3 & Performance standby letters of credit and foreign office guarantees \\
+		\hline
+		3.a & Amount of performance standby letters of credit conveyed to others (for BHCs with \$5 billion+ in total assets) \\
+		\hline
+		4 & Commercial and similar letters of credit \\
+		\hline
+		7 & Credit derivatives \\
+		\hline
+		7.a.(1) Col A & Credit derivatives: Notional amounts --- Credit default swaps (Sold Protection) \\
+		\hline
+		7.a.(1) Col B & Credit derivatives: Notional amounts --- Credit default swaps (Purchased Protection) \\
+		\hline
+		7.a.(2) Col A & Credit derivatives: Notional amounts --- Total return swaps (Sold Protection) \\
+		\hline
+		7.a.(2) Col B & Credit derivatives: Notional amounts --- Total return swaps (Purchased Protection) \\
+		\hline
+		7.a.(3) Col A & Credit derivatives: Notional amounts --- Credit options (Sold Protection) \\
+		\hline
+		7.a.(3) Col B & Credit derivatives: Notional amounts --- Credit options (Purchased Protection) \\
+		\hline
+		7.a.(4) Col A & Credit derivatives: Notional amounts --- Other credit derivatives (Sold Protection) \\
+		\hline
+		7.a.(4) Col B & Credit derivatives: Notional amounts --- Other credit derivatives (Purchased Protection) \\
+		\hline
+		7.b.(1) Col A & Credit derivatives: Gross fair values --- Gross positive fair value (Sold Protection) \\
+		\hline
+		7.b.(1) Col B & Credit derivatives: Gross fair values --- Gross positive fair value (Purchased Protection) \\
+		\hline
+		7.b.(2) Col A & Credit derivatives: Gross fair values --- Gross negative fair value (Sold Protection) \\
+		\hline
+		7.b.(2) Col B & Credit derivatives: Gross fair values --- Gross negative fair value (Purchased Protection) \\
+		\hline
+		7.c.(1)(a) Col A & Credit derivatives: Notional amounts by regulatory capital treatment --- Market Risk Rule: Sold protection (Sold Protection) \\
+		\hline
+		7.c.(1)(a) Col B & Credit derivatives: Notional amounts by regulatory capital treatment --- Market Risk Rule: Sold protection (Purchased Protection) \\
+		\hline
+		7.c.(1)(b) Col A & Credit derivatives: Notional amounts by regulatory capital treatment --- Market Risk Rule: Purchased protection (Sold Protection) \\
+		\hline
+		7.c.(1)(b) Col B & Credit derivatives: Notional amounts by regulatory capital treatment --- Market Risk Rule: Purchased protection (Purchased Protection) \\
+		\hline
+		7.c.(2)(a) Col A & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Sold protection (Sold Protection) \\
+		\hline
+		7.c.(2)(a) Col B & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Sold protection (Purchased Protection) \\
+		\hline
+		7.c.(2)(b) Col A & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Purchased protection recognized for capital purposes (Sold Protection) \\
+		\hline
+		7.c.(2)(b) Col B & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Purchased protection recognized for capital purposes (Purchased Protection) \\
+		\hline
+		7.c.(2)(c) Col A & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Purchased protection not recognized for capital purposes (Sold Protection) \\
+		\hline
+		7.c.(2)(c) Col B & Credit derivatives: Notional amounts by regulatory capital treatment --- All other positions: Purchased protection not recognized for capital purposes (Purchased Protection) \\
+		\hline
+	\end{tabular}
+\end{table*}
+
 
 
 
