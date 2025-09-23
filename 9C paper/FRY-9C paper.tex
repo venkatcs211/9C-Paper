@@ -9,6 +9,7 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{url}
+\usepackage{multirow}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -178,7 +179,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     While each schedule might directly or indirectly contribute to the overall loan data the most important schedules which deal with loan data are HC-C Loan and Lease Financing Receivables, HC-N Non Accrual Loans and HC-L Derivatives and Off Balance Sheet items. 
     
     \subsection{HC-C Loans and Lease Financing receivables}
-     This section which falls under HC gives details about the Loans and Lease receivables by the bank. Lines 1 to 10 talk about loans post which Lease details kick in. The descriptions of each of the Loan lines is given in Table VII under Appendix.The loans are organized into three sections each section based on Collateral, Borrower and Purpose.
+     This section which falls under HC gives details about the Loans and Lease receivables by the bank which the bank intends to hold in its books. Lines 1 to 10 talk about loans post which Lease details kick in. The descriptions of each of the Loan lines is given in Table VII under Appendix.The loans are organized into three sections each section based on Collateral, Borrower and Purpose.
      
      The entire schedule is divided into two columns with one column for the data at a consolidated level and the other for data specifically reported for the domestic offices. Usually MDRMs fall into one or the other category though there are some lines having MDRMs for both categories.
      
@@ -248,7 +249,13 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 \subsection{HC-N Past Due and Non Accrual Loans and Leases}
 	Schedule HC-N of FR Y-9C provides details about the quality of the loan portfolio of the bank in terms of debt repayments by the counterparties for each loan. This data is provided at an aggregated loan basis. In order to have a consistent view of the performance of each segment of the loan portfolio, HC-C and HC-N have the same row taxonomy till Line 4. 
 	
-	However each MDRM in HC-C corresponds to three MDRMs in HC-N with the exception of the domestic offices MDRM for HC-C Line 3 which has been totally ignored for the purposes of HC-N. The reason for 3 MDRMs is because each line item in HC-C has been split based on the days past due for repayments for each of the loans. There are three buckets defined for days past due. The first bucket is days past due from 30 to 89 and the second bucket is the days past due from 90 to 180. These two buckets have the loan interest still accruing. However if any loan becomes past due beyond 180 days, that particular loan will be classified as non accrual loan which is represented in the third bucket. Please note that loans which dont have a past due status need not be reported in HC-N.
+	However each MDRM in HC-C corresponds to three MDRMs in HC-N with the exception of the domestic offices MDRM for HC-C Line 3 which has been totally ignored for the purposes of HC-N. The reason for 3 MDRMs is because each line item in HC-C has been split based on the days past due for repayments for each of the loans. There are three buckets defined for days past due. The first bucket is days past due from 30 to 89 and the second bucket is the days past due from 90 to 180 but still the conditions of non accrual are not met. These two buckets have the loan interest still accruing. The condition for non accrual are threefold :
+	
+	1. The underlying asset is liquidated and so the loan is at a cash basis 
+	2. Payment of Principal and interest due in full is not expected
+	3. Principal and/or interest is past due for more than 90 days
+	
+	Please note that loans which dont have a past due status need not be reported in HC-N.
 	
 	\begin{figure}[htbp]
 		\centerline{\includegraphics{hcn_flowchart.png}}
@@ -320,8 +327,239 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
        The level of detail gone into for Credit Derivatives provides huge opportunities for analytics. These Credit derivatives may not be directly involved in Loan analytics but can be used in counterparty analytics as required.
     
     \subsection{HI-B Charge offs and Recoveries in Loans and Leases and Allowances for Credit Losses}
+    Schedule HI-B has got two sections . The first section deals with the charge offs and recoveries. Column A is for the charge off and column B is for the recovery. The row structure followed in part I is similar to HC-N. 
+    
+    Part II is for the allowances and provisions for credit losses. An allowance is the amount reserve the bank has kept for credit losses and provisions are the amounts added or reduced from the allowance during quarterly intervals. This has three columns which are Loans and leases held for investment, loans and leases held to maturity and loans and leases available for sale.
+    
     \subsection{HC-D Trading Assets and Liabilities}
+	While loans dont form a primary part of traded assets, the portion of the banking portfolio which is part of the trading book is captured in Line 6 in Schedule HC-D of FR Y-9C. The subordinate lines for these lines include Loans secured by 1-4 family, other real estate, commercial and industrial loans, personal loans and other loans. The loans provided in these lines are only those loans which are in the held for trading(HFT) category for the bank. A comparison below is given for reporting of each category of the bank portfolio which includes the Available for sale(AFS) portfolio as well.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Comparison of HFT, AFS, and HTM Portfolios in FR~Y-9C Reporting}
+		\begin{tabular}{|p{1.3cm}|p{2.1cm}|p{2.1cm}|p{2.1cm}|}
+			\hline
+			\textbf{Feature} & \textbf{Held for Trading (HFT)} & \textbf{Available-for-Sale (AFS)} & \textbf{Held-to-Maturity (HTM)} \\
+			\hline
+			\textbf{Intent} & {Short-term resale or market-making} & {Manage liquidity or ALM; may sell if needed} & {Hold to maturity, collect contractual cash flows} \\
+			\hline
+			\textbf{FR~Y-9C Schedule} & {HC-D (Trading Assets)} & {HC-B (Securities)} & {HC-B (Securities)} \\
+			\hline
+			\textbf{Valuation} & {Fair value} & {Fair value} & {Amortized cost} \\
+			\hline
+			\textbf{Unrealized Gains/Losses} & {Through net income (HI)} & {Other comprehensive income (OCI)} & {Not recognized (unless impaired)} \\
+			\hline
+			\textbf{Typical Assets} & {Trading loans, derivatives, securities} & {Bonds, MBS, munis} & {Treasuries, agency securities} \\
+			\hline
+			\textbf{Risk Focus} & {Market \& credit spread risk} & {Interest rate \& liquidity risk} & {Credit risk, duration stability} \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	
+	The loans reported in this schedule are valued at fair value unlike in HC-C where they are valued at amortized cost. Also as a corollary to the previous statement, the loans reported in HC-C and HC-D are mutually exclusive.
+	
+	\subsection{HC-K Quarterly Averages}
+	In addition to point in time data reported at the end of the quarter, the Fed also requires BHCs to report the quarterly averages. This data helps understand the quarterly pattern and if there was any last minute window dressing that happened towards the end of the quarter. Loans are represented in line 3 of HC-K. Given that the focus is on quarterly averages rather than the details of the loan, HC-K is not as comprehensive as HC-C in handling granular loan data as can be in the table below comparing the HC-K quarterly average lines vs HC-C lines.
+	
+\begin{table}[htbp]
+	\centering
+	\caption{Mapping of HC-K Line 3 (Average Total Loans and Leases) to HC-C Categories}
+	\begin{tabular}{|p{2.2cm}|p{1.5cm}|p{4cm}|}
+		\hline
+		\textbf{HC-K Line} & \textbf{Equivalent HC-C Categories} & \textbf{Description} \\
+		\hline
+		\multirow{4}{*}{\parbox{2.2cm}{HC-K, Line 3.a.1: Average total loans and leases, net of unearned income, secured by 1-4 family residential properties}} 
+		& HC-C, 1.c.1 & Loans secured by 1-4 residential mortgages, open ended revolving \\
+		\cline{2-3}
+		& HC-C, 1.c.2.a & Loans secured by 1-4 residential mortgages, closed, secured by first liens \\
+		\cline{2-3}
+		& HC-C, 1.c.2.b & Loans secured by 1-4 residential mortgages, closed, secured by junior liens \\
+		\hline
+		\parbox{2.2cm}{HC-K, Line 3.a.2: Average total loans and leases, all other loans secured by real estate}
+		& HC-C, 1.a.1--1.a.2 & Loans secured by construction, development and other land loans \\
+		\hline
+		\parbox{2.2cm}{HC-K, Line 3.a.3: Average total loans and leases, loans to finance agricultural production}
+		& HC-C, Line 3 & Loans to finance agricultural production and other loans to farmers \\
+		\hline
+		\parbox{2.2cm}{HC-K, Line 3.a.4: Average total loans and leases, commercial and industrial loans}
+		& HC-C, Line 4.a and 4.b & Commercial and industrial loans to US and non-US addresses \\
+		\hline
+		\parbox{2.2cm}{HC-K, Line 3.a.5.a--3.a.5.b: Loans to individuals for household, family expenditures}
+		& HC-C, 6.a--6.d & Loans to individuals for household, family and other expenditures \\
+		\hline
+	\end{tabular}
+\end{table}
 
+	\subsection{HC-P 1-4 Family Residential Mortgages in Domestic Offices}
+	Schedule HC-P of FR Y-9C deals with residential mortgages which were originated or bought from a third party which are held in the books of the bank. HC-P also looks at a quarterly increase as well and so can serve as a barometer for showing the increase in mortgages and will be a useful aggregate tool to measure mortgage growth in a quarter for BHCs. The mortgages reported in HC-P should be either in the Held for Sale(HFS) or Held for trading(HFT) books of the bank.
+	
+	While the lines are not very granular the fact that HC-P data represents Quarter over quarter growth makes HC-P a valuable tool for Loan data analytics
+	
+	\subsection{HC-Q Assets and Liabilities measured at Fair value on a recurring basis}
+	
+	Schedule HC-Q is for Assets and Liabilities valued at Fair value. The concept of fair value is as per the requirements of ASC Topic 820 \cite{ASC820}. For assets which can be netted as per ASC 210-20 \cite{ASC210}. This schedule has 5 columns. The description of each column is given in the below table.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Schedule HC-Q Reporting Columns (FR Y-9C)}
+		\begin{tabular}{|p{1.8cm}|p{6.2cm}|}
+			\hline
+			\textbf{Column} & \textbf{Description} \\
+			\hline
+			A & Total fair value of assets and liabilities measured at fair value. \\
+			\hline
+			B & LESS: Amounts Netted in the Determination of Total Fair Value \\
+			\hline
+			C & Level 1 Fair Value Measurements \\
+			\hline
+			D & Level 2 Fair Value Measurements \\
+			\hline
+			E & Level 3 Fair Value Measurements \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	According to ASC820 the following are the brief definitions of Level 1, Level 2 and Level 3
+	\begin{table}[htbp]
+		\centering
+		\caption{Fair Value Measurement Hierarchy (FR Y-9C, Schedule HC-Q)}
+		\begin{tabular}{|p{1.5cm}|p{2cm}|p{2.5cm}|}
+			\hline
+			\textbf{Level} & \textbf{Description} & \textbf{Example} \\
+			\hline
+			Level 1 & Quoted prices in active markets for identical assets or liabilities. & Exchange-traded equity securities \\
+			\hline
+			Level 2 & Observable inputs other than quoted prices; includes market data for similar instruments. & Agency MBS, corporate bonds \\
+			\hline
+			Level 3 & Unobservable inputs; valuation relies on internal models or assumptions. & Private equity, complex structured loans \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	The bank will have to report the gross values in columns C, D , E and if there is netting effect the amount saved by netting should be reported in column B. 
+	Loans which are Held for Sale are reported in Line 3 and Loans which are held for investment are reported in Line 4. These lines are not very granular but HC-Q has a memo section where more granular loan data is reported with sub-divisions under each loan line reported in the main schedule. The table below gives the comparison between loan data in HC-C and the loan data requested in HC-Q. Given that HC-Q looks at details of assets and liabilities priced at fair value alone, the loan purpose is not concentrated upon instead focusing on collateral and borrower.
+	
+\begin{table}[htbp]
+	\centering
+	\caption{Mapping of HC-Q Memo Loan Categories to HC-C Loan Categories}
+	\begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2cm}|}
+		\hline
+		\textbf{HC-Q Memo (Fair Value)} & \textbf{HC-C (Book Value)} & \textbf{Line Reference} \\
+		\hline
+		Loans secured by 1–4 family residential properties & Loans secured by 1–4 family residential properties & HC-Q Memo Line 3.a.1,HC-Q Memo Line 4.a.1 $\leftrightarrow$ HC-C Line 1.c.1,HC-C Line 1.c.1 \\
+		\hline
+		Loans secured by multifamily (5+ units) residential properties & Loans secured by multifamily residential properties & HC-Q Memo Line 3.a.2,HC-Q Memo Line 4.a.2 $\leftrightarrow$ HC-C Line 1.d \\
+		\hline
+		Loans secured by nonfarm nonresidential properties & Loans secured by nonfarm nonresidential properties & HC-Q Memo Line 3.a.2,HC-Q Memo Line 4.a.2 $\leftrightarrow$ HC-C Line 1.e \\
+		\hline
+		Construction, land development, and other land loans & Construction, land development, and other land loans & HC-Q Memo Line 4 $\leftrightarrow$ HC-C Line 1.a \\
+		\hline
+		Loans to depository institutions & Loans to depository institutions & HC-Q Memo Line 4.d $\leftrightarrow$ HC-C Line 2.a ,HC-C Line 2.b\\
+		\hline
+		Agricultural production loans & Loans to finance agricultural production and other loans to farmers & HC-Q Memo Line 4.d $\leftrightarrow$ HC-C Line 3 \\
+		\hline
+		Commercial and industrial loans & Commercial and industrial loans & HC-Q Memo Line 4.b $\leftrightarrow$ HC-C Line 4.a,HC-C Line 4.b,HC-C Line 4.c \\
+		\hline
+		Consumer loans (credit cards, auto, other) & Loans to individuals (consumer loans) & HC-Q Memo Line 4.c $\leftrightarrow$ HC-C Line 6.a,HC-C Line 6.b,HC-C Line 6.c,HC-C Line 6.d \\
+		\hline
+		Loans to foreign governments and official institutions & Loans to foreign governments and official institutions & HC-Q Memo Line 4.d $\leftrightarrow$ HC-C Line 7 \\
+		\hline
+		Loans to nondepository financial institutions & Loans to nondepository financial institutions & HC-Q Memo Line 4.d $\leftrightarrow$ HC-C Line 9 \\
+		\hline
+		All other loans & All other loans (catch-all categories) & HC-Q Memo Line 4.d $\leftrightarrow$ HC-C Line 9.b.1, 9.b.2, 9.b.3 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsection{HC-R Regulatory Capital}
+    Schedule HC-R Regulatory Capital deals with the regulatory capital that banks must hold post the Basel III rules. There are two parts to this schedule. The first part is on the Regulatory Capital and Ratios which mostly deal with the numerator part in the Capital to Risk Weighted Assets(RWA) ratios. The second part is on the Risk Weighted Assets which provide comprehensive data on the RWA separated out by the Risk Weights assigned to each trade/transaction.
+    
+    HC-R Part II provides a comprehensive treatment of loans and leases under the lines . Loans and securitizations are represented in the lines given in table \ref{HCR descriptions}.
+    
+   \begin{table}[htbp]
+   	\centering
+   	\caption{Descriptions of Selected Lines in HC-R Part II: Loans / Commitments / Allowance}
+   	\label{HCR descriptions}
+   	\begin{tabular}{|p{1.5cm}|p{5.5cm}|}
+   		\hline
+   		\textbf{Line} & \textbf{Description} \\
+   		\hline
+   		4a & Loans and leases held for sale: Residential mortgage exposures. \\
+   		\hline
+   		4b & Loans and leases held for sale: High volatility commercial real estate exposures. \\
+   		\hline
+   		4c & Loans and leases held for sale: Exposures past due 90 days or more or on nonaccrual. \\
+   		\hline
+   		5a & Loans and leases held for investment: Residential mortgage exposures. \\
+   		\hline
+   		5b & Loans and leases held for investment: High volatility commercial real estate exposures. \\
+   		\hline
+   		5c & Loans and leases held for investment: Exposures past due 90 days or more or on nonaccrual. \\
+   		\hline
+   		6 & LESS: Allowance for loan and lease losses (to be deducted). \\
+   		\hline
+   		18(a,b) & Unused commitments (excluding unconditionally cancelable ones):  
+   		\newline 18(a) Unused commitments with original maturity of one year or less  
+   		\newline 18(b) Unused commitments with original maturity of more than one year \\
+   		\hline
+   		19 & Unused commitments that are unconditionally cancelable \\
+   		\hline
+   	\end{tabular}
+   \end{table}
+   
+    
+    Each line has MDRMs for the applicable Risk Weights in addition to the amount reported in Schedule HC for the same MDRM in column A and adjustments to the amount reported in column A in column B. Adjustments can take place when there are components to the line item which should not be risk weighted and so would not fall in any of the risk buckets like gain on securitization exposures. The RWA buckets in HC-R Part II are 0\%, 2\%, 4\%,10\%,20\%,50\%,100\%,150\%,250\%, 300\%,600\% and 1250\%. Not all exposures will have all the RWA percentages and so some MDRMs might be skipped for certain RWA percentages.
+    
+      In case of on balance sheet exposures like loans, the risk weight depends upon the on whether the exposures is guaranteed by the US Government or a US Government Sponsored Entity(GSE) like Fannie Mae. In case there is no guarantee. In case there is no guarantee, it depends upon the counterparty whether the counterparty is a US Public Sector Enterprise(PSE), a US Bank or a Foreign Bank or a Retail Entity. There might be product specific classifications for Risk Weight allocation like for Retail exposures, the Risk Weight may depend on if the lending is secured(like a home mortgage) or unsecured. \cite{PolkB3}
+      
+      As a general rule, the total amount reported in schedule HC for a line item in HC-R part II (reported in column A of HC-R Part II) should be equal to the sum of the amounts reported in the other columns from column B till Column Q or column R as applicable for lines from 1 to 10. In case of securitizations in Line 9 and 10 of HC-R Part II since the only Risk Weight applicable is 1250\%, the other columns are not required and so removed off the reporting form. However based on the approach taken for securitization like Simplified Supervisory Formula Approach(SSFA) or Gross Up approach, columns T and U are reported for lines 9 and 10.
+      
+      Derivatives and off balance sheet items in HC-R Part II from lines 12 till 21, column B is filled with the Credit Equivalent amount which is obtained by multiplying the amount reported in column A with the appropriate Credit Conversion Factor(CCF) provided in the form. 
+      
+      Table(cite table) gives a general summary of reporting for each column for each of the loan related lines in Schedule HC-R Part II
+	
+\begin{table}[htbp]
+	\centering
+	\caption{Applicable Risk Weights for Selected Lines in Schedule HC-R Part II}
+	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|}
+		\hline
+		\textbf{Line Item} & \textbf{Adjustment Col B Nature} & \textbf{Applicable Risk Weights} \\
+		\hline
+		4a. Loans and leases held for sale: Residential mortgages &  & 0\%,20\%,50\% ,100\% \\
+		\hline
+		4b. Loans and leases held for sale: High volatility commercial real estate (HVCRE) &  & 0\%,20\%,50\%, 100\%,150\% \\
+		\hline
+		4c. Loans and leases held for sale: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\%, 20\%, 50\% ,100\%,150\% \\
+		\hline
+		5a. Loans and leases held for investment: Residential mortgages &  & 0\%,20\%,50\%, 100\% \\
+		\hline
+		5b. Loans and leases held for investment: High volatility commercial real estate (HVCRE) &  & 0\%,20\%,50\%, 100\%,150\% \\
+		\hline
+		5c. Loans and leases held for investment: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\% ,20\%,50\% ,100\%,150\% \\
+		\hline
+		6. Less: Allowance for loan and lease losses (deduction) &  & Deduction (not risk-weighted) \\
+		\hline
+		9a. On balance sheet securitization exposures : Held to Maturity securities &  & 1250\% \\
+		\hline
+		9b. On balance sheet securitization exposures : Available for sale securities &  & 1250\% \\
+		\hline
+		9c. On balance sheet securitization exposures : All other on balance sheetand securitization exposures &  & 1250\% \\
+		\hline
+		10. Off balance sheet securitization exposures &  & 1250\% \\
+		\hline
+		18a. Unused commitments with maturity $<$1 year (non-cancelable) &  & 0\%,2\%,4\%, 20\%,100\%, 150\% \\
+		\hline
+		18b. Unused commitments with maturity $>$1 year (including certain ABCP conduits) &  & 0\%,2\%,4\%, 20\% ,100\%,150\% \\
+		\hline
+		19. Unused commitments unconditionally cancelable &  & No risk weights \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+	
+	
 \section{Plan of the paper}
 1. Introduction
 
@@ -638,15 +876,14 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{SECCount} “Number of Listed Companies for United States (DDOM01USA644NWDB) | FRED | St. Louis Fed.” Accessed: Sept. 06, 2025. [Online]. Available: https://fred.stlouisfed.org/series/DDOM01USA644NWDB
 \bibitem{SecRef} Xiangchao Hao, Qinru Sun, Fang Xie, International evidence for the substitution effect of FX derivatives usage on bank capital buffer, Research in International Business and Finance, 10.1016/j.ribaf.2022.101687, 62, (101687), (2022).
 \bibitem{der9C} A. R. Abdel-khalik and P.-C. Chen, “Growth in financial derivatives: The public policy and accounting incentives,” Journal of Accounting and Public Policy, vol. 34, no. 3, pp. 291–318, 2015, doi: https://doi.org/10.1016/j.jaccpubpol.2015.01.002.
-
- 
-\bibitem{b10} ``Treatment episode data set: discharges (TEDS-D): concatenated, 2006 to 2009.'' U.S. Department of Health and Human Services, Substance Abuse and Mental Health Services Administration, Office of Applied Studies, August, 2013, DOI:10.3886/ICPSR30122.v2
-\bibitem{b11} K. Eves and J. Valasek, ``Adaptive control for singularly perturbed systems examples,'' Code Ocean, Aug. 2023. [Online]. Available: https://codeocean.com/capsule/4989235/tree
-\bibitem{BHC} “Bank Holding Companies: Background and Issues for Congress”, [Online]. Available: \url{https://www.everycrsreport.com/reports/R48291.html#:~:text=Contrary%20to%20traditional%20notions%20that,be%20allowed%20to%20engage%20in.}
+\bibitem{ASC820} “Fair Value Measurement (Topic 820): Fair Value Measurement of Equity Securities Subject to Contractual Sale Restrictions (Completed Project Summary).” Accessed: Sept. 18, 2025. [Online]. Available: \url {https://fasb.org/page/PageContent?pageId=/projects/recentlycompleted/fair-value-measurement-topic-820-fair-value-measurement-of-equity-securities-subject-to-contractual-sale-restrictions.html}
+\bibitem{ASC210} “UPDATE NO. 2013-01—BALANCE SHEET (TOPIC 210): CLARIFYING THE SCOPE OF DISCLOSURES ABOUT OFFSETTING ASSETS AND LIABILITIES.” Accessed: Sept. 18, 2025. [Online]. Available: \url{https://www.fasb.org/page/document?pdf=ASU2013-01.pdf&title=UPDATE%20NO.%202013-01%E2%80%94BALANCE%20SHEET%20(TOPIC%20210):%20CLARIFYING%20THE%20SCOPE%20OF%20DISCLOSURES%20ABOUT%20OFFSETTING%20ASSETS%20AND%20LIABILITIES}
 \bibitem{Fed1}[2] J. Berrospide, F. Cai, S. Lewis-Hayre, and F. Zikes, “Bank Lending to Private Credit: Size, Characteristics, and Financial Stability Implications,” May 2025, Accessed: Aug. 18, 2025. [Online]. Available: https://www.federalreserve.gov/econres/notes/feds-notes/bank-lending-to-private-credit-size-characteristics-and-financial-stability-implications-20250523.html
 \bibitem{EAR} A. (Aloke) Ghosh, H. Jarva, and S. G. Ryan, “Bank Regulation/Supervision and Bank Auditing,” European Accounting Review, pp. 1–26, Aug. 2024, doi: 10.1080/09638180.2024.2373207.
 \bibitem{NII} M. K. Brunnermeier, G. N. Dong, and D. Palia, “Banks’ Noninterest Income and Systemic Risk,” The Review of Corporate Finance Studies, p. cfaa006, May 2020, doi: 10.1093/rcfs/cfaa006.
 \bibitem{Fed2} “FDIC Quarterly - Bank and Nonbank Lending over the past 70 years,” Numb er, vol. 1, 2019.
+\bibitem{PolkB3}[1] D. Polk and W. Llp, “U.S. Basel III Final Rule: Visual Memorandum”.
+
 \end{thebibliography}
 
 \section{Appendix}

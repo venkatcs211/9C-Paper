@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  14 SEP 2025 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  22 SEP 2025 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,10 +411,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
+(C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
+ty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count318
+\multirow@dima=\skip59
+\bigstrutjot=\dimen187
+)
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count318
+\l__color_backend_stack_int=\count319
 ) (FRY-9C paper.aux
 
 LaTeX Warning: Label `fig' multiply defined.
@@ -425,40 +433,40 @@ LaTeX Warning: Label `fig' multiply defined.
 )
 \openout1 = `"FRY-9C paper.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 56 (exact).
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
-\scratchdimen=\dimen187
+\scratchcounter=\count320
+\scratchdimen=\dimen188
 \scratchbox=\box57
-\nofMPsegments=\count320
-\nofMParguments=\count321
+\nofMPsegments=\count321
+\nofMParguments=\count322
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count322
-\MPscratchDim=\dimen188
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen189
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
 \everyMPtoPDFconversion=\toks25
 )
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
@@ -471,35 +479,35 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 15.
  (FRY-9C paper.out) (FRY-9C paper.out)
 \@outlinefile=\write3
 \openout3 = `"FRY-9C paper.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-2.
+3.
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-<9C Vs 10-Q Vs NCUA Grayscale.png, id=142, 252.945pt x 173.448pt>
+<9C Vs 10-Q Vs NCUA Grayscale.png, id=166, 252.945pt x 173.448pt>
 File: 9C Vs 10-Q Vs NCUA Grayscale.png Graphic file (type png)
 <use 9C Vs 10-Q Vs NCUA Grayscale.png>
 Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 6
-3.
+4.
 (pdftex.def)             Requested size: 252.94438pt x 173.44757pt.
 
 
@@ -509,52 +517,56 @@ s/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 ]
 
+LaTeX Warning: Citation `BHC' on page 2 undefined on input line 72.
+
+
+
 
 
 [2 <./9C Vs 10-Q Vs NCUA Grayscale.png>]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 []\OT1/ptm/b/n/8 Collateral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 []\OT1/ptm/m/n/8 1 Col A, 1.a.1 Col B, 1.a.2 Col
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\OT1/ptm/m/n/8 Unsecured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []\OT1/ptm/m/n/8 Commercial and In-dus-trial
  []
 
 
 
 [3]
-<hcn_flowchart.png, id=184, 250.9375pt x 206.7725pt>
+<hcn_flowchart.png, id=206, 250.9375pt x 206.7725pt>
 File: hcn_flowchart.png Graphic file (type png)
 <use hcn_flowchart.png>
-Package pdftex.def Info: hcn_flowchart.png  used on input line 254.
+Package pdftex.def Info: hcn_flowchart.png  used on input line 261.
 (pdftex.def)             Requested size: 250.93687pt x 206.77199pt.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 []\OT1/ptm/b/n/8 Equivalent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
 []\OT1/ptm/m/n/8 No
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 297--297
+Underfull \hbox (badness 5331) in paragraph at lines 304--304
 \OT1/ptm/m/n/8 9.b.1, 9.b.2,
  []
 
@@ -563,159 +575,788 @@ Underfull \hbox (badness 5331) in paragraph at lines 297--297
 [4 <./hcn_flowchart.png>]
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]\OT1/ptm/b/n/8 Available-for-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+[]\OT1/ptm/b/n/8 Held-to-Maturity
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 344--344
+[]\OT1/ptm/m/n/8 Short-term re-sale
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 344--344
+[]\OT1/ptm/m/n/8 Manage liq-uid-ity
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 346--346
+[]\OT1/ptm/b/n/8 FR Y-9C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]\OT1/ptm/m/n/8 HC-D (Trad-ing
+ []
+
+
+Overfull \hbox (7.46664pt too wide) in paragraph at lines 350--350
+\OT1/ptm/b/n/8 Gains/Losses| 
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 350--350
+[]\OT1/ptm/m/n/8 Through net in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+[]\OT1/ptm/m/n/8 Not rec-og-nized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+[]\OT1/ptm/b/n/8 Typical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+[]\OT1/ptm/m/n/8 Trading loans,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
+\OT1/ptm/m/n/8 deriva-tives,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
+[]\OT1/ptm/b/n/8 Risk
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 354--354
+[]\OT1/ptm/m/n/8 Market & credit
+ []
+
+
+Overfull \hbox (12.2415pt too wide) in paragraph at lines 340--357
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]\OT1/ptm/b/n/8 Equivalent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\OT1/ptm/b/n/8 HC-C
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 372--372
+\OT1/ptm/m/n/8 un-earned in-come,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\OT1/ptm/m/n/8 se-cured by 1-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\OT1/ptm/m/n/8 fam-ily res-i-den-tial
+ []
+
+
+Overfull \vbox (25.18784pt too high) detected at line 372
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+[]\OT1/ptm/m/n/8 HC-C,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]\OT1/ptm/m/n/8 HC-C,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+\OT1/ptm/m/n/8 and leases, all
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 383--383
+[]\OT1/ptm/m/n/8 HC-C, Line
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 385--385
+\OT1/ptm/m/n/8 and leases, com-
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 386--386
+[]\OT1/ptm/m/n/8 HC-C, Line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+[]\OT1/ptm/m/n/8 HC-K, Line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+\OT1/ptm/m/n/8 3.a.5.a--3.a.5.b:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+\OT1/ptm/m/n/8 Loans to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
+\OT1/ptm/m/n/8 in-di-vid-u-als for
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 388--388
+\OT1/ptm/m/n/8 house-hold, fam-ily
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 389--389
+[]\OT1/ptm/m/n/8 HC-C, 6.a--
+ []
+
+
+Overfull \hbox (3.0861pt too wide) in paragraph at lines 368--392
+ [][] 
+ []
+
+
 
 [5]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 4
-81.
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+\OT1/ptm/m/n/8 ac-tive mar-kets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+\OT1/ptm/m/n/8 for iden-ti-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+\OT1/ptm/m/n/8 as-sets or
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 431--432
+[]\OT1/ptm/m/n/8 Exchange-traded eq-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
+[]\OT1/ptm/m/n/8 Observable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
+\OT1/ptm/m/n/8 quoted prices;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
+\OT1/ptm/m/n/8 in-cludes mar-ket
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 433--433
+\OT1/ptm/m/n/8 data for sim-i-lar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[]\OT1/ptm/m/n/8 Unobservable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+\OT1/ptm/m/n/8 mod-els or
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/ptm/m/n/8 Loans se-cured by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/ptm/m/n/8 Loans se-cured by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 450--451
+\OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]\OT1/ptm/m/n/8 Loans se-cured by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+\OT1/ptm/m/n/8 mul-ti-fam-ily (5+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+\OT1/ptm/m/n/8 units) res-i-den-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]\OT1/ptm/m/n/8 Loans se-cured
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+\OT1/ptm/m/n/8 by mul-ti-fam-ily
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 452--453
+\OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]\OT1/ptm/m/n/8 Loans se-cured
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/ptm/m/n/8 by non-farm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/ptm/m/n/8 non-res-i-den-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]\OT1/ptm/m/n/8 Loans se-cured
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/ptm/m/n/8 by non-farm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/ptm/m/n/8 non-res-i-den-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 454--455
+\OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 458--458
+[]\OT1/ptm/m/n/8 Loans to de-pos-i-tory
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 458--458
+[]\OT1/ptm/m/n/8 Loans to de-pos-i-tory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+\OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 458--459
+\OT1/ptm/m/n/8 HC-C Line 2.a
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 460--460
+[]\OT1/ptm/m/n/8 Agricultural pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\OT1/ptm/m/n/8 Loans to fi-nance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\OT1/ptm/m/n/8 agri-cul-tural
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\OT1/ptm/m/n/8 pro-duc-tion and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+\OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+\OT1/ptm/m/n/8 Line 4.b,HC-C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+[]\OT1/ptm/m/n/8 Consumer loans
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 464--464
+\OT1/ptm/m/n/8 (credit cards, auto,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+\OT1/ptm/m/n/8 Line 6.b,HC-C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+\OT1/ptm/m/n/8 Line 6.c,HC-C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+\OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+\OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
+[]\OT1/ptm/m/n/8 All other loans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+[]\OT1/ptm/m/n/8 HC-Q Memo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+\OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
+ []
+
+
+
+[6]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]\OT1/ptm/b/n/8 Adjustment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\OT1/ptm/b/n/8 Col B
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+[]\OT1/ptm/b/n/8 Applicable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
+\OT1/ptm/b/n/8 Risk
+ []
+
+
+Overfull \hbox (1.31279pt too wide) in paragraph at lines 529--530
+[]\OT1/ptm/m/n/8 0%,20%,50%
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 531--531
+\OT1/ptm/m/n/8 for sale: High volatil-
+ []
+
+
+Overfull \hbox (3.31279pt too wide) in paragraph at lines 531--532
+[]\OT1/ptm/m/n/8 0%,20%,50%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+[]\OT1/ptm/m/n/8 0%,2%,4%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+\OT1/ptm/m/n/8 20%, 50%
+ []
+
+
+Overfull \hbox (3.31279pt too wide) in paragraph at lines 535--536
+[]\OT1/ptm/m/n/8 0%,20%,50%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
+[]\OT1/ptm/m/n/8 5b. Loans and leases
+ []
+
+
+Overfull \hbox (3.31279pt too wide) in paragraph at lines 537--538
+[]\OT1/ptm/m/n/8 0%,20%,50%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+[]\OT1/ptm/m/n/8 0%,2%,4%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+\OT1/ptm/m/n/8 ,20%,50%
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 541--541
+[]\OT1/ptm/m/n/8 6. Less: Al-lowance for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+[]\OT1/ptm/m/n/8 Deduction
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+\OT1/ptm/m/n/8 (not risk-
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 545--545
+\OT1/ptm/m/n/8 cu-ri-ti-za-tion ex-po-sures :
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 551--551
+\OT1/ptm/m/n/8 with ma-tu-rity $\OML/cmm/m/it/8 <$\OT1/ptm/m/n/8 1 year
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
+[]\OT1/ptm/m/n/8 0%,2%,4%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
+\OT1/ptm/m/n/8 20%,100%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]\OT1/ptm/m/n/8 18b. Un-used
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/ptm/m/n/8 com-mit-ments with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/ptm/m/n/8 ma-tu-rity $\OML/cmm/m/it/8 >$\OT1/ptm/m/n/8 1 year
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+[]\OT1/ptm/m/n/8 0%,2%,4%,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+\OT1/ptm/m/n/8 20%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+\OT1/ptm/m/n/8 un-con-di-tion-ally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+[]\OT1/ptm/m/n/8 No risk
+ []
+
+
+
+[7]
+
+
+
+[8]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
+19.
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
 
+LaTeX Warning: Citation `b7' on page 9 undefined on input line 768.
 
-[6]
 
-LaTeX Warning: Citation `b7' on page 7 undefined on input line 530.
 
+[9]
 File: 9C Vs 10-Q Vs NCUA Grayscale.png Graphic file (type png)
 <use 9C Vs 10-Q Vs NCUA Grayscale.png>
-Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 5
-86.
+Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 8
+24.
 (pdftex.def)             Requested size: 252.94438pt x 173.44757pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 5
-97.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
+35.
+
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 597.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 835.
 
 
 
-LaTeX Warning: Citation `b1' on page 7 undefined on input line 610.
+LaTeX Warning: Citation `b1' on page 10 undefined on input line 848.
 
 
-LaTeX Warning: Citation `b2' on page 7 undefined on input line 611.
+LaTeX Warning: Citation `b2' on page 10 undefined on input line 849.
 
 
-LaTeX Warning: Citation `b3' on page 7 undefined on input line 612.
+LaTeX Warning: Citation `b3' on page 10 undefined on input line 850.
 
 
-LaTeX Warning: Citation `b3' on page 7 undefined on input line 612.
+LaTeX Warning: Citation `b3' on page 10 undefined on input line 850.
 
 
-LaTeX Warning: Citation `b3' on page 7 undefined on input line 612.
+LaTeX Warning: Citation `b3' on page 10 undefined on input line 850.
 
 
-LaTeX Warning: Citation `b3' on page 7 undefined on input line 613.
+LaTeX Warning: Citation `b3' on page 10 undefined on input line 851.
 
 
-LaTeX Warning: Citation `b4' on page 7 undefined on input line 621.
+LaTeX Warning: Citation `b4' on page 10 undefined on input line 859.
 
 
-LaTeX Warning: Citation `b5' on page 7 undefined on input line 622.
+LaTeX Warning: Citation `b5' on page 10 undefined on input line 860.
 
 
-
-[7]
-
-LaTeX Warning: Citation `b6' on page 8 undefined on input line 627.
+LaTeX Warning: Citation `b6' on page 10 undefined on input line 865.
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 631--632
+Underfull \hbox (badness 6675) in paragraph at lines 869--870
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . everycrsreport . com
  / reports / R48291 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
 \OT1/ptm/m/n/8 html# : [] : text = Contrary % 20to % 20traditional % 20notions 
 % 20that ,[] be %
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 632--633
+Underfull \hbox (badness 5878) in paragraph at lines 870--871
 []\OT1/ptm/m/n/8 \Federal Re-serve Board - Re-port-ing Forms." Ac-cessed: Sept.
 
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 632--633
+Underfull \hbox (badness 2277) in paragraph at lines 870--871
 \OT1/ptm/m/n/8 06, 2025. [On-line]. Avail-able: []$https : / / www . federalres
 erve . gov / apps /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 []\OT1/ptm/m/n/8 \Credit Union As-sets, Loans Out-stand-ing and Net In-come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 \OT1/ptm/m/n/8 In-crease | NCUA." Ac-cessed: Sept. 06, 2025. [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 \OT1/ptm/m/n/8 Avail-able:[]$https : / / ncua . gov / newsroom / press-[]releas
 e / 2025 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 875--876
 \OT1/ptm/m/n/8 credit-[]union-[]assets-[]loans-[]outstanding-[]and-[]net-[]inco
 me-[]increase ? utm[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 []\OT1/ptm/m/n/8 \Number of Listed Com-pa-nies for United States
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 \OT1/ptm/m/n/8 (DDOM01USA644NWDB) | FRED | St. Louis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 \OT1/ptm/m/n/8 Fed." Ac-cessed: Sept. 06, 2025. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 645--646
-\OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . everycrsreport . com
- / reports / R48291 .
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 879--880
+[]$\OT1/ptm/m/n/8 https : / / fasb . org / page / PageContent ? pageId = /proje
+cts / recentlycompleted /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
-\OT1/ptm/m/n/8 html# : [] : text = Contrary % 20to % 20traditional % 20notions 
-% 20that ,[] be %
+Overfull \hbox (154.38326pt too wide) in paragraph at lines 879--880
+\OT1/ptm/m/n/8 fair-[]value-[]measurement-[]topic-[]820-[]fair-[]value-[]measur
+ement-[]of-[]equity-[]securities-[]subject-[]to-[]contractual-[]sale-[]restrict
+ions .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+[]\OT1/ptm/m/n/8 \UPDATE NO. 2013-01|BALANCE SHEET (TOPIC 210):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 CLAR-I-FY-ING THE SCOPE OF DIS-CLO-SURES ABOUT
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 OFF-SET-TING AS-SETS AND LI-A-BIL-I-TIES." Ac-cessed: Sept.
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 18, 2025. [On-line]. Avail-able: []$https : / / www . fasb . org
+ / page / document ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 pdf = ASU2013-[]01 . pdf & title = UPDATE % 20NO . %202013-[]01 
+% E2 % 80 %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 94BALANCE % 20SHEET % 20(TOPIC % 20210) : %20CLARIFYING %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+\OT1/ptm/m/n/8 20THE % 20SCOPE % 20OF % 20DISCLOSURES % 20ABOUT %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 \OT1/ptm/m/n/8 https://www.federalreserve.gov/econres/notes/feds-notes/bank-len
 ding-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 \OT1/ptm/m/n/8 to-private-credit-size-characteristics-and-financial-stability-i
 mplications-
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 647--648
+Underfull \hbox (badness 2158) in paragraph at lines 882--883
 []\OT1/ptm/m/n/8 A. (Aloke) Ghosh, H. Jarva, and S. G. Ryan, \Bank Reg-u-la-
  []
-
-
-Underfull \vbox (badness 2635) has occurred while \output is active []
-
-
 
 
 ** Conference Paper **
@@ -730,7 +1371,11 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[8] [9] [10] (FRY-9C paper.aux)
+
+
+[11
+
+] [12] [13] (FRY-9C paper.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -742,40 +1387,36 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `"FRY-9C paper".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"FRY-9C paper".out':
-(rerunfilecheck)             Before: D69A19CB16B8B4A682E0A9B991EE34AB;6190
-(rerunfilecheck)             After:  7AB9D0C383D2C8465E87E1B435FFB1C9;6952.
+Package rerunfilecheck Info: File `"FRY-9C paper".out' has not changed.
+(rerunfilecheck)             Checksum: 793CD54EB510C0C8A8515562F08D2053;8120.
  ) 
 Here is how much of TeX's memory you used:
- 11374 strings out of 468148
- 178181 string characters out of 5429125
- 624477 words of memory out of 5000000
- 39748 multiletter control sequences out of 15000+600000
+ 11464 strings out of 468148
+ 179239 string characters out of 5429125
+ 624636 words of memory out of 5000000
+ 39820 multiletter control sequences out of 15000+600000
  673060 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,819b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,740b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lavishiva/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lavishiva/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lavishi
-va/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
+blic/amsfonts/cm/cmmi8.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lavishiva/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lavishiva/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lavishiv
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courie
-r/ucrr8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmb8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/
-urw/times/utmbi8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on "FRY-9C paper.pdf" (10 pages, 250220 bytes).
+y6.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTe
+X/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Lavishiva/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Lavishiva/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Lavishiva/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "FRY-9C paper.pdf" (13 pages, 293684 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
