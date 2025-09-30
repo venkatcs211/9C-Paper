@@ -513,51 +513,147 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     
       In case of on balance sheet exposures like loans, the risk weight depends upon the on whether the exposures is guaranteed by the US Government or a US Government Sponsored Entity(GSE) like Fannie Mae. In case there is no guarantee. In case there is no guarantee, it depends upon the counterparty whether the counterparty is a US Public Sector Enterprise(PSE), a US Bank or a Foreign Bank or a Retail Entity. There might be product specific classifications for Risk Weight allocation like for Retail exposures, the Risk Weight may depend on if the lending is secured(like a home mortgage) or unsecured. \cite{PolkB3}
       
-      As a general rule, the total amount reported in schedule HC for a line item in HC-R part II (reported in column A of HC-R Part II) should be equal to the sum of the amounts reported in the other columns from column B till Column Q or column R as applicable for lines from 1 to 10. In case of securitizations in Line 9 and 10 of HC-R Part II since the only Risk Weight applicable is 1250\%, the other columns are not required and so removed off the reporting form. However based on the approach taken for securitization like Simplified Supervisory Formula Approach(SSFA) or Gross Up approach, columns T and U are reported for lines 9 and 10.
+      As a general rule, the total amount reported in schedule HC for a line item in HC-R part II (reported in column A of HC-R Part II) should be equal to the sum of the amounts reported in the other columns from column B till Column Q or column R as applicable for lines from 1 to 10. In case of securitizations in Line 9 and 10 of HC-R Part II since the only Risk Weight applicable is 1250\%, the other columns are not required and so removed off the reporting form. However based on the approach taken for securitization like Simplified Supervisory Formula Approach(SSFA) or Gross Up approach, columns T and U are reported for lines 9 and 10. A discussion about SSFA and Gross Up approach is beyond the scope of this paper.
       
       Derivatives and off balance sheet items in HC-R Part II from lines 12 till 21, column B is filled with the Credit Equivalent amount which is obtained by multiplying the amount reported in column A with the appropriate Credit Conversion Factor(CCF) provided in the form. 
       
-      Table(cite table) gives a general summary of reporting for each column for each of the loan related lines in Schedule HC-R Part II
+      Table \ref{HCR RW} gives a general summary of reporting for each column for each of the loan related lines in Schedule HC-R Part II.
 	
+
 \begin{table}[htbp]
 	\centering
 	\caption{Applicable Risk Weights for Selected Lines in Schedule HC-R Part II}
+	\label{HCR RW}
 	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
 		\textbf{Line Item} & \textbf{Adjustment Col B Nature} & \textbf{Applicable Risk Weights} \\
 		\hline
-		4a. Loans and leases held for sale: Residential mortgages &  & 0\%,20\%,50\% ,100\% \\
-		\hline
-		4b. Loans and leases held for sale: High volatility commercial real estate (HVCRE) &  & 0\%,20\%,50\%, 100\%,150\% \\
-		\hline
-		4c. Loans and leases held for sale: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\%, 20\%, 50\% ,100\%,150\% \\
-		\hline
-		5a. Loans and leases held for investment: Residential mortgages &  & 0\%,20\%,50\%, 100\% \\
-		\hline
-		5b. Loans and leases held for investment: High volatility commercial real estate (HVCRE) &  & 0\%,20\%,50\%, 100\%,150\% \\
-		\hline
-		5c. Loans and leases held for investment: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\% ,20\%,50\% ,100\%,150\% \\
-		\hline
+		4a. Loans and leases held for sale: Residential mortgages & \multirow{7}{1.5cm}{\centering Exposures for which no risk weight can be assigned.} & 0\%,20\%,50\% ,100\% \\
+		\cline{1-1} \cline{3-3}
+		4b. Loans and leases held for sale: High volatility commercial real estate (HVCRE) &  & 0\%,20\%,50\% ,100\%,150\% \\
+		\cline{1-1} \cline{3-3}
+		4c. Loans and leases held for sale: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\% ,20\% ,50\% ,100\%,150\% \\
+		\cline{1-1} \cline{3-3}
+		5a. Loans and leases held for investment: Residential mortgages &  & 0\%,20\%,50\% ,100\% \\
+		\cline{1-1} \cline{3-3}
+		5b. Loans and leases held for investment: High volatility commercial real estate (HVCRE) &  & 0\%,20\% ,50\%,100\% ,150\% \\
+		\cline{1-1} \cline{3-3}
+		5c. Loans and leases held for investment: Past due $\ge$90 days or nonaccrual &  & 0\%,2\%,4\% ,20\% ,50\%,100\% ,150\% \\
+		\cline{1-1} \cline{3-3}
 		6. Less: Allowance for loan and lease losses (deduction) &  & Deduction (not risk-weighted) \\
 		\hline
-		9a. On balance sheet securitization exposures : Held to Maturity securities &  & 1250\% \\
-		\hline
+		9a. On balance sheet securitization exposures : Held to Maturity securities & \multirow{4}{1.5cm}{\centering Depends on the Risk weighting approach and the AOCI Opt out election} & 1250\% \\
+		\cline{1-1} \cline{3-3}
 		9b. On balance sheet securitization exposures : Available for sale securities &  & 1250\% \\
-		\hline
-		9c. On balance sheet securitization exposures : All other on balance sheetand securitization exposures &  & 1250\% \\
-		\hline
+		\cline{1-1} \cline{3-3}
+		9c. On balance sheet securitization exposures : All other on balance sheet and securitization exposures &  & 1250\% \\
+		\cline{1-1} \cline{3-3}
 		10. Off balance sheet securitization exposures &  & 1250\% \\
+		\cline{1-1} \cline{3-3}
 		\hline
-		18a. Unused commitments with maturity $<$1 year (non-cancelable) &  & 0\%,2\%,4\%, 20\%,100\%, 150\% \\
-		\hline
-		18b. Unused commitments with maturity $>$1 year (including certain ABCP conduits) &  & 0\%,2\%,4\%, 20\% ,100\%,150\% \\
-		\hline
+		18a. Unused commitments with maturity $<$1 year (non-cancelable) &\multirow{3}{1.5cm}{\centering Credit Equivalent Amount of commitment}  & 0\%,2\%,4\% ,20\% ,100\%,150\% \\
+		\cline{1-1} \cline{3-3}
+		18b. Unused commitments with maturity $>$1 year (including certain ABCP conduits) &  & 0\%,2\%,4\% ,20\% ,100\%,150\% \\
+		\cline{1-1} \cline{3-3}
 		19. Unused commitments unconditionally cancelable &  & No risk weights \\
 		\hline
 	\end{tabular}
-\end{table}
+	\end{table}
 
-
+    The concept of a credit equivalent amount arises because off balance sheet exposures are reported as notional balances. Conversion of notional balances to the equivalent amounts to be reported in a form is an arbitrary exercise. The Fed does this in the FR Y-9C by requiring banks to multiply the notional amounts by a Credit Conversion Factor(CCF) which gives the Credit Equivalent amount. The CCF is usually a number between 0 and 1.
+    
+    \subsection{HC-S Servicing , Securitization and Asset Sale Activities}
+       Schedule HC-S deals with Securitizations. In this schedule there are seven columns each of which pertain to the product securitized. The seven products which are used for categorization in securitization are
+       
+       \begin{enumerate}
+       		\item 1-4 Family Residential Loans
+       		\item Home Equity lines
+       		\item Credit Card Receivables
+       		\item Auto Loans
+       		\item Other consumer loans
+       		\item Commercial and Industrial Loans
+       		\item  All other loans and leases and other assets
+       \end{enumerate}
+       
+       Since securitization is primarily an off balance sheet line item, most of the data reported here will be mutually exclusive to other schedules of FR Y-9C. The exceptions will be data reported that corresponds Schedule HC-R and HC-L which also deal with off balance sheet items. However the overall theme of each line can be mapped to a schedule or Line in other schedules of FR Y-9C.
+       
+       Table \ref{tab:hcs_hcc_mapping} gives the mapping between each column in HC-S to a line HC-C. The table looks at the theme of the corresponding line in other schedule alone and does not look at whether the line item is an on balance sheet item or an off balance sheet item. Given that HC-C rows are all based on upon the Loan product based on Collateral, Borrower and purpose, this would be the right categorization.
+       
+       
+       \begin{table}[htbp]
+       	\centering
+       	\caption{Mapping of Schedule HC-S Columns to Schedule HC-C Line Items}
+       	\label{tab:hcs_hcc_mapping}
+       	\begin{tabular}{|p{3cm}|p{1.6cm}|p{2.5cm}|}
+       		\hline
+       		\textbf{HC-S Column and Asset Category} & \textbf{Corresponding HC-C Line Item} & \textbf{HC-C Description} \\
+       		\hline
+       		Column A :1-4 Family Residential Loans & HC-C, Item 1.c & Loans secured by 1-4 family residential properties \\
+       		\hline
+       		Column B : Home Equity Lines & HC-C, Item 1.c.(1) & Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit \\
+       		\hline
+       		Column C : Credit Card Receivables & HC-C, Item 6.a & Credit cards \\
+       		\hline
+       		Column D : Auto Loans & HC-C, Item 6.c & Automobile loans \\
+       		\hline
+       		Column E :  Other Consumer Loans & HC-C, Item 6.d & Other consumer loans (includes single payment, installment, and all student loans) \\
+       		\hline
+       		Column F : Commercial and Industrial Loans & HC-C, Item 4 & Commercial and industrial loans \\
+       		\hline
+       		Column G : All Other Loans, All Leases, and All Other Assets & Multiple HC-C Items & Various loan categories including: Items 1.a-1.b (real estate), 2 (depository institutions), 3 (agricultural), 7 (foreign governments), 9 (nondepository financial institutions), and 10 (lease financing receivables) \\
+       		\hline
+       	\end{tabular}
+       \end{table}
+       
+       In terms of the lines of reporting, HC-S is divided into three sections , Securitization Activites, Securitization Facilities sponsored and Asset Sale activities. The relationship between HC-S and other schedules reporting loans and commitments like HC-L,HC-N, HC-P,HC-Q and HC-R can described as shown in \ref{tab:hcs_relationships}. Since securitization is an off balance sheet item, most of the relationships are related only in the nature of the product .
+       
+       \begin{table}[htbp]
+       	\centering
+       	\caption{Relationship Between Schedule HC-S and Other FR Y-9C Schedules}
+       	\label{tab:hcs_relationships}
+       	\begin{tabular}{|p{1.5cm}|p{2cm}|p{1.5cm}|p{2cm}|}
+       		\hline
+       		\textbf{HC-S Item} & \textbf{HC-S Description} & \textbf{Related Schedule \& Item} & \textbf{Relationship Description} \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HC-L (Off-Balance Sheet Items)}} \\
+       		\hline
+       		Item 3 , Item 10 and Memo Item 3.b & Unused commitments to provide liquidity to consolidated which have been sold and securtized & HC-L, Item 1 & Liquidity commitments to securitization structures are reported as unused commitments \\
+       		\hline
+       		Item 9 and Memo Item 3.a & Credit enhancements to other institutions' structures & HC-L, Item 2 and Item 3 & Credit enhancements via standby letters of credit both Financial and Performance \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HC-N (Past Due and Nonaccrual)}} \\
+       		\hline
+       		Item 4.a and 4.b & Assets 30-89 days past due and assets 90+ days past due & HC-N, Items 1-8, Column A and B & Past due amounts for securitized loans still on balance sheet \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HI-C (Charge off and Recoveries in loans and leases)}} \\
+       		\hline
+       		Item 5.a & Charge-offs on securitized assets & HI-C Lines 1 to 9 column A & Year-to-date charge-offs on retained interests \\
+       		\hline
+       		Item 5.b & Recoveries on securitized assets & HI-C Lines 1 to 9 column B & Year-to-date recoveries on retained interests \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HC-P (Mortgage Banking Activities)}} \\
+       		\hline
+       		Item 1 and Item 6, Column A & Outstanding 1-4 family residential mortgages securitized & HC-P, Item 3 and 4 & Mortgages sold during quarter  \\
+       		\hline
+       		Memo Item 2.a and 2.b & 1-4 family mortgages serviced with and without recourse & HC-P, Items 1-2 and HC-P Line 5& Originated/ purchased mortgages with servicing retained. Servicing income from mortgages. \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HC-Q (Fair Value Measurements)}} \\
+       		\hline
+       		Item 6 & Ownership interests carried as loans & HC-Q, Item 4 & Loans held for investment at fair value \\
+       		\hline
+       		Items 1-12 & Credit enhancements and retained interests & HC-Q, Memo Item 2.a & Loan commitments at fair value \\
+       		\hline
+       		\multicolumn{4}{|c|}{\textbf{HC-S to HC-R (Regulatory Capital)}} \\
+       		\hline
+       		Item 2 & Maximum credit exposure from recourse/ enhancements & HC-R, Part II, Item 15 & Retained recourse on sold obligations (100\% risk weight) \\
+       		\hline
+       		Items 9, 12 & Credit enhancements provided & HC-R, Part II, Item 12 & Financial standby letters of credit (risk-weighted) \\
+       		\hline
+       		Item 1,6 and Memo Item 3 & Outstanding securitized assets & HC-R, Part II, Items 9-10 & On- and off-balance sheet securitization exposures \\
+       		\hline
+       	\end{tabular}
+       \end{table}
+	\subsection{HC-V Variable interest entities}
 	
 	
 \section{Plan of the paper}
