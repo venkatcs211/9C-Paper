@@ -245,6 +245,38 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
              		\hline
              	\end{tabular}
              \end{table}
+             
+             \subsubsection{HC-C Memo}
+             	HC-C has got a memorandum section as well. This memoranda section deals with special loans conditions in HC-C . The overall theme for each line is given in the \ref{HCCMemo}
+             \begin{table}[htbp]
+             	\centering
+             	\caption{Schedule HC-C Memoranda Items Summary (with Subordinate Lines)}
+             	\label{HCCMemo}
+             	\begin{tabular}{|p{0.5cm}|p{3cm}|p{2.5cm}|p{1cm}|}
+             		\hline
+             		\textbf{Line} & \textbf{Description} & \textbf{Commentary} & \textbf{Sub-Lines} \\
+             		\hline
+             		M.1 & Loan modifications to borrowers experiencing financial difficulty & Loan modifications so reported in HC-N Memo & M.1.a– M.1.e \\
+             		\hline
+             		M.2 & CRE construction loans not secured by real estate & Unsecured Real estate construction loans & -- \\
+             		\hline
+             		M.3 & Loans to non-U.S. addressees & Foreign borrower exposure & M.3.a– M.3.e \\
+             		\hline
+             		M.4 & Credit card fees and finance charges & Credit card Fees and charges & -- \\
+             		\hline
+             		M.6 & Negative amortization loans & Loans with negative amortization features grouped by product & M.6.a– M.6.c \\
+             		\hline
+             		M.9 & Foreclosure activity & Loans which are in the process of Foreclosure during end of reporting period. & -- \\
+             		\hline
+             		M.12 & Business combination acquisitions & Loans in book due to M\&A  & M.12.a– M.12.c \\
+             		\hline
+             		M.14 & Pledged loans & Loans pledged as collateral & -- \\
+             		\hline
+             		M.15 & Converted home equity lines & HELOCs converted to amortizing loans & -- \\
+             		\hline
+             	\end{tabular}
+             \end{table}
+             
             		
 \subsection{HC-N Past Due and Non Accrual Loans and Leases}
 	Schedule HC-N of FR Y-9C provides details about the quality of the loan portfolio of the bank in terms of debt repayments by the counterparties for each loan. This data is provided at an aggregated loan basis. In order to have a consistent view of the performance of each segment of the loan portfolio, HC-C and HC-N have the same row taxonomy till Line 4. 
@@ -255,16 +287,69 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	2. Payment of Principal and interest due in full is not expected
 	3. Principal and/or interest is past due for more than 90 days
 	
-	Please note that loans which dont have a past due status need not be reported in HC-N.
+	Please note that loans which dont have a past due status need not be reported in HC-N. The reporting data representation in HC-N is given in \eqref{HCNFig}
 	
 	\begin{figure}[htbp]
 		\centerline{\includegraphics{hcn_flowchart.png}}
 		\caption{HC-N Buckets}
-		\label{fig}
+		\label{HCNFig}
 	\end{figure}
 	
 	There are also certain shifts between HC-C and HC-N with regard to line numbers but there will be a relationship between an MDRM in HC-C and HC-N. The Fed does not remove lines when MDRMs are not required for reporting but makes the particular line not applicable to maintain consistency while referring line numbers in the reports. So these redundant MDRMs are removed and the corresponding line numbers are marked non-applicable. Removing the lines in such cases, the nature of the lines in HC-C and HC-N usually similar till Line 8 HC-C. Line 7 in HC-N is the catch all bucket for loans in each status which is unlike Line 9 in HC-C which details loans to non-depository financial institutions.
 	
+	\subsubsection{HC-N Memo}
+		Similar to HC-C , HC-N also has a memo section which contains a lot of useful data for analysis of a loan of a BHC. The line structure of the HC-N Memo for lines from line 1 with its subordinate lines through Line 3 follow the same description as HC-C Memo except that in HC-C the overall amounts are reported and in HC-N Memo the loans in verious stages of non-accrual as provided. 
+		
+		HC-C Memo line 4 has no equivalent in HC-N Memo since it is assumed that Credit Card Fees comes into play mostly when the dues on Credit Card start getting past due which has already been captured in HC-C Memo.
+		
+		HC-N Memo Line 5 deals with Loans which are in various stages of non-accrual which are held for sale, probably for loans to be sold as credit deteriorated loans. Line 6 deals with Derivative contracts created on top of the loans in only the two past due states of 30-89 days and 90 days or more which are still not in non-accrual state. Lines 7 and 8 deal with the amount of non-accrual assets which are present in the balance sheet of the bank by tracking the additions and sales of non-accrual assets. Lines 7 and 8 are very important to track the health of the loan portfolio of the bank which is either held for sale(HFS) or held for investment(HFI). The mappings between HC-C Memo and HC-N Memo for lines 1 to 3 is given in the table \eqref{tab:hcn_hcc_memo_mapping}. As mentioned earlier there is a one on one mapping between HC-C Memo and HC-N Memo for the first 3 Memo lines.
+		
+		\begin{table}[htbp]
+			\centering
+			\caption{Mapping of Schedule HC-N Memoranda to Schedule HC-C Items}
+			\label{tab:hcn_hcc_memo_mapping}
+			\begin{tabular}{|p{1.5cm}|p{3cm}|p{2.5cm}|}
+				\hline
+				\textbf{HC-N Memo Line} & \textbf{HC-N Memo Description} & \textbf{Corresponding HC-C Line} \\
+				\hline
+				M.1.a.(1) & Construction, land development, and other land loans: 1-4 family residential construction loans & HC-C, M.1.a.(1) \\
+				\hline
+				M.1.a.(2) & Construction, land development, and other land loans: Other construction loans and all land development and other land loans & HC-C, M.1.a.(2) \\
+				\hline
+				M.1.b & Loans secured by 1-4 family residential properties in domestic offices & HC-C, M.1.b \\
+				\hline
+				M.1.c & Secured by multifamily (5 or more) residential properties in domestic offices & HC-C, M.1.c \\
+				\hline
+				M.1.d.(1) & Secured by nonfarm nonresidential properties: Loans secured by owner-occupied nonfarm nonresidential properties & HC-C, M.1.d.(1) \\
+				\hline
+				M.1.d.(2) & Secured by nonfarm nonresidential properties: Loans secured by other nonfarm nonresidential properties & HC-C, M.1.d.(2) \\
+				\hline
+				M.1.e.(1) & Commercial and industrial loans: To U.S. addressees (domicile) & HC-C, M.1.e.(1) \\
+				\hline
+				M.1.e.(2) & Commercial and industrial loans: To non-U.S. addressees (domicile) & HC-C, M.1.e.(2) \\
+				\hline
+				M.1.e.(3) & Commercial and industrial loans: To U.S. addressees (domicile) and non-U.S. addressees (domicile) & HC-C, M.1.e.(3) \\
+				\hline
+				M.1.f.(1) & All other loans: Loans secured by farmland in domestic offices & HC-C, M.1.f.(1) \\
+				\hline
+				M.1.f.(2) & All other loans: Loans to finance agricultural production and other loans to farmers & HC-C, M.1.f.(2) \\
+				\hline
+				M.1.f.(3)(a) & All other loans: Credit cards & HC-C, M.1.f.(3)(a) \\
+				\hline
+				M.1.f.(3)(b) & All other loans: Automobile loans & HC-C, M.1.f.(3)(b) \\
+				\hline
+				M.1.f.(3)(c) & All other loans: Other consumer loans & HC-C, M.1.f.(3)(c) \\
+				\hline
+				M.1.f & All other loans (include loans to individuals for household, family, and other personal expenditures) & HC-C, M.1.f \\
+				\hline
+				M.1.g & Total loan modifications to borrowers experiencing financial difficulty included in Schedule HC-N items 1 through 7 & HC-C, M.1.g \\
+				\hline
+				M.2 & Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) & HC-C, M.2 \\
+				\hline
+				M.3 & Loans and leases included in Schedule HC-N, items 1, 2, 4, 5, 6, 7, and 8 extended to non-U.S. addressees & HC-C, M.3 \\
+				\hline
+			\end{tabular}
+		\end{table}
 \subsection{HC-L Derivatives and off balance sheet items}
     Schedule HC-L of FR Y-9C deals with derivatives and off balance sheet items. While derivatives need not be directly linked to a loan, derivatives can be used for hedging the risks of loans. In this angle, the most important aspects of derivatives covered in HC-L are unused commitments,Letters of Credit and guarantees. The previously mentioned instruments may be provided at a counterparty level and sometimes not exactly explicitly at a loan level. However these can be used as handy means of analytics. Given that all the three mentioned are off balance sheet items , taking these data from FR Y-9C makes the FR Y-9C a very handy for an overall analysis of Off balance sheet items.
     
@@ -329,8 +414,41 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     \subsection{HI-B Charge offs and Recoveries in Loans and Leases and Allowances for Credit Losses}
     Schedule HI-B has got two sections . The first section deals with the charge offs and recoveries. Column A is for the charge off and column B is for the recovery. The row structure followed in part I is similar to HC-N. 
     
-    Part II is for the allowances and provisions for credit losses. An allowance is the amount reserve the bank has kept for credit losses and provisions are the amounts added or reduced from the allowance during quarterly intervals. This has three columns which are Loans and leases held for investment, loans and leases held to maturity and loans and leases available for sale.
+    Part II is for the changes in allowances for credit losses. The actual amount of allowance provided will be available in Schedule HI-C \ref{HI-C}.  An allowance is the amount reserve the bank has kept for credit losses and provisions are the amounts added or reduced from the allowance during quarterly intervals. This has three columns which are Loans and leases held for investment, loans and leases held to maturity and loans and leases available for sale.
     
+    \subsubsection{HI-B Memo}
+    	HI-B has also got a Memo section . While this section is not detailed, it provides important information for analysis of the loan book of the BHC. Memo Line 1 deals with the additions to the Transfer Risk Reserve \cite{FDICRisk}.
+    \subsection{HI-C Disaggregated data on Allowance for Credit Losses}
+    \label{HI-C}
+    	This section provides the balances available in the Allowances available for credit losses. Due to addition and consumption of provisions for credit losses, the allowance for credit losses might. While HI-B part II provides for the changes in the allowances due to provisions, the amount of balances available in the allowances are detailed in HI-C in a disaggregated fashion.
+    
+    	The mapping from HI-C to HC-C is given below. While data is more granular in HC-C when compared to HI-C, the comparison gives the required allowance to loan mapping on an aggregate level from a FR Y-9C perspective.
+    	
+    	\begin{table}[htbp]
+    		\centering
+    		\caption{Mapping of Schedule HI-C (Allowances for Credit Losses) to Schedule HC-C (Loans and Leases)}
+    		\label{tab:hic_hcc_mapping}
+    		\begin{tabular}{|p{1.5cm}|p{4cm}|p{1.5cm}|}
+    			\hline
+    			\textbf{HI-C Line} & \textbf{HI-C Description (Loans and Leases Held for Investment)} & \textbf{Corresponding HC-C Line(s)} \\
+    			\hline
+    			Item 1.a & Construction loans & HC-C, 1.a.(1)--1.a.(2) \\
+    			\hline
+    			Item 1.b & Commercial real estate loans & HC-C, 1.b,  1.e.(1)--1.e.(2) \\
+    			\hline
+    			Item 1.c & Residential real estate loans & HC-C, 1.c.(1), 1.c.(2)(a)--1.c.(2)(b),1.d \\
+    			\hline
+    			Item 2 & Commercial loans & HC-C, 2.a--2.b, 3, 4, 7, 9.a--9.b.(2), \\
+    			\hline
+    			Item 3 & Credit cards & HC-C, 6.a \\
+    			\hline
+    			Item 4 & Other consumer loans & HC-C, 6.b, 6.c, 6.d \\
+    			\hline
+    			Item 5 & Unallocated, if any & No direct mapping possible to HC-C Lines  \\
+    			\hline
+    		\end{tabular}
+    	\end{table}
+    	
     \subsection{HC-D Trading Assets and Liabilities}
 	While loans dont form a primary part of traded assets, the portion of the banking portfolio which is part of the trading book is captured in Line 6 in Schedule HC-D of FR Y-9C. The subordinate lines for these lines include Loans secured by 1-4 family, other real estate, commercial and industrial loans, personal loans and other loans. The loans provided in these lines are only those loans which are in the held for trading(HFT) category for the bank. A comparison below is given for reporting of each category of the bank portfolio which includes the Available for sale(AFS) portfolio as well.
 	
@@ -655,7 +773,37 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
        \end{table}
 	\subsection{HC-V Variable interest entities}
 	
+		A Variable Interest Entity(VIE) is an entity separate from the bank in which the bank has got a significant interest. One of the reasons a VIE is created is to support the securitization activities of the bank. Schedule HC-V of FR Y-9C is report the activities of the VIEs in which the bank has got a significant interest.
+		
+		The definition of a VIE is as given in ASC 810 \ref{ASC810}. ASC 810 of FASB gives the defintion of a Variable Interest entity and when the VIE should be reported in the consolidated financial statements as well. The definition of a VIE can be defined as an entity in which the bank or any other parent entity has an interest but lacks the following.
+		
+		\begin{enumerate}
+			\item The power through voting rights to direct the activity of the entity
+			\item The obligation to absorb the losses of the entity
+			\item The right to receive the residual returns of the entity during liquidation
+		\end{enumerate}
+		
+		The concept of a VIE is unique to the US GAAP accounting rules and is not present in the International Financial Reporting Standards (IFRS) . The FASB requires consolidation of VIEs in order to ensure that off balance sheet entities are also reported in the consolidated financial statements of the financial entity.
+		
+		VIEs are usually used in the banking industry for the formation of the Special Purpose Vehicles(SPV) independent of the parent bank for the purposes of securitization.
+		
+		The difference in data reported in HC-S and HC-V is that in HC-S , loans securitized and sold and therefore which are not on the balance sheet of the BHC need to be reported while in HC-V the financial information of the VIE need to be reported. In case the BHC has sold the loans to a SPV which qualifies as VIE, the details of the loans sold will have to be reported in HC-S and the details of the VIE to which the loans have been sold to has to be reported in HC-V.
+		
+		Since a VIE can exist for entities outside of securitization as well, the concept of a VIE need not completely pertain to a SPV alone. So with regard to loan details of a VIE, line 1.c pertains to the portion of assets of the VIE which consist of Loans and Leases which are either held for investment(HFI) or held for sale (HFS).
+
+	The overall picture for loans data present in various schedules of FR Y-9C is provided in the picture \eqref{LoanHier}.
 	
+		
+	\begin{figure*}[t!]
+		\centering
+		\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{combined_flowchart_TB.png}
+		\caption{Loan Data Representation in FR Y-9C}
+		\label{LoanHier}
+	\end{figure*}
+	
+	
+\section{Comparison of data in FR Y-9C with other reports submitted to the Federal Reserve}
+
 \section{Plan of the paper}
 1. Introduction
 
@@ -979,6 +1127,10 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{NII} M. K. Brunnermeier, G. N. Dong, and D. Palia, “Banks’ Noninterest Income and Systemic Risk,” The Review of Corporate Finance Studies, p. cfaa006, May 2020, doi: 10.1093/rcfs/cfaa006.
 \bibitem{Fed2} “FDIC Quarterly - Bank and Nonbank Lending over the past 70 years,” Numb er, vol. 1, 2019.
 \bibitem{PolkB3}[1] D. Polk and W. Llp, “U.S. Basel III Final Rule: Visual Memorandum”.
+\bibitem{ASC810} “Accounting Standards Updates - 2009.” Accessed: Oct. 01, 2025. [Online]. Available: https://asc.fasb.org/1943274/1852705 .
+\bibitem{FDICRisk} “FDIC: Search | FDIC.gov.” Accessed: Oct. 06, 2025. [Online]. Available: \url{https://fdic.gov/fdic-search?query=icerc}
+
+
 
 \end{thebibliography}
 
@@ -1145,7 +1297,144 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \end{table*}
 
 
-
+\begin{table}[htbp]
+	\centering
+	\caption{FR Y-9C Loan related Schedule Column Definitions}
+	\label{tab:9C schedule_columns}
+	\begin{tabular}{|p{3cm}|p{12cm}|}
+		\hline
+		\textbf{Schedule} & \textbf{Column Description} \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-C: Loans and Lease Financing Receivables}} \\
+		\hline
+		HC-C & Consolidated \\
+		\hline
+		HC-C & Domestic Offices only \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-L: Derivatives and Off-Balance-Sheet Items}} \\
+		\hline
+		HC-L & Sold Protection (Line 7) \\
+		\hline
+		HC-L & Purchased Protection (Line 7) \\
+		\hline
+		HC-L & Interest Rate Contracts (Line 11-14) \\
+		\hline
+		HC-L & FX Contracts (Line 11-14) \\
+		\hline
+		HC-L & Equity Derivative Contracts (Line 11-14) \\
+		\hline
+		HC-L & Commodity/Other Contracts (Line 11-14) \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-N: Past Due and Nonaccrual Loans}} \\
+		\hline
+		HC-N & Past Due 30-89 days \\
+		\hline
+		HC-N & Past Due more than 90 days and still accruing \\
+		\hline
+		HC-N & Non Accrual \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HI-B Part I: Charge-offs and Recoveries}} \\
+		\hline
+		HI-B Part I & Charge offs \\
+		\hline
+		HI-B Part I & Recoveries \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HI-B Part II: Changes in Allowances for Credit Losses}} \\
+		\hline
+		HI-B Part II & HFI Loans and Leases \\
+		\hline
+		HI-B Part II & HTM debt securities \\
+		\hline
+		HI-B Part II & AFS debt securities \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HI-C: Disaggregated Data on Allowances}} \\
+		\hline
+		HI-C & Amortized Cost \\
+		\hline
+		HI-C & Allowance Balance \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-Q: Fair Value Measurements}} \\
+		\hline
+		HC-Q & Total Fair Value Reported on HC \\
+		\hline
+		HC-Q & Amounts netted in Fair value calculation \\
+		\hline
+		HC-Q & Level 1 Fair Value measurement \\
+		\hline
+		HC-Q & Level 2 Fair Value measurement \\
+		\hline
+		HC-Q & Level 3 Fair Value measurement \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-R Part II: Risk-Weighted Assets}} \\
+		\hline
+		HC-R Part II & Total from HC \\
+		\hline
+		HC-R Part II & Adjustments to totals reported in column A \\
+		\hline
+		HC-R Part II & 0\% \\
+		\hline
+		HC-R Part II & 2\% \\
+		\hline
+		HC-R Part II & 4\% \\
+		\hline
+		HC-R Part II & 10\% \\
+		\hline
+		HC-R Part II & 20\% \\
+		\hline
+		HC-R Part II & 50\% \\
+		\hline
+		HC-R Part II & 100\% \\
+		\hline
+		HC-R Part II & 150\% \\
+		\hline
+		HC-R Part II & 250\% \\
+		\hline
+		HC-R Part II & 300\% \\
+		\hline
+		HC-R Part II & 400\% \\
+		\hline
+		HC-R Part II & 600\% \\
+		\hline
+		HC-R Part II & 625\% \\
+		\hline
+		HC-R Part II & 937.50\% \\
+		\hline
+		HC-R Part II & 1250\% \\
+		\hline
+		HC-R Part II & Exposure Amount \\
+		\hline
+		HC-R Part II & RWA Amount \\
+		\hline
+		HC-R Part II & SSFA Amount (Line 9,10) \\
+		\hline
+		HC-R Part II & Gross Up Amount (Line 9,10) \\
+		\hline
+		HC-R Part II & Credit Equivalent Amount (for off balance sheet lines) \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-S: Servicing, Securitization, and Asset Sale Activities}} \\
+		\hline
+		HC-S & 1-4 Family residential loans \\
+		\hline
+		HC-S & Home Equity loans \\
+		\hline
+		HC-S & Credit Card Loans \\
+		\hline
+		HC-S & Auto Loans \\
+		\hline
+		HC-S & Other consumer Loans \\
+		\hline
+		HC-S & Commercial and Industrial Loans \\
+		\hline
+		HC-S & All Other Loans \\
+		\hline
+		\multicolumn{2}{|c|}{\textbf{HC-V: Variable Interest Entities}} \\
+		\hline
+		HC-V & Securitization Vehicles \\
+		\hline
+		HC-V & Other VIEs \\
+		\hline
+	\end{tabular}
+\end{table}
 
 
 \vspace{12pt}
