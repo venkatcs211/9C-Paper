@@ -417,12 +417,15 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     Part II is for the changes in allowances for credit losses. The actual amount of allowance provided will be available in Schedule HI-C \ref{HI-C}.  An allowance is the amount reserve the bank has kept for credit losses and provisions are the amounts added or reduced from the allowance during quarterly intervals. This has three columns which are Loans and leases held for investment, loans and leases held to maturity and loans and leases available for sale.
     
     \subsubsection{HI-B Memo}
-    	HI-B has also got a Memo section . While this section is not detailed, it provides important information for analysis of the loan book of the BHC. Memo Line 1 deals with the additions to the Transfer Risk Reserve \cite{FDICRisk}.
+    	HI-B has also got a Memo section . While this section is not detailed, it provides important information for analysis of the loan book of the BHC. Memo Line 1 deals with the additions to the Transfer Risk Reserve \cite{FDICRisk}. The Transfer Risk Reserve is a reserve against the possibility that the borrower outside of U.S might have difficulty in getting the home currency converted to US Dollar. In other words, transfer risk can be thought of as a country specific risk. The amount of reserves to be held as a percentage of the amount of loans provided by the Intra-agency Country exposure review committee(ICERC) under the FFIEC.
+    	
+    	Memo Lines 2 and 3 refer to the allowances for Credit Card losses which are either collectible or deemed uncollectible. In memo lines 4 , 5 and 6 the allowances  on credit losses are to be reported. Line 4 is for the Provision for credit losses for assets measured at amortized cost and 5 is the allowance maintained for the same set of assets. These assets are mostly Held to Maturity(HTM) assets (refer table \eqref{PFtype}). Line 7 is for the allowance for Off Balance sheet trades. Finally Memo Line 8 requires the estimated recoveries of amounts written off for credit losses to be reported.
+    	
     \subsection{HI-C Disaggregated data on Allowance for Credit Losses}
     \label{HI-C}
     	This section provides the balances available in the Allowances available for credit losses. Due to addition and consumption of provisions for credit losses, the allowance for credit losses might. While HI-B part II provides for the changes in the allowances due to provisions, the amount of balances available in the allowances are detailed in HI-C in a disaggregated fashion.
     
-    	The mapping from HI-C to HC-C is given below. While data is more granular in HC-C when compared to HI-C, the comparison gives the required allowance to loan mapping on an aggregate level from a FR Y-9C perspective.
+    	The mapping from HI-C to HC-C is given in Table IX \eqref{tab:hic_hcc_mapping}. While data is more granular in HC-C when compared to HI-C, the comparison gives the required allowance to loan mapping on an aggregate level from a FR Y-9C perspective. HI-B Memo Line 8 can also be thought of as the amount recovered from the allowances which are disaggregated in Schedule HI-C.
     	
     	\begin{table}[htbp]
     		\centering
@@ -430,7 +433,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     		\label{tab:hic_hcc_mapping}
     		\begin{tabular}{|p{1.5cm}|p{4cm}|p{1.5cm}|}
     			\hline
-    			\textbf{HI-C Line} & \textbf{HI-C Description (Loans and Leases Held for Investment)} & \textbf{Corresponding HC-C Line(s)} \\
+    			\textbf{HI-C Line} & \textbf{HI-C Description (Loans and Leases Held for Investment)} & \textbf{Correspon- ding HC-C Line(s)} \\
     			\hline
     			Item 1.a & Construction loans & HC-C, 1.a.(1)--1.a.(2) \\
     			\hline
@@ -450,12 +453,13 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
     	\end{table}
     	
     \subsection{HC-D Trading Assets and Liabilities}
-	While loans dont form a primary part of traded assets, the portion of the banking portfolio which is part of the trading book is captured in Line 6 in Schedule HC-D of FR Y-9C. The subordinate lines for these lines include Loans secured by 1-4 family, other real estate, commercial and industrial loans, personal loans and other loans. The loans provided in these lines are only those loans which are in the held for trading(HFT) category for the bank. A comparison below is given for reporting of each category of the bank portfolio which includes the Available for sale(AFS) portfolio as well.
+	While loans dont form a primary part of traded assets, the portion of the banking portfolio which is part of the trading book is captured in Line 6 in Schedule HC-D of FR Y-9C. The subordinate lines for these lines include Loans secured by 1-4 family, other real estate, commercial and industrial loans, personal loans and other loans. The loans provided in these lines are only those loans which are in the held for trading(HFT) category for the bank. A comparison is given in Table \eqref{PFtype} for reporting of each category of the bank portfolio which includes the Available for sale(AFS) portfolio as well.
 	
 	\begin{table}[htbp]
 		\centering
 		\caption{Comparison of HFT, AFS, and HTM Portfolios in FR~Y-9C Reporting}
-		\begin{tabular}{|p{1.3cm}|p{2.1cm}|p{2.1cm}|p{2.1cm}|}
+		\label{PFtype}
+		\begin{tabular}{|p{1.2cm}|p{2cm}|p{2cm}|p{2cm}|}
 			\hline
 			\textbf{Feature} & \textbf{Held for Trading (HFT)} & \textbf{Available-for-Sale (AFS)} & \textbf{Held-to-Maturity (HTM)} \\
 			\hline
@@ -477,6 +481,9 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	The loans reported in this schedule are valued at fair value unlike in HC-C where they are valued at amortized cost. Also as a corollary to the previous statement, the loans reported in HC-C and HC-D are mutually exclusive.
 	
+	\subsubsection{HC-D Memo}
+		In HC-D Memo, Memo Lines 1 and 2 deal with the HFT loans which are reported in HC-D. In Memo Line 1 the unpaid principal balances for each of the loans reported in HC-D is to be reported. The reporting is to be disaggregated by whether the loan is secured by real estate, is a commercial loan,or if it is loans provided to an individual or any other loans. Line 2 collects data on the set of loans which have fallen into the non-accrual bucket and where the last payment is pending more than 90 days. Memo Line 2 requires the fair value and the unpaid principal balance of such loans to be reported.
+		
 	\subsection{HC-K Quarterly Averages}
 	In addition to point in time data reported at the end of the quarter, the Fed also requires BHCs to report the quarterly averages. This data helps understand the quarterly pattern and if there was any last minute window dressing that happened towards the end of the quarter. Loans are represented in line 3 of HC-K. Given that the focus is on quarterly averages rather than the details of the loan, HC-K is not as comprehensive as HC-C in handling granular loan data as can be in the table below comparing the HC-K quarterly average lines vs HC-C lines.
 	
@@ -516,11 +523,12 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	\subsection{HC-Q Assets and Liabilities measured at Fair value on a recurring basis}
 	
-	Schedule HC-Q is for Assets and Liabilities valued at Fair value. The concept of fair value is as per the requirements of ASC Topic 820 \cite{ASC820}. For assets which can be netted as per ASC 210-20 \cite{ASC210}. This schedule has 5 columns. The description of each column is given in the below table.
+	Schedule HC-Q is for Assets and Liabilities valued at Fair value. The concept of fair value is as per the requirements of ASC Topic 820 \cite{ASC820}. For assets which can be netted as per ASC 210-20 \cite{ASC210}. This schedule has 5 columns. The description of each column is given in the table \eqref{tab:HC-QCol}.
 	
 	\begin{table}[htbp]
 		\centering
 		\caption{Schedule HC-Q Reporting Columns (FR Y-9C)}
+		\label{tab:HC-QCol}
 		\begin{tabular}{|p{1.8cm}|p{6.2cm}|}
 			\hline
 			\textbf{Column} & \textbf{Description} \\
@@ -538,10 +546,11 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		\end{tabular}
 	\end{table}
 	
-	According to ASC820 the following are the brief definitions of Level 1, Level 2 and Level 3
+	Table \eqref{tab:FairValueLevelDef} gives the brief definitions of Level 1, Level 2 and Level 3 according to ASC 820 \cite{ASC820}.
 	\begin{table}[htbp]
 		\centering
 		\caption{Fair Value Measurement Hierarchy (FR Y-9C, Schedule HC-Q)}
+		\label{tab:FairValueLevelDef}
 		\begin{tabular}{|p{1.5cm}|p{2cm}|p{2.5cm}|}
 			\hline
 			\textbf{Level} & \textbf{Description} & \textbf{Example} \\
@@ -557,6 +566,10 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	The bank will have to report the gross values in columns C, D , E and if there is netting effect the amount saved by netting should be reported in column B. 
 	Loans which are Held for Sale are reported in Line 3 and Loans which are held for investment are reported in Line 4. These lines are not very granular but HC-Q has a memo section where more granular loan data is reported with sub-divisions under each loan line reported in the main schedule. The table below gives the comparison between loan data in HC-C and the loan data requested in HC-Q. Given that HC-Q looks at details of assets and liabilities priced at fair value alone, the loan purpose is not concentrated upon instead focusing on collateral and borrower.
+	
+	\subsubsection{HC-Q Memo}
+	HC-Q has also got a memoranda part where the column disaggregation is the same as in HC-Q. With regard to loans, only line Memo line 1.a where the Mortgage Servicing Assets which exceed 25 \% of all other loans reported in HC-Q Line 6 need to be reported.
+	
 	
 \begin{table}[htbp]
 	\centering
@@ -593,12 +606,12 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 \subsection{HC-R Regulatory Capital}
     Schedule HC-R Regulatory Capital deals with the regulatory capital that banks must hold post the Basel III rules. There are two parts to this schedule. The first part is on the Regulatory Capital and Ratios which mostly deal with the numerator part in the Capital to Risk Weighted Assets(RWA) ratios. The second part is on the Risk Weighted Assets which provide comprehensive data on the RWA separated out by the Risk Weights assigned to each trade/transaction.
     
-    HC-R Part II provides a comprehensive treatment of loans and leases under the lines . Loans and securitizations are represented in the lines given in table \ref{HCR descriptions}.
+    HC-R Part II provides a comprehensive treatment of loans and leases under the lines . Loans and securitizations are represented in the lines given in table \ref{tab:HCR descriptions}.
     
    \begin{table}[htbp]
    	\centering
    	\caption{Descriptions of Selected Lines in HC-R Part II: Loans / Commitments / Allowance}
-   	\label{HCR descriptions}
+   	\label{tab:HCR descriptions}
    	\begin{tabular}{|p{1.5cm}|p{5.5cm}|}
    		\hline
    		\textbf{Line} & \textbf{Description} \\
@@ -635,13 +648,13 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
       
       Derivatives and off balance sheet items in HC-R Part II from lines 12 till 21, column B is filled with the Credit Equivalent amount which is obtained by multiplying the amount reported in column A with the appropriate Credit Conversion Factor(CCF) provided in the form. 
       
-      Table \ref{HCR RW} gives a general summary of reporting for each column for each of the loan related lines in Schedule HC-R Part II.
+      Table \ref{tab:HCR RW} gives a general summary of reporting for each column for each of the loan related lines in Schedule HC-R Part II.
 	
 
 \begin{table}[htbp]
 	\centering
 	\caption{Applicable Risk Weights for Selected Lines in Schedule HC-R Part II}
-	\label{HCR RW}
+	\label{tab:HCR RW}
 	\begin{tabular}{|p{3cm}|p{1.5cm}|p{1.5cm}|}
 		\hline
 		\textbf{Line Item} & \textbf{Adjustment Col B Nature} & \textbf{Applicable Risk Weights} \\
@@ -680,6 +693,9 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 
     The concept of a credit equivalent amount arises because off balance sheet exposures are reported as notional balances. Conversion of notional balances to the equivalent amounts to be reported in a form is an arbitrary exercise. The Fed does this in the FR Y-9C by requiring banks to multiply the notional amounts by a Credit Conversion Factor(CCF) which gives the Credit Equivalent amount. The CCF is usually a number between 0 and 1.
     
+    \subsubsection{HC-R Memo}
+    	The memoranda section for HC-R covers only the allowance for Purchased Credit Deteriorated(PCD) loans which aligns broadly with theme of HI-C Disaggregated data on allowance for loans and lease losses. This is to be reported in Memo Line 5 which is broken down into the PCD losses for HFI, HTM and other types loans which are measured at amortized cost.
+    	
     \subsection{HC-S Servicing , Securitization and Asset Sale Activities}
        Schedule HC-S deals with Securitizations. In this schedule there are seven columns each of which pertain to the product securitized. The seven products which are used for categorization in securitization are
        
@@ -695,7 +711,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
        
        Since securitization is primarily an off balance sheet line item, most of the data reported here will be mutually exclusive to other schedules of FR Y-9C. The exceptions will be data reported that corresponds Schedule HC-R and HC-L which also deal with off balance sheet items. However the overall theme of each line can be mapped to a schedule or Line in other schedules of FR Y-9C.
        
-       Table \ref{tab:hcs_hcc_mapping} gives the mapping between each column in HC-S to a line HC-C. The table looks at the theme of the corresponding line in other schedule alone and does not look at whether the line item is an on balance sheet item or an off balance sheet item. Given that HC-C rows are all based on upon the Loan product based on Collateral, Borrower and purpose, this would be the right categorization.
+       Table \eqref{tab:hcs_hcc_mapping} gives the mapping between each column in HC-S to a line HC-C. The table looks at the theme of the corresponding line in other schedule alone and does not look at whether the line item is an on balance sheet item or an off balance sheet item. Given that HC-C rows are all based on upon the Loan product based on Collateral, Borrower and purpose, this would be the right categorization.
        
        
        \begin{table}[htbp]
@@ -723,7 +739,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
        	\end{tabular}
        \end{table}
        
-       In terms of the lines of reporting, HC-S is divided into three sections , Securitization Activites, Securitization Facilities sponsored and Asset Sale activities. The relationship between HC-S and other schedules reporting loans and commitments like HC-L,HC-N, HC-P,HC-Q and HC-R can described as shown in \ref{tab:hcs_relationships}. Since securitization is an off balance sheet item, most of the relationships are related only in the nature of the product .
+       In terms of the lines of reporting, HC-S is divided into three sections , Securitization Activites, Securitization Facilities sponsored and Asset Sale activities. The relationship between HC-S and other schedules reporting loans and commitments like HC-L,HC-N, HC-P,HC-Q and HC-R can described as shown in \eqref{tab:hcs_relationships}. Since securitization is an off balance sheet item, most of the relationships are related only in the nature of the product .
        
        \begin{table}[htbp]
        	\centering
@@ -771,6 +787,11 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
        		\hline
        	\end{tabular}
        \end{table}
+       
+       \subsubsection{HC-S Memo}
+       
+      	HC-S Memo also has some details about loans. Line 1 requires reporting of servicing done for loans for other entities for 1-4 loans with or without recourse and loans under foreclosure. There is also a catch all bucket where other financial assets serviced by the BHC need to be reported. In Memo Line 4 the Credit card servicing charges and fees which have been reported as part of original HC-S Line 1 Col C need to be reported.
+      	
 	\subsection{HC-V Variable interest entities}
 	
 		A Variable Interest Entity(VIE) is an entity separate from the bank in which the bank has got a significant interest. One of the reasons a VIE is created is to support the securitization activities of the bank. Schedule HC-V of FR Y-9C is report the activities of the VIEs in which the bank has got a significant interest.
@@ -803,7 +824,35 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	
 \section{Comparison of data in FR Y-9C with other reports submitted to the Federal Reserve}
-
+	The Federal Reserve collects information in other forms at a balance sheet level other than the FR Y-9C. Table \eqref{tab:FedForms} provides the details of some of the important forms.
+	
+	\begin{table}[htbp]
+		\caption{Federal Reserve Reporting Forms}
+		\label{tab:FedForms}
+		\centering
+		\begin{tabular}{|l|p{7cm}|}
+			\hline
+			\textbf{Form Name} & \textbf{Description} \\
+			\hline
+			FR Y-9LP       & Parent company only financial statements for bank holding companies. \\
+			\hline
+			FR Y-15        & Consolidated performance and condition report for large bank holding companies. \\
+			\hline
+			FR Y-11        & Parent company only financial statements for savings and loan holding companies. \\
+			\hline
+			FFIEC-002      & Report of assets and liabilities of U.S. branches and agencies of foreign banks. \\
+			\hline
+			FFIEC-031      & Consolidated report of condition and income for banks with domestic offices only. \\
+			\hline
+			FFIEC-041      & Consolidated report of condition and income for banks with domestic and foreign offices. \\
+			\hline
+		\end{tabular}
+		\label{tab:fed_forms}
+	\end{table}
+	
+	All the forms described in Table \eqref{tab:FedForms} have got data aggregated and standarized into standard MDRMs. This section will talk briefly on the merits and demerits of usage of these forms instead of FR Y-9C.
+	
+	\subsection{FR Y-9LP Parent only financial statements for BHCs}
 \section{Plan of the paper}
 1. Introduction
 
@@ -1129,6 +1178,14 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{PolkB3}[1] D. Polk and W. Llp, “U.S. Basel III Final Rule: Visual Memorandum”.
 \bibitem{ASC810} “Accounting Standards Updates - 2009.” Accessed: Oct. 01, 2025. [Online]. Available: https://asc.fasb.org/1943274/1852705 .
 \bibitem{FDICRisk} “FDIC: Search | FDIC.gov.” Accessed: Oct. 06, 2025. [Online]. Available: \url{https://fdic.gov/fdic-search?query=icerc}
+\bibitem{FRY11} “Federal Reserve Board - Reporting Forms - FR Y-11/FR Y-11S.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-11FR_Y-11S}
+\bibitem{FRY15} “Federal Reserve Board - Reporting Forms - FR Y-15.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-15}
+\bibitem{FRY9LP} “Federal Reserve Board - Reporting Forms -FR Y-9LP.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-9LP}
+\bibitem{FFIEC002} “FFIEC 002 Current Information | FFIEC - FFIEC-002.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec002}
+\bibitem{FFIEC031} “FFIEC 031 Current Information | FFIEC - FFIEC-031.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec031}
+\bibitem{FFIEC041}“FFIEC 041 Current Information | FFIEC - FFIEC-041.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec041}
+
+
 
 
 

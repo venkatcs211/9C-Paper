@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  6 OCT 2025 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  8 OCT 2025 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,7 +500,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-<9C Vs 10-Q Vs NCUA Grayscale.png, id=194, 252.945pt x 173.448pt>
+<9C Vs 10-Q Vs NCUA Grayscale.png, id=210, 252.945pt x 173.448pt>
 File: 9C Vs 10-Q Vs NCUA Grayscale.png Graphic file (type png)
 <use 9C Vs 10-Q Vs NCUA Grayscale.png>
 Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 6
@@ -615,7 +615,7 @@ Underfull \hbox (badness 5431) in paragraph at lines 275--275
 
 
 [3]
-<hcn_flowchart.png, id=237, 250.9375pt x 206.7725pt>
+<hcn_flowchart.png, id=253, 250.9375pt x 206.7725pt>
 File: hcn_flowchart.png Graphic file (type png)
 <use hcn_flowchart.png>
 Package pdftex.def Info: hcn_flowchart.png  used on input line 293.
@@ -756,1403 +756,1446 @@ Underfull \hbox (badness 5331) in paragraph at lines 389--389
 [5]
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 433--433
+Underfull \hbox (badness 1810) in paragraph at lines 436--436
 []\OT1/ptm/b/n/8 HI-C De-scrip-tion (Loans and
  []
 
 
-Overfull \hbox (8.73642pt too wide) in paragraph at lines 433--434
-[]\OT1/ptm/b/n/8 Corresponding
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+[]\OT1/ptm/b/n/8 Correspon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
-\OT1/ptm/b/n/8 HC-C
+Underfull \hbox (badness 2538) in paragraph at lines 436--437
+\OT1/ptm/b/n/8 ding HC-C
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 []\OT1/ptm/m/n/8 HC-C,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 \OT1/ptm/m/n/8 1.a.(1)--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 []\OT1/ptm/m/n/8 HC-C, 1.b,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 \OT1/ptm/m/n/8 1.e.(1)--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 []\OT1/ptm/m/n/8 HC-C,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 \OT1/ptm/m/n/8 1.c.(1),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 \OT1/ptm/m/n/8 1.c.(2)(a)--
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 441--442
+Underfull \hbox (badness 8189) in paragraph at lines 444--445
 []\OT1/ptm/m/n/8 HC-C, 2.a--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 []\OT1/ptm/m/n/8 HC-C, 6.b,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []\OT1/ptm/m/n/8 No di-rect
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 \OT1/ptm/m/n/8 map-ping
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 \OT1/ptm/m/n/8 pos-si-ble to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
 []\OT1/ptm/b/n/8 Available-for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-[]\OT1/ptm/b/n/8 Held-to-Maturity
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+[]\OT1/ptm/b/n/8 Held-to-
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 462--462
-[]\OT1/ptm/m/n/8 Short-term re-sale
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+\OT1/ptm/b/n/8 Maturity
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 462--462
-[]\OT1/ptm/m/n/8 Manage liq-uid-ity
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\OT1/ptm/m/n/8 or market-
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 464--464
-[]\OT1/ptm/b/n/8 FR Y-9C
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\OT1/ptm/m/n/8 or ALM; may
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+[]\OT1/ptm/m/n/8 Hold to
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 466--467
+\OT1/ptm/m/n/8 ma-tu-rity, col-lect
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 466--467
+\OT1/ptm/m/n/8 con-trac-tual cash
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 []\OT1/ptm/m/n/8 HC-D (Trad-ing
  []
 
 
-Overfull \hbox (7.46664pt too wide) in paragraph at lines 468--468
-\OT1/ptm/b/n/8 Gains/Losses| 
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 468--468
-[]\OT1/ptm/m/n/8 Through net in-
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
+[]\OT1/ptm/m/n/8 HC-B
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 468--469
-[]\OT1/ptm/m/n/8 Not rec-og-nized
+[]\OT1/ptm/m/n/8 HC-B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-[]\OT1/ptm/b/n/8 Typical
+Overfull \hbox (3.04037pt too wide) in paragraph at lines 472--472
+[]\OT1/ptm/b/n/8 Unrealized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-[]\OT1/ptm/m/n/8 Trading loans,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-\OT1/ptm/m/n/8 deriva-tives,
+Overfull \hbox (10.31209pt too wide) in paragraph at lines 472--472
+\OT1/ptm/b/n/8 Gains/Losses| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 472--472
-[]\OT1/ptm/b/n/8 Risk
+[]\OT1/ptm/m/n/8 Other
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 472--472
-[]\OT1/ptm/m/n/8 Market & credit
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
+\OT1/ptm/m/n/8 com-pre-hen-sive
  []
 
 
-Overfull \hbox (12.2415pt too wide) in paragraph at lines 458--475
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+[]\OT1/ptm/m/n/8 Not rec-og-nized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+[]\OT1/ptm/b/n/8 Typical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+[]\OT1/ptm/m/n/8 Trading loans,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+\OT1/ptm/m/n/8 deriva-tives,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+[]\OT1/ptm/m/n/8 Bonds, MBS,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+[]\OT1/ptm/m/n/8 Treasuries,
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 476--476
+[]\OT1/ptm/b/n/8 Risk Fo-
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 476--476
+[]\OT1/ptm/m/n/8 Interest rate &
+ []
+
+
+Overfull \hbox (0.85973pt too wide) in paragraph at lines 462--479
  [][] 
  []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\OT1/ptm/b/n/8 Equivalent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \OT1/ptm/b/n/8 HC-C
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 490--490
+Underfull \hbox (badness 6893) in paragraph at lines 497--497
 \OT1/ptm/m/n/8 un-earned in-come,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 \OT1/ptm/m/n/8 se-cured by 1-4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 \OT1/ptm/m/n/8 fam-ily res-i-den-tial
  []
 
 
-Overfull \vbox (25.18784pt too high) detected at line 490
+Overfull \vbox (25.18784pt too high) detected at line 497
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []\OT1/ptm/m/n/8 HC-C,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--495
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\OT1/ptm/m/n/8 HC-C,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 \OT1/ptm/m/n/8 and leases, all
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 501--501
+Underfull \hbox (badness 3989) in paragraph at lines 508--508
 []\OT1/ptm/m/n/8 HC-C, Line
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 503--503
+Underfull \hbox (badness 3557) in paragraph at lines 510--510
 \OT1/ptm/m/n/8 and leases, com-
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 504--504
+Underfull \hbox (badness 3989) in paragraph at lines 511--511
 []\OT1/ptm/m/n/8 HC-C, Line
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
 []\OT1/ptm/m/n/8 HC-K, Line
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
 \OT1/ptm/m/n/8 3.a.5.a--3.a.5.b:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
 \OT1/ptm/m/n/8 Loans to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 513--513
 \OT1/ptm/m/n/8 in-di-vid-u-als for
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 506--506
+Underfull \hbox (badness 3977) in paragraph at lines 513--513
 \OT1/ptm/m/n/8 house-hold, fam-ily
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 507--507
+Underfull \hbox (badness 8189) in paragraph at lines 514--514
 []\OT1/ptm/m/n/8 HC-C, 6.a--
  []
 
 
-Overfull \hbox (3.0861pt too wide) in paragraph at lines 486--510
+Overfull \hbox (3.0861pt too wide) in paragraph at lines 493--517
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 \OT1/ptm/m/n/8 ac-tive mar-kets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 \OT1/ptm/m/n/8 for iden-ti-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
 \OT1/ptm/m/n/8 as-sets or
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 549--550
+Underfull \hbox (badness 3471) in paragraph at lines 558--559
 []\OT1/ptm/m/n/8 Exchange-traded eq-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 []\OT1/ptm/m/n/8 Observable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 \OT1/ptm/m/n/8 quoted prices;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 \OT1/ptm/m/n/8 in-cludes mar-ket
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 551--551
+Underfull \hbox (badness 1917) in paragraph at lines 560--560
 \OT1/ptm/m/n/8 data for sim-i-lar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []\OT1/ptm/m/n/8 Unobservable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 \OT1/ptm/m/n/8 mod-els or
  []
 
 
-
-
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []\OT1/ptm/m/n/8 Loans se-cured by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 []\OT1/ptm/m/n/8 Loans se-cured by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 568--569
+Underfull \hbox (badness 5331) in paragraph at lines 581--582
 \OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\OT1/ptm/m/n/8 Loans se-cured by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 \OT1/ptm/m/n/8 mul-ti-fam-ily (5+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 \OT1/ptm/m/n/8 units) res-i-den-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\OT1/ptm/m/n/8 Loans se-cured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 \OT1/ptm/m/n/8 by mul-ti-fam-ily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 570--571
+Underfull \hbox (badness 5331) in paragraph at lines 583--584
 \OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 []\OT1/ptm/m/n/8 Loans se-cured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 \OT1/ptm/m/n/8 by non-farm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 \OT1/ptm/m/n/8 non-res-i-den-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 []\OT1/ptm/m/n/8 Loans se-cured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 \OT1/ptm/m/n/8 by non-farm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
 \OT1/ptm/m/n/8 non-res-i-den-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--573
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 572--573
+Underfull \hbox (badness 5331) in paragraph at lines 585--586
 \OMS/cmsy/m/n/8 $$ \OT1/ptm/m/n/8 HC-C Line
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 576--576
+Underfull \hbox (badness 1546) in paragraph at lines 589--589
 []\OT1/ptm/m/n/8 Loans to de-pos-i-tory
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 576--576
+Underfull \hbox (badness 1546) in paragraph at lines 589--589
 []\OT1/ptm/m/n/8 Loans to de-pos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 \OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 576--577
+Underfull \hbox (badness 3668) in paragraph at lines 589--590
 \OT1/ptm/m/n/8 HC-C Line 2.a
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 578--578
+Underfull \hbox (badness 4752) in paragraph at lines 591--591
 []\OT1/ptm/m/n/8 Agricultural pro-duc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 []\OT1/ptm/m/n/8 Loans to fi-nance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 \OT1/ptm/m/n/8 agri-cul-tural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 \OT1/ptm/m/n/8 pro-duc-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 \OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 \OT1/ptm/m/n/8 Line 4.b,HC-C
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
 []\OT1/ptm/m/n/8 Consumer loans
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 582--582
+Underfull \hbox (badness 7221) in paragraph at lines 595--595
 \OT1/ptm/m/n/8 (credit cards, auto,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 \OT1/ptm/m/n/8 Line 6.b,HC-C
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 \OT1/ptm/m/n/8 Line 6.c,HC-C
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 \OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 \OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\OT1/ptm/m/n/8 All other loans
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 []\OT1/ptm/m/n/8 HC-Q Memo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 \OT1/ptm/m/n/8 Line 4.d $\OMS/cmsy/m/n/8 $$
  []
-
-
-Underfull \vbox (badness 1502) has occurred while \output is active []
 
 
 
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 647--647
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
 []\OT1/ptm/b/n/8 Adjustment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--647
+Underfull \hbox (badness 10000) in paragraph at lines 660--660
 \OT1/ptm/b/n/8 Col B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--648
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
 []\OT1/ptm/b/n/8 Applicable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--648
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
 \OT1/ptm/b/n/8 Risk
  []
 
 
-Overfull \hbox (1.31279pt too wide) in paragraph at lines 649--650
+Overfull \hbox (1.31279pt too wide) in paragraph at lines 662--663
 []\OT1/ptm/m/n/8 0%,20%,50%
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 651--651
+Underfull \hbox (badness 5893) in paragraph at lines 664--664
 \OT1/ptm/m/n/8 for sale: High volatil-
  []
 
 
-Overfull \hbox (1.31279pt too wide) in paragraph at lines 651--652
+Overfull \hbox (1.31279pt too wide) in paragraph at lines 664--665
 []\OT1/ptm/m/n/8 0%,20%,50%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
 []\OT1/ptm/m/n/8 0%,2%,4%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
 \OT1/ptm/m/n/8 ,20% ,50%
  []
 
 
-Overfull \hbox (1.31279pt too wide) in paragraph at lines 655--656
+Overfull \hbox (1.31279pt too wide) in paragraph at lines 668--669
 []\OT1/ptm/m/n/8 0%,20%,50%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--657
+Underfull \hbox (badness 10000) in paragraph at lines 670--670
 []\OT1/ptm/m/n/8 5b. Loans and leases
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 []\OT1/ptm/m/n/8 0%,20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 \OT1/ptm/m/n/8 ,50%,100%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 []\OT1/ptm/m/n/8 0%,2%,4%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 \OT1/ptm/m/n/8 ,20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 \OT1/ptm/m/n/8 ,50%,100%
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 661--661
+Underfull \hbox (badness 2384) in paragraph at lines 674--674
 []\OT1/ptm/m/n/8 6. Less: Al-lowance for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 []\OT1/ptm/m/n/8 Deduction
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 \OT1/ptm/m/n/8 (not risk-
  []
 
 
-Overfull \vbox (27.0pt too high) detected at line 663
+Overfull \vbox (27.0pt too high) detected at line 676
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 665--665
+Underfull \hbox (badness 5667) in paragraph at lines 678--678
 \OT1/ptm/m/n/8 cu-ri-ti-za-tion ex-po-sures :
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 672--672
+Underfull \hbox (badness 3039) in paragraph at lines 685--685
 \OT1/ptm/m/n/8 with ma-tu-rity $\OML/cmm/m/it/8 <$\OT1/ptm/m/n/8 1 year
  []
 
 
-Overfull \vbox (9.0pt too high) detected at line 672
+Overfull \vbox (9.0pt too high) detected at line 685
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 []\OT1/ptm/m/n/8 0%,2%,4%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 \OT1/ptm/m/n/8 ,20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []\OT1/ptm/m/n/8 18b. Un-used
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 \OT1/ptm/m/n/8 com-mit-ments with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--674
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 \OT1/ptm/m/n/8 ma-tu-rity $\OML/cmm/m/it/8 >$\OT1/ptm/m/n/8 1 year
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 []\OT1/ptm/m/n/8 0%,2%,4%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 \OT1/ptm/m/n/8 ,20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
 \OT1/ptm/m/n/8 un-con-di-tion-ally
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
 []\OT1/ptm/m/n/8 No risk
  []
 
 
 
-
-Overfull \hbox (5.89096pt too wide) in paragraph at lines 707--707
+[9]
+Overfull \hbox (5.89096pt too wide) in paragraph at lines 723--723
 []\OT1/ptm/b/n/8 Corresponding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--707
+Underfull \hbox (badness 10000) in paragraph at lines 723--723
 \OT1/ptm/b/n/8 HC-C Line
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 709--709
+Underfull \hbox (badness 2111) in paragraph at lines 725--725
 []\OT1/ptm/m/n/8 Column A :1-4 Fam-ily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--709
+Underfull \hbox (badness 10000) in paragraph at lines 725--725
 []\OT1/ptm/m/n/8 HC-C, Item
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 709--710
+Underfull \hbox (badness 2922) in paragraph at lines 725--726
 \OT1/ptm/m/n/8 4 fam-ily res-i-den-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
 []\OT1/ptm/m/n/8 HC-C, Item
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 711--712
+Underfull \hbox (badness 2671) in paragraph at lines 727--728
 []\OT1/ptm/m/n/8 Revolving, open-end
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 \OT1/ptm/m/n/8 fam-ily res-i-den-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 \OT1/ptm/m/n/8 prop-er-ties and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
 []\OT1/ptm/m/n/8 HC-C, Item
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--715
+Underfull \hbox (badness 10000) in paragraph at lines 731--731
 []\OT1/ptm/m/n/8 HC-C, Item
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--717
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 []\OT1/ptm/m/n/8 HC-C, Item
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 721--721
+Underfull \hbox (badness 1533) in paragraph at lines 737--737
 []\OT1/ptm/m/n/8 Column G : All Other
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 []\OT1/ptm/m/n/8 Various loan
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 721--722
+Underfull \hbox (badness 2635) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 cat-e-gories in-clud-ing:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 Items 1.a-1.b (real
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 in-sti-tu-tions), 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 (agri-cul-tural),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 7 (for-eign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 gov-ern-ments), 9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 (non-de-pos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \OT1/ptm/m/n/8 and 10 (lease
  []
 
 
-Underfull \hbox (badness 7540) in paragraph at lines 734--734
+Underfull \hbox (badness 7540) in paragraph at lines 750--750
 []\OT1/ptm/b/n/8 HC-S De-scrip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--734
+Underfull \hbox (badness 10000) in paragraph at lines 750--750
 []\OT1/ptm/b/n/8 Related
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
 []\OT1/ptm/b/n/8 Relationship
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--738
+Underfull \hbox (badness 10000) in paragraph at lines 754--754
 []\OT1/ptm/m/n/8 Item 3 ,
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 738--738
+Underfull \hbox (badness 4686) in paragraph at lines 754--754
 \OT1/ptm/m/n/8 Memo Item
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--738
+Underfull \hbox (badness 10000) in paragraph at lines 754--754
 []\OT1/ptm/m/n/8 Unused
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 738--738
+Underfull \hbox (badness 4660) in paragraph at lines 754--754
 \OT1/ptm/m/n/8 com-mit-ments to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--738
+Underfull \hbox (badness 10000) in paragraph at lines 754--754
 \OT1/ptm/m/n/8 to con-sol-i-dated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--738
+Underfull \hbox (badness 10000) in paragraph at lines 754--754
 \OT1/ptm/m/n/8 which have
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--738
+Underfull \hbox (badness 10000) in paragraph at lines 754--754
 \OT1/ptm/m/n/8 been sold and
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 738--738
+Underfull \hbox (badness 5446) in paragraph at lines 754--754
 []\OT1/ptm/m/n/8 HC-L, Item
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-[]\OT1/ptm/m/n/8 Liquidity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-\OT1/ptm/m/n/8 com-mit-ments
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 738--739
-\OT1/ptm/m/n/8 to se-cu-ri-ti-za-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-\OT1/ptm/m/n/8 struc-tures
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-\OT1/ptm/m/n/8 are re-ported
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
-\OT1/ptm/m/n/8 as un-used
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 740--740
-[]\OT1/ptm/m/n/8 Item 9 and
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 740--740
-\OT1/ptm/m/n/8 Memo Item
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
-[]\OT1/ptm/m/n/8 Credit
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 740--740
-[]\OT1/ptm/m/n/8 HC-L, Item
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-[]\OT1/ptm/m/n/8 Credit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-\OT1/ptm/m/n/8 en-hance-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-\OT1/ptm/m/n/8 via standby
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 740--741
-\OT1/ptm/m/n/8 let-ters of credit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-\OT1/ptm/m/n/8 both Fi-nan-cial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--744
-[]\OT1/ptm/m/n/8 Assets 30-89
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--744
-\OT1/ptm/m/n/8 days past due
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 744--744
-\OT1/ptm/m/n/8 and as-sets 90+
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-\OT1/ptm/m/n/8 for se-cu-ri-tized
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
-\OT1/ptm/m/n/8 loans still on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--748
-[]\OT1/ptm/m/n/8 Charge-offs on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
-[]\OT1/ptm/m/n/8 Year-to-date
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
-\OT1/ptm/m/n/8 charge-offs on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
-[]\OT1/ptm/m/n/8 Year-to-date
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
-\OT1/ptm/m/n/8 re-cov-er-ies on
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 754--754
-[]\OT1/ptm/m/n/8 Item 1 and
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 754--754
-[]\OT1/ptm/m/n/8 Outstanding 1-4
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 754--755
-[]\OT1/ptm/m/n/8 Mortgages sold
+[]\OT1/ptm/m/n/8 Liquidity
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 756--756
-[]\OT1/ptm/m/n/8 Memo Item
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--756
-[]\OT1/ptm/m/n/8 1-4 fam-ily
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--756
-\OT1/ptm/m/n/8 mort-gages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--756
-\OT1/ptm/m/n/8 ser-viced with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--756
-\OT1/ptm/m/n/8 and with-out
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-[]\OT1/ptm/m/n/8 Originated/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-\OT1/ptm/m/n/8 pur-chased
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-\OT1/ptm/m/n/8 mort-gages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-\OT1/ptm/m/n/8 with ser-vic-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-\OT1/ptm/m/n/8 re-tained.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--760
-[]\OT1/ptm/m/n/8 Ownership
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--760
-\OT1/ptm/m/n/8 in-ter-ests car-ried
- []
-
-
-Underfull \hbox (badness 2837) in paragraph at lines 760--760
-[]\OT1/ptm/m/n/8 HC-Q, Item
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 760--761
-[]\OT1/ptm/m/n/8 Loans held for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
-[]\OT1/ptm/m/n/8 Credit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
-\OT1/ptm/m/n/8 en-hance-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
-\OT1/ptm/m/n/8 and re-tained
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
-[]\OT1/ptm/m/n/8 HC-Q,
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 762--762
-\OT1/ptm/m/n/8 Memo Item
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
-[]\OT1/ptm/m/n/8 Loan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 \OT1/ptm/m/n/8 com-mit-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--766
-[]\OT1/ptm/m/n/8 HC-R, Part
+Underfull \hbox (badness 6300) in paragraph at lines 754--755
+\OT1/ptm/m/n/8 to se-cu-ri-ti-za-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
-[]\OT1/ptm/m/n/8 Retained
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+\OT1/ptm/m/n/8 struc-tures
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
-\OT1/ptm/m/n/8 re-course on
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+\OT1/ptm/m/n/8 are re-ported
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
-\OT1/ptm/m/n/8 sold obli-ga-tions
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+\OT1/ptm/m/n/8 as un-used
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
-\OT1/ptm/m/n/8 (100% risk
+Underfull \hbox (badness 2334) in paragraph at lines 756--756
+[]\OT1/ptm/m/n/8 Item 9 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--768
-[]\OT1/ptm/m/n/8 Credit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 768--768
-\OT1/ptm/m/n/8 en-hance-ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 768--768
-[]\OT1/ptm/m/n/8 HC-R, Part
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 768--769
-\OT1/ptm/m/n/8 let-ters of credit
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 770--770
+Underfull \hbox (badness 4686) in paragraph at lines 756--756
 \OT1/ptm/m/n/8 Memo Item
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--770
-[]\OT1/ptm/m/n/8 Outstanding
+Underfull \hbox (badness 10000) in paragraph at lines 756--756
+[]\OT1/ptm/m/n/8 Credit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--770
+Underfull \hbox (badness 5446) in paragraph at lines 756--756
+[]\OT1/ptm/m/n/8 HC-L, Item
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+[]\OT1/ptm/m/n/8 Credit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+\OT1/ptm/m/n/8 en-hance-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+\OT1/ptm/m/n/8 via standby
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 756--757
+\OT1/ptm/m/n/8 let-ters of credit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 756--757
+\OT1/ptm/m/n/8 both Fi-nan-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--760
+[]\OT1/ptm/m/n/8 Assets 30-89
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--760
+\OT1/ptm/m/n/8 days past due
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 760--760
+\OT1/ptm/m/n/8 and as-sets 90+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+\OT1/ptm/m/n/8 for se-cu-ri-tized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+\OT1/ptm/m/n/8 loans still on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--764
+[]\OT1/ptm/m/n/8 Charge-offs on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+[]\OT1/ptm/m/n/8 Year-to-date
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+\OT1/ptm/m/n/8 charge-offs on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
+[]\OT1/ptm/m/n/8 Year-to-date
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
+\OT1/ptm/m/n/8 re-cov-er-ies on
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 770--770
+[]\OT1/ptm/m/n/8 Item 1 and
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 770--770
+[]\OT1/ptm/m/n/8 Outstanding 1-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
+[]\OT1/ptm/m/n/8 Mortgages sold
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 772--772
+[]\OT1/ptm/m/n/8 Memo Item
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
+[]\OT1/ptm/m/n/8 1-4 fam-ily
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
+\OT1/ptm/m/n/8 mort-gages
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
+\OT1/ptm/m/n/8 ser-viced with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
+\OT1/ptm/m/n/8 and with-out
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+[]\OT1/ptm/m/n/8 Originated/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+\OT1/ptm/m/n/8 pur-chased
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+\OT1/ptm/m/n/8 mort-gages
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+\OT1/ptm/m/n/8 with ser-vic-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+\OT1/ptm/m/n/8 re-tained.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 776--776
+[]\OT1/ptm/m/n/8 Ownership
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 776--776
+\OT1/ptm/m/n/8 in-ter-ests car-ried
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 776--776
+[]\OT1/ptm/m/n/8 HC-Q, Item
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 776--777
+[]\OT1/ptm/m/n/8 Loans held for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
+[]\OT1/ptm/m/n/8 Credit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
+\OT1/ptm/m/n/8 en-hance-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
+\OT1/ptm/m/n/8 and re-tained
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--778
+[]\OT1/ptm/m/n/8 HC-Q,
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 778--778
+\OT1/ptm/m/n/8 Memo Item
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+[]\OT1/ptm/m/n/8 Loan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+\OT1/ptm/m/n/8 com-mit-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--782
 []\OT1/ptm/m/n/8 HC-R, Part
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--770
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+[]\OT1/ptm/m/n/8 Retained
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+\OT1/ptm/m/n/8 re-course on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+\OT1/ptm/m/n/8 sold obli-ga-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
+\OT1/ptm/m/n/8 (100% risk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
+[]\OT1/ptm/m/n/8 Credit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
+\OT1/ptm/m/n/8 en-hance-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--784
+[]\OT1/ptm/m/n/8 HC-R, Part
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 784--785
+\OT1/ptm/m/n/8 let-ters of credit
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 786--786
+\OT1/ptm/m/n/8 Memo Item
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]\OT1/ptm/m/n/8 Outstanding
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]\OT1/ptm/m/n/8 HC-R, Part
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
 \OT1/ptm/m/n/8 II, Items
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 []\OT1/ptm/m/n/8 On- and off-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 \OT1/ptm/m/n/8 balance sheet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 \OT1/ptm/m/n/8 se-cu-ri-ti-za-tion
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-[9]
-
-LaTeX Warning: Reference `ASC810' on page 10 undefined on input line 778.
-
-
+LaTeX Warning: Reference `ASC810' on page 10 undefined on input line 799.
 
 
 
 [10]
-<combined_flowchart_TB.png, id=307, 5500.55pt x 744.7825pt>
+
+<combined_flowchart_TB.png, id=329, 5500.55pt x 744.7825pt>
 File: combined_flowchart_TB.png Graphic file (type png)
 <use combined_flowchart_TB.png>
-Package pdftex.def Info: combined_flowchart_TB.png  used on input line 799.
+Package pdftex.def Info: combined_flowchart_TB.png  used on input line 820.
 (pdftex.def)             Requested size: 515.9271pt x 69.85727pt.
 
+Overfull \hbox (13.06511pt too wide) in paragraph at lines 833--851
+ [][] 
+ []
 
 
 
 [11]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-63.
+
+
+
+[12 <./combined_flowchart_TB.png>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+012.
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
 
+LaTeX Warning: Citation `b7' on page 13 undefined on input line 1061.
 
-[12 <./combined_flowchart_TB.png>]
 
-LaTeX Warning: Citation `b7' on page 13 undefined on input line 1012.
 
+[13]
 File: 9C Vs 10-Q Vs NCUA Grayscale.png Graphic file (type png)
 <use 9C Vs 10-Q Vs NCUA Grayscale.png>
 Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 1
-068.
+117.
 (pdftex.def)             Requested size: 252.94438pt x 173.44757pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-079.
+128.
+
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1079.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1128.
+
+
+
+LaTeX Warning: Citation `b1' on page 14 undefined on input line 1141.
+
+
+LaTeX Warning: Citation `b2' on page 14 undefined on input line 1142.
+
+
+LaTeX Warning: Citation `b3' on page 14 undefined on input line 1143.
+
+
+LaTeX Warning: Citation `b3' on page 14 undefined on input line 1143.
+
+
+LaTeX Warning: Citation `b3' on page 14 undefined on input line 1143.
+
+
+LaTeX Warning: Citation `b3' on page 14 undefined on input line 1144.
 
 
 
 
-LaTeX Warning: Citation `b1' on page 13 undefined on input line 1092.
+LaTeX Warning: Citation `b4' on page 14 undefined on input line 1152.
 
 
-LaTeX Warning: Citation `b2' on page 13 undefined on input line 1093.
+LaTeX Warning: Citation `b5' on page 14 undefined on input line 1153.
 
 
-LaTeX Warning: Citation `b3' on page 13 undefined on input line 1094.
+LaTeX Warning: Citation `b6' on page 14 undefined on input line 1158.
 
 
-LaTeX Warning: Citation `b3' on page 13 undefined on input line 1094.
-
-
-LaTeX Warning: Citation `b3' on page 13 undefined on input line 1094.
-
-
-LaTeX Warning: Citation `b3' on page 13 undefined on input line 1095.
-
-
-LaTeX Warning: Citation `b4' on page 13 undefined on input line 1103.
-
-
-LaTeX Warning: Citation `b5' on page 13 undefined on input line 1104.
-
-
-LaTeX Warning: Citation `b6' on page 13 undefined on input line 1109.
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 1113--1114
+Underfull \hbox (badness 6675) in paragraph at lines 1162--1163
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . everycrsreport . com
  / reports / R48291 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
 \OT1/ptm/m/n/8 html# : [] : text = Contrary % 20to % 20traditional % 20notions 
 % 20that ,[] be %
  []
 
 
-
-[13]
-Underfull \hbox (badness 5878) in paragraph at lines 1114--1115
+Underfull \hbox (badness 5878) in paragraph at lines 1163--1164
 []\OT1/ptm/m/n/8 \Federal Re-serve Board - Re-port-ing Forms." Ac-cessed: Sept.
 
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 1114--1115
+Underfull \hbox (badness 2277) in paragraph at lines 1163--1164
 \OT1/ptm/m/n/8 06, 2025. [On-line]. Avail-able: []$https : / / www . federalres
 erve . gov / apps /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
 []\OT1/ptm/m/n/8 \Credit Union As-sets, Loans Out-stand-ing and Net In-come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
 \OT1/ptm/m/n/8 In-crease | NCUA." Ac-cessed: Sept. 06, 2025. [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
 \OT1/ptm/m/n/8 Avail-able:[]$https : / / ncua . gov / newsroom / press-[]releas
 e / 2025 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
 \OT1/ptm/m/n/8 credit-[]union-[]assets-[]loans-[]outstanding-[]and-[]net-[]inco
 me-[]increase ? utm[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 []\OT1/ptm/m/n/8 \Number of Listed Com-pa-nies for United States
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 \OT1/ptm/m/n/8 (DDOM01USA644NWDB) | FRED | St. Louis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 \OT1/ptm/m/n/8 Fed." Ac-cessed: Sept. 06, 2025. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
 []$\OT1/ptm/m/n/8 https : / / fasb . org / page / PageContent ? pageId = /proje
 cts / recentlycompleted /
  []
 
 
-Overfull \hbox (154.38326pt too wide) in paragraph at lines 1123--1124
+Overfull \hbox (154.38326pt too wide) in paragraph at lines 1172--1173
 \OT1/ptm/m/n/8 fair-[]value-[]measurement-[]topic-[]820-[]fair-[]value-[]measur
 ement-[]of-[]equity-[]securities-[]subject-[]to-[]contractual-[]sale-[]restrict
 ions .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 []\OT1/ptm/m/n/8 \UPDATE NO. 2013-01|BALANCE SHEET (TOPIC 210):
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 CLAR-I-FY-ING THE SCOPE OF DIS-CLO-SURES ABOUT
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 1124--1125
+Underfull \hbox (badness 8170) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 OFF-SET-TING AS-SETS AND LI-A-BIL-I-TIES." Ac-cessed: Sept.
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1124--1125
+Underfull \hbox (badness 1442) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 18, 2025. [On-line]. Avail-able: []$https : / / www . fasb . org
  / page / document ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 pdf = ASU2013-[]01 . pdf & title = UPDATE % 20NO . %202013-[]01 
 % E2 % 80 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 94BALANCE % 20SHEET % 20(TOPIC % 20210) : %20CLARIFYING %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 \OT1/ptm/m/n/8 20THE % 20SCOPE % 20OF % 20DISCLOSURES % 20ABOUT %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
 \OT1/ptm/m/n/8 https://www.federalreserve.gov/econres/notes/feds-notes/bank-len
 ding-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
 \OT1/ptm/m/n/8 to-private-credit-size-characteristics-and-financial-stability-i
 mplications-
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 1126--1127
+Underfull \hbox (badness 2158) in paragraph at lines 1175--1176
 []\OT1/ptm/m/n/8 A. (Aloke) Ghosh, H. Jarva, and S. G. Ryan, \Bank Reg-u-la-
  []
 
 
-Underfull \vbox (badness 4467) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (198.79132pt too wide) in paragraph at lines 1304--1437
+Overfull \hbox (198.79132pt too wide) in paragraph at lines 1361--1494
  [][] 
  []
 
@@ -2169,11 +2212,15 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[14] [15] [16]
+
+
+[15
+
+] [16] [17]
 
 
 
-[17
+[18
 
 
 ] (FRY-9C paper.aux)
@@ -2188,17 +2235,23 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `"FRY-9C paper".out' has not changed.
-(rerunfilecheck)             Checksum: 6B102BCCD0359AA509124DC7F10756DE;9894.
+
+Package rerunfilecheck Warning: File `"FRY-9C paper".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"FRY-9C paper".out':
+(rerunfilecheck)             Before: D66020622C932656A35F9BED899CF16F;10362
+(rerunfilecheck)             After:  5A4F58E80A5DE8C11E8333066A679EDC;10691.
  ) 
 Here is how much of TeX's memory you used:
- 11525 strings out of 468148
- 180170 string characters out of 5429125
- 648244 words of memory out of 5000000
- 39851 multiletter control sequences out of 15000+600000
+ 11553 strings out of 468148
+ 180566 string characters out of 5429125
+ 655042 words of memory out of 5000000
+ 39866 multiletter control sequences out of 15000+600000
  673060 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,935b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,935b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmmi8.pfb><C:/Users/Lavishiva/AppData/Local/Programs/MiKTeX/fo
@@ -2215,9 +2268,9 @@ X/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Lavishiva/AppData/Local/Programs
 rams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Lavishiva/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Lavishiva/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "FRY-9C paper.pdf" (17 pages, 529096 bytes).
+Output written on "FRY-9C paper.pdf" (18 pages, 540975 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 416 words of extra memory for PDF output out of 10000 (max. 10000000)
 
