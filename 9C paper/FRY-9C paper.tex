@@ -846,6 +846,8 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 			\hline
 			FFIEC-041      & Consolidated report of condition and income for banks with domestic offices only.  \\
 			\hline
+			FR-2314 & Financial Statements of Foreign Subsidiaries of U.S. Banking Organizations \\
+			\hline
 		\end{tabular}
 		\label{tab:fed_forms}
 	\end{table}
@@ -1036,7 +1038,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		  
 		  	\subsubsection{FFIEC-051 - Consolidated Reports of Condition and Income for a Bank with Domestic Offices Only and Total Assets Less than \$5 Billion}
 		  	
-		  	The FFIEC-051 is for banks with assets less than \$ 5 Billion and without any foreign offices. FFIEC-051 is reported quarterly like the other call report but given the low asset threshold the FFIEC-051 reporting burden is significantly reduced and a lot of schedules which need to be reported in the other call reports FFIEC-031 and FFIEC-041 need not be reported in FFIEC-051.
+		  	The FFIEC-051 is for banks with assets less than \$ 5 Billion and without any foreign offices. FFIEC-051 is reported quarterly like the other call reports but given the low asset threshold the FFIEC-051 reporting burden is significantly reduced and a lot of schedules which need to be reported in the other call reports FFIEC-031 and FFIEC-041 need not be reported in FFIEC-051.
 		  	
 		  	Table \eqref{tab:FFIEC_SchedulesNot051} provides the set of schedules which are not present in FFIEC-051 but which are present in FFIEC-031 and FFIEC-041.
 		  	
@@ -1063,6 +1065,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		  			RC-P & 1-4 Family Residential Mortgage Banking Activities & Both \\
 		  			\hline
 		  			RC-Q & Assets/Liabilities at Fair Value (recurring basis, full version) & Both \\
+		  			\hline
 		  			RC-S & Servicing, Securitization, and Asset Sale Activities & Both \\
 		  			\hline
 		  			RC-V & Variable Interest Entities (VIEs) details & Both \\
@@ -1072,7 +1075,121 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		  		\end{tabular}
 		  	\end{table}
 		  	
-		  	
+		  \subsection{FFIEC-002 - Report of Assets and Liabilities of U.S. Branches and Agencies of Foreign Banks}
+		  
+		  Foreign banks with operations in the US can be classified as those which have operations which are significant enough to form an Intermediate Holding Company(IHC) for their US operations or can continue to have a foreign branch alone. The mandate of an IHC comes when the foreign bank has more than \$ 100 billion of assets in US. If branches of a foreign bank have less than \$ 100 billion of assets they need not form an IHC but will still have register as a national bank or under one of the 50 state charters. These banks will also have to file the FFIEC-002 report regardless of the asset size. The requirement to file FFIEC-002 comes from the International Banking act of 1978\cite{FFIEC002}.
+		  
+		  The FFIEC-002 report is a cross between the FR Y-9C and FFIEC-031 reports with the following differences
+		  
+		  \begin{enumerate}
+		  	\item The FFIEC-002 report has only a schedule for the Report of Assets and Liabilities and cash flow. However the income statement is not part of FFIEC-002
+		  	\item FFIEC-002 does not have a Capital and RWA schedule.
+		  	\item FFIEC-002 also does not contain a Trading Assets and Liabilities schedule
+		  	\item FFIEC-002 does not contain the schedule for Variable Interest entities because the concept of VIE is unique to US-GAAP
+		  	\item While the data of FFIEC-002 is public, only Schedule M - Amounts due from and due to related institutions is confidential
+		  	\item Schedule P has been repurposed to act as the schedule for other borrowed money. FR Y-9C , FFIEC-031 and FFIEC-041 have their HC-P and RC-P for 1-4 Residential Mortgage banking activities.
+		  	\item Similar to Call reports the schedules of Sch O for Data relating to Deposit insurance and Sch T for Fiduciary activities need to be reported in FFIEC-002 which is not the case with FR Y-9C
+		  \end{enumerate}
+		  
+		  The FFIEC-002 report will have to be filed by foreign bank branches on a quarterly basis at the end of the quarter. Because there is no minimum threshold for filing , the FFIEC-002 report can serve as a rich data source for looking at the activities of foreign banks in the US.
+		  
+		  \subsection{FR-2314- Financial Statements of Foreign Subsidiaries of U.S. Banking Organizations}
+		  
+		  FR-2314 is a report which details the Financial statements of the foreign subsidiary of a US Bank. So the FR-2314 acts as the FR Y-11 for the foreign subsidiaries of a US Bank. FR-2314 started as FR 314 in the 1960s and subsequently made as FR-2314 in 1978 \cite{FR2314}. There have been modifications made to this report in between  1978 and now but the report purpose has more or less remained the same. FR-2314 is to be filed on a quarterly basis for nonbank subsidiaries with parents having assets over \$ 500 million with the subsidiary having either of the below conditions
+		  
+		  \begin{itemize}
+		  	\item Total assets of over \$1 Billion
+		  	\item Off balance sheet transactions of over \$5 billion
+		  	\item Equity capital of more than 5\% of the Parent entity
+		  	\item Operating revenue of more than 5\% of the Parent entity
+		  \end{itemize}
+		  
+		  In case these requirements are not met and the total assets of the foreign nonbank subsidiary is between \$ 250 million and \$ 500 million the FR-2314S is to be filed annually.
+		  
+		  With regard to the schedules of FR-2314, the schedules are the same as the FR Y-11 except for an additional schedule of BD-Q where the subsidiary has to the report amounts due to and due from the subsidiary.
+		  
+		  \subsection{Detail Loan Level Reports}
+		  	The FR Y-14Q and FR Y-14M reports are a set of reports which go into the detail level of data which is provided in an aggregated form in the FR Y-9C. The FR Y-14Q report refers to a set of schedules which publish the detail level on FR Y-9C on a quarterly basis and FR Y-14M concentrates on home mortgages and Home equity lines of credit and is to be reported on a monthly basis. Each of FR 14-Q and FR Y-14M have got a set of schedules which are independent of each other and so actually act more as reports themselves. We will be looking at these reports in this section in detail and how they tie back to loan analytics.
+		  
+		  \subsubsection{FR Y-14Q - Capital Assessments and Stress Testing}
+		       The FR Y-14Q is a detailed level view of the data of FR Y-9C some of which are used by the Fed for the Comprehensive Capital Analysis and Review(CCAR) analyses done for various banks\cite{FRY14Q}. It has been disaggregated into various schedules , each of which are independent of each other with data which are distinct from each other. Because of the distinct schema of the data reported in each schedule of FR Y-14Q, there cannot be one integrated submission of FR Y-14Q unlike the other reports which have been discussed till now. This is because the level of granularity of each schedule of FR Y-14Q is different. Table \ref{tab:FRY14Q_Schedules} provides the nature of each FR Y-14Q schedule.
+		       
+		       \begin{table}[htbp]
+		       	\caption{FR Y-14Q Schedules and Nature}
+		       	\label{tab:FRY14Q_Schedules}
+		       	\centering
+		       	\begin{tabular}{|l|p{4cm}|}
+		       		\hline
+		       		\textbf{Schedule Name} & \textbf{Nature of the Schedule} \\
+		       		\hline
+		       		Schedule A & Retail Schedule \\
+		       		\hline
+		       		Schedule B & Securities Schedule \\
+		       		\hline
+		       		Schedule C & Regulatory Capital Instruments Schedule \\
+		       		\hline
+		       		Schedule D & Regulatory Capital Transactions Schedule \\
+		       		\hline
+		       		Schedule E & Operational Risk Schedule \\
+		       		\hline
+		       		Schedule F & Trading Schedule \\
+		       		\hline
+		       		Schedule G & Pre-Provision Net Revenue (PPNR) Schedule \\
+		       		\hline
+		       		Schedule H & Wholesale Loan Schedule \\
+		       		\hline
+		       		Schedule J & Retail Fair Value Option/Held for Sale Schedule \\
+		       		\hline
+		       		Schedule K & Balances Schedule \\
+		       		\hline
+		       		Schedule L & Counterparty Schedule \\
+		       		\hline
+		       		Schedule M & Supplemental Schedule \\
+		       		\hline
+		       	\end{tabular}
+		       \end{table}
+		       
+		   Out of the above schedules for Loan data analysis , there is a lot of information in Schedule H - Wholesale Loans and Schedule J - Retail FVO/HFS . 
+		   
+		   Schedule H deals with Wholesale loans and is divided into four Sub-schedules
+		   
+		   \begin{enumerate}
+		   	\item Corporate (H1)
+		   	\item Commercial Real Estate (H2)
+		   	\item Line of Business(H3)
+		   	\item Internal Risk Rating (H4)
+		   \end{enumerate}
+		   
+		   Each sub schedule contains detailed information about the data point. For example H1 will contain detailed data about Corporate Loans.
+		 
+		  Schedule J is an aggregated schedule similar to FR Y-9C. It contains aggregated numbers about the bank's retail loans which are accounted under Fair Value Option(FVO) . Loans under FVO are usually Held for Sale(HFS) or Held for Investment(HFI). Schedule J has got two tables. Table 1 is about the composition of the retail loan book of the bank in terms of the loan products. Table 2 is about the vintage of the loan and the lease.
+		  
+		  Because of the disaggregated nature of data in some schedules of FR Y-14Q, it is considered confidential and the Fed publishes only summary information from FR 14-Q as part of the Dodd Frank Annual Stress Test (DFAST) results.
+		   
+		\subsubsection{FR Y-14M - Monthly Capital Assessments and Stress Testing} 
+		    The FR Y-14M is a monthly report containing detailed loan level and portfolio level data. Like the FR Y-14Q it is collected as part of the CCAR process. The FR Y-14M consists of 4 schedules. Three of the schedules will have to be reported at a portfolio and a loan level. There is also a Detailed address matching schedule. Table \eqref{tab:FRY14M_Schedules}provides the details of each of the FR Y-14M schedules. 
+		    
+		 \begin{table}[htbp]
+		 	\caption{FR Y-14M Schedules and Nature of each schedule}
+		 	\label{tab:FRY14M_Schedules}
+		 	\centering
+		 	\begin{tabular}{|l|p{3.5cm}|l|}
+		 		\hline
+		 		\textbf{Schedule Name} & \textbf{Description} & \textbf{Level of Reporting} \\
+		 		\hline
+		 		Schedule A & Domestic First Lien Closed End 1-4 Family Residential Loan & Portfolio and Loan Level \\
+		 		\hline
+		 		Schedule B & Domestic Home Equity Loan and Home Equity Line & Portfolio and Loan Level \\
+		 		\hline
+		 		Schedule C & Address matching & Detail Address level \\
+		 		\hline
+		 		Schedule D & Domestic Credit Card Data Collections & Portfolio and Loan Level \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		    
+		    The FR Y-14M like the FR Y-14Q is summarized and reported as part of the DFAST results to the public with the detailed data being confidential.
+		    
 \section{Plan of the paper}
 1. Introduction
 
@@ -1404,7 +1521,8 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{FFIEC002} “FFIEC 002 Current Information | FFIEC - FFIEC-002.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec002}
 \bibitem{FFIEC031} “FFIEC 031 Current Information | FFIEC - FFIEC-031.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec031}
 \bibitem{FFIEC041}“FFIEC 041 Current Information | FFIEC - FFIEC-041.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec041}
-
+\bibitem{FR2314} “Federal Reserve Board - Reporting Forms - FR2314.” Accessed: Oct. 22, 2025. [Online]. Available: \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_2314FR_2314S}
+\bibitem{FRY14Q} "Federal Reserve Board - Reporting Forms - FR Y-14Q", Accessed:Oct 27,2025 [Online]. Available \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-14Q}
 
 
 
