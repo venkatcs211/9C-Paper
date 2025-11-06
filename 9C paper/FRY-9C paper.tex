@@ -10,7 +10,11 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{multirow}
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+
+\def\BibTeX{{\rm B\
+		kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
@@ -69,7 +73,7 @@ The National Credit Union Administration(NCUA) requires all Credit Unions to fil
 \section{History of the FR Y-9C}
 Before I delve into the history of FRY-9C, the concept of a BHC must be explained.
 \subsection{The BHC Concept}
- The concept of a bank holding company(BHC) came into existence during the mid-1920s with the Fed proposing it in 1927 . The Glass Steagall Act of 1933 provided for the separation of the banking and non banking activities adding more teeth to the principle of BHC. Changes to the construct were made in 1970 when the BHC act was amended. The Dodd Frank Act following the Global Financial Crisis of 2008 created more restictions on BHC while bringing in more banks under the cover of a BHC owing to the ease of supervision under the structure of a BHC.\cite{BHC}
+ The concept of a bank holding company(BHC) came into existence during the mid-1920s with the Fed proposing it in 1927 . The Glass Steagall Act of 1933 provided for the separation of the banking and non banking activities adding more teeth to the principle of BHC. Changes to the construct were made in 1970 when the BHC act was amended. The Dodd Frank Act following the Global Financial Crisis of 2008 created more restictions on BHC while bringing in more banks under the cover of a BHC owing to the ease of supervision under the structure of a BHC.
 
 \subsection{The FR Y-9C History}
     According to the Fed in its website, the report started as FRY-9 in 1978. In 1985 report was changed to act as a parallel report to the call reports which are filed in various capacities by banks. For example Deposit taking banks may based on whether they have foreign offices or not need to file the reports of FFIEC-031 or FFIEC-041 which are called the call reports. 
@@ -854,6 +858,59 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	All the forms described in Table \eqref{tab:FedForms} have got data aggregated and standarized into standard MDRMs. This section will talk briefly on the merits and demerits of usage of these forms instead of FR Y-9C.
 	
+
+
+
+\begin{figure*}[t]
+	\centering
+	\begin{tikzpicture}[
+		node distance=1.2cm and 1.2cm,
+		box/.style={rectangle, draw, minimum width=2.2cm, minimum height=1cm, align=center, font=\footnotesize},
+		smallbox/.style={rectangle, draw, minimum width=1.2cm, minimum height=0.8cm, align=center, font=\scriptsize},
+		arrow/.style={->, >=stealth, thick}
+		]
+		
+		% Title note
+		\node[above, font=\small, text width=10cm, align=center] at (0,4.2) {\textit{Sample BHC Hierarchy with Reports required for each entity}};
+		
+		% Top level - BHC
+		\node[box] (bhc) at (0,3) {\textbf{BHC}\\FR Y-9C\\FR Y-9LP\\FR Y-15};
+		
+		% Second level
+		\node[box] (bank1) at (-4.5,1) {\textbf{Bank 1}\\FFIEC 041};
+		\node[box] (bank2) at (-1.5,1) {\textbf{Bank 2}\\FFIEC 031};
+		\node[box] (nonbank1) at (1.5,1) {\textbf{NonBank 1}\\FR Y-11};
+		\node[box] (nonbank2) at (4.5,1) {\textbf{NonBank 2}\\FR 2314};
+		
+		 % Third level - Bank 1 subsidiaries
+		\node[smallbox] (ussub1) at (-5.5,-1.5) {\textbf{US Sub 1}\\FR Y-11};
+		\node[smallbox] (ussub2) at (-3.7,-1.5) {\textbf{US Sub 2}\\FR Y-11};
+		
+		% Third level - Bank 2 subsidiaries
+		\node[smallbox] (ussub3) at (-2.1,-1.5) {\textbf{US Sub 3}\\FR Y-11};
+		\node[smallbox] (nonussub) at (-0.3,-1.5) {\textbf{Non US Sub}\\FR 2314};
+		
+		% Arrows from BHC
+		\draw[arrow] (bhc) -- (bank1);
+		\draw[arrow] (bhc) -- (bank2);
+		\draw[arrow] (bhc) -- (nonbank1);
+		\draw[arrow] (bhc) -- (nonbank2);
+		
+		% Arrows from Bank 1
+		\draw[arrow] (bank1) -- (ussub1);
+		\draw[arrow] (bank1) -- (ussub2);
+		
+		% Arrows from Bank 2
+		\draw[arrow] (bank2) -- (ussub3);
+		\draw[arrow] (bank2) -- (nonussub);
+		
+	\end{tikzpicture}
+	\caption{Bank Holding Company Organizational Hierarchy with Required Regulatory Reports}
+	\label{fig:bhc_hierarchy}
+\end{figure*}		
+	
+	
+	
 	\subsection{FR Y-9LP Parent only financial statements for BHCs}
 	
 		The FR 9-LP Parent only financial statements for BHCs looks at the financials of the Parent Holding company alone whereas the FR Y-9C looks at the parent holding company at a consolidated level. Because the Parent financial company is looked at a standalone level, the amount of detail required by the Fed is considerably smaller for FR Y-9LP when compared to FR Y-9C. Table \eqref{tab:FRY9LP Schedules} gives the schedules of the FR Y-9LP. 
@@ -1077,9 +1134,75 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		  	
 		  \subsection{FFIEC-002 - Report of Assets and Liabilities of U.S. Branches and Agencies of Foreign Banks}
 		  
-		  Foreign banks with operations in the US can be classified as those which have operations which are significant enough to form an Intermediate Holding Company(IHC) for their US operations or can continue to have a foreign branch alone. The mandate of an IHC comes when the foreign bank has more than \$ 100 billion of assets in US. If branches of a foreign bank have less than \$ 100 billion of assets they need not form an IHC but will still have register as a national bank or under one of the 50 state charters. These banks will also have to file the FFIEC-002 report regardless of the asset size. The requirement to file FFIEC-002 comes from the International Banking act of 1978\cite{FFIEC002}.
+		  Foreign banks with operations in the US can be classified as those which have operations which are significant enough to form an Intermediate Holding Company(IHC) for their US operations or can continue to have a foreign branch alone. The mandate of an IHC comes when the foreign bank has more than \$ 100 billion of assets in US. If branches of a foreign bank have less than \$ 100 billion of assets they need not form an IHC but will still have register as a national bank or under one of the 50 state charters. 
+		  A typical structure of a Foreign Banking Office(FBO) of an international bank is given in fig \eqref{fig:ihc_hierarchy}.
 		  
-		  The FFIEC-002 report is a cross between the FR Y-9C and FFIEC-031 reports with the following differences
+\begin{figure*}[t]
+	\centering
+	\begin{tikzpicture}[
+		node distance=1.2cm and 1.0cm,
+		box/.style={rectangle, draw, minimum width=2.2cm, minimum height=1cm, align=center, font=\footnotesize},
+		smallbox/.style={rectangle, draw, minimum width=1.8cm, minimum height=0.8cm, align=center, font=\scriptsize},
+		topbox/.style={rectangle, draw, minimum width=2.5cm, minimum height=1cm, align=center, font=\footnotesize},
+		subgraph/.style={rectangle, draw, dashed, thick, minimum width=8cm, minimum height=2.5cm, fill=gray!10},
+		arrow/.style={->, >=stealth, thick}
+		]
+		
+		% Top level - Foreign Parent
+		\node[topbox] (parent) at (0,5) {\textbf{Foreign Parent}};
+		
+		% Subgraph box for CUSO
+		\node[subgraph] (cuso) at (-0.5,3) {};
+		\node[above right, align=left, font=\small\bfseries] at (cuso.south west) {CUSO\\FR Y-15};
+		
+		% First level - FBO Branch and IHC (inside subgraph)
+		\node[box] (fbo) at (-3,3) {\textbf{US Branch of Parent}\\FFIEC-002};
+		\node[box] (ihc) at (2,3) {\textbf{IHC}\\FR Y-9C\\FR Y-9LP\\FR Y-15};
+		
+		% Second level - IHC subsidiaries
+		\node[box] (bank1) at (-2,0.8) {\textbf{Bank without}\\{\textbf{foreign subs}}\\FFIEC-041};
+		\node[box] (bank2) at (0.5,0.8) {\textbf{Bank with}\\{\textbf{foreign subs}}\\FFIEC-031};
+		\node[box] (nonbank1) at (3.2,0.8) {\textbf{US Nonbank}\\FR Y-11};
+		\node[box] (nonbank2) at (5.5,0.8) {\textbf{Non-US Nonbank}\\FR 2314};
+		
+		% Third level - Bank subsidiaries
+		\node[smallbox] (ussub1) at (-3,-1.5) {\textbf{US Nonbank}\\FR Y-11};
+		\node[smallbox] (ussub2) at (-1.0,-1.5) {\textbf{US Nonbank}\\FR Y-11};
+		\node[smallbox] (ussub3) at (1.0,-1.5) {\textbf{US Nonbank}\\FR Y-11};
+		\node[smallbox] (nonussub) at (2.9,-1.5) {\textbf{Non-US}\\{\textbf{Nonbank}}\\FR 2314};
+		
+		% Arrows from Parent
+		\draw[arrow] (parent) -- (fbo);
+		\draw[arrow] (parent) -- (ihc);
+		
+		% Arrows from IHC to second level
+		\draw[arrow] (ihc) -- (bank1);
+		\draw[arrow] (ihc) -- (bank2);
+		\draw[arrow] (ihc) -- (nonbank1);
+		\draw[arrow] (ihc) -- (nonbank2);
+		
+		% Arrows from Bank 1 to subsidiaries
+		\draw[arrow] (bank1) -- (ussub1);
+		\draw[arrow] (bank1) -- (ussub2);
+		
+		% Arrows from Bank 2 to subsidiaries
+		\draw[arrow] (bank2) -- (ussub3);
+		\draw[arrow] (bank2) -- (nonussub);
+		
+		% Labels for third level entities
+		\node[below=0.1cm of ussub1, font=\tiny] {USSub 1};
+		\node[below=0.1cm of ussub2, font=\tiny] {USSub 2};
+		\node[below=0.1cm of ussub3, font=\tiny] {USSub 3};
+		\node[below=0.1cm of nonussub, font=\tiny] {NonUS Sub};
+		
+	\end{tikzpicture}
+	\caption{IHC (Intermediate Holding Company) Organizational Hierarchy with Required Regulatory Reports}
+	\label{fig:ihc_hierarchy}
+\end{figure*}
+		  
+		  These banks will also have to file the FFIEC-002 report regardless of the asset size. The requirement to file FFIEC-002 comes from the International Banking act of 1978\cite{FFIEC002}.
+		  
+		  The FFIEC-002 report is a cross between the FR Y-9C and FFIEC-031 reports in regard to the schedules in the report with the following differences
 		  
 		  \begin{enumerate}
 		  	\item The FFIEC-002 report has only a schedule for the Report of Assets and Liabilities and cash flow. However the income statement is not part of FFIEC-002
@@ -1112,7 +1235,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		  	The FR Y-14Q and FR Y-14M reports are a set of reports which go into the detail level of data which is provided in an aggregated form in the FR Y-9C. The FR Y-14Q report refers to a set of schedules which publish the detail level on FR Y-9C on a quarterly basis and FR Y-14M concentrates on home mortgages and Home equity lines of credit and is to be reported on a monthly basis. Each of FR 14-Q and FR Y-14M have got a set of schedules which are independent of each other and so actually act more as reports themselves. We will be looking at these reports in this section in detail and how they tie back to loan analytics.
 		  
 		  \subsubsection{FR Y-14Q - Capital Assessments and Stress Testing}
-		       The FR Y-14Q is a detailed level view of the data of FR Y-9C some of which are used by the Fed for the Comprehensive Capital Analysis and Review(CCAR) analyses done for various banks\cite{FRY14Q}. It has been disaggregated into various schedules , each of which are independent of each other with data which are distinct from each other. Because of the distinct schema of the data reported in each schedule of FR Y-14Q, there cannot be one integrated submission of FR Y-14Q unlike the other reports which have been discussed till now. This is because the level of granularity of each schedule of FR Y-14Q is different. Table \ref{tab:FRY14Q_Schedules} provides the nature of each FR Y-14Q schedule.
+		       The FR Y-14Q is a detailed level view of the data of FR Y-9C some of which are used by the Fed for the Comprehensive Capital Analysis and Review(CCAR) analyses done for various banks\cite{FRY14Q}. The threshold for assets for filing FR Y-14Q is \$ 100 billion. It has been disaggregated into various schedules , each of which are independent of each other with data which are distinct from each other. Because of the distinct schema of the data reported in each schedule of FR Y-14Q, there cannot be one integrated submission of FR Y-14Q unlike the other reports which have been discussed till now. This is because the level of granularity of each schedule of FR Y-14Q is different. Table \ref{tab:FRY14Q_Schedules} provides the nature of each FR Y-14Q schedule.
 		       
 		       \begin{table}[htbp]
 		       	\caption{FR Y-14Q Schedules and Nature}
@@ -1173,7 +1296,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		 	\caption{FR Y-14M Schedules and Nature of each schedule}
 		 	\label{tab:FRY14M_Schedules}
 		 	\centering
-		 	\begin{tabular}{|l|p{3.5cm}|l|}
+		 	\begin{tabular}{|p{1cm}|p{3.5cm}|p{1.5cm}|}
 		 		\hline
 		 		\textbf{Schedule Name} & \textbf{Description} & \textbf{Level of Reporting} \\
 		 		\hline
@@ -1189,6 +1312,39 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		 \end{table}
 		    
 		    The FR Y-14M like the FR Y-14Q is summarized and reported as part of the DFAST results to the public with the detailed data being confidential.
+		    
+	\subsection{Selection of Report Data for Analysis}
+	 
+	 Figure \eqref{fig:bhc_hierarchy} provides a sample hierarchy for BHCs and the reports that each legal entity will have to file. The BHC will have to file FR Y-9C, FR Y-9LP and FR Y-15 while the subordinate entities will have file FFIEC-031/FFIEC-041 if they are banks and FR Y-11/FR-2314 if they are non-banks.
+	 
+	 The selection of data for the use case may depend upon various factors like the type of analysis to be done, the level of detail required, the available time and the amount of resources required. 
+	 
+	 If only BHCs are to be analyzed at a consolidated bank level with loan data being sufficient at an aggregated basis, then the FR Y-9C would be the best choice. However the FR Y-9C suffers from the limitation that only aggregate data is provided and for Intermediate Holding companies(IHCs) of foreign banks, do not provide sufficient information about the Combined US Operations(CUSO) of these foreign banks. The CUSO operations of foreign banks comprise of the IHC plus the local branch of the foreign bank.
+	 
+	 If the local branch of the foreign bank is to be analyzed on a standalone basis, the FFIEC-002 can be considered. The FFIEC-002 has no threshold , so any foreign bank having a branch in USA is required to file. The data is also available in public. So this is a good resource in case foreign bank branch loan activity is to be analyzed.
+	 
+	 The FR Y-9LP is a report at the head office level and so is useful for head office activities like inter-bank lending. The FR Y-15 can be used to analyze the systemic risk posed by a single bank to the US Banking environment.
+	 
+	 Call reports like FFIEC-031 , FFIEC-041 and FFIEC-051 can be used for loan analysis at a deposit taking bank level at an aggregate basis. The dataset provided in these reports are very similar to FR Y-9C and are readily available making these reports a valuable resource for the loan activities of deposit taking bank entities.
+	 
+	 For non-bank subsidiaries, the FR Y-11 and FR-2314 data while not very detailed, provide sufficient granularity to lend themselves for loan analysis. However the FR Y-11 and FR-2314 report data are not available without a FOIA request which does not augur well for data availability.
+	 
+	 At a detailed loan level, the NCUA reports provide detailed loan level detail for Credit Unions and are available for public consumption. For lending details of large banks, the FR Y-14Q Schedule H reports for Wholesale Loans and the FR Y-14M reports are good resources to have, but given the level of detail, the Fed would require a good justification for release of data for research.
+	
+	\section {Analytical themes for Loan Portfolio research}
+	
+	The previous section introduced the rich datasets available with the public data which can extracted from the Federal Reserve and FFIEC websites and how the datasets can be used for Bank Data Analysis. In this section we will look at the themes that can be researched in detail based on the available dataset especially involving the FR Y-9C. This section will also try to see if there are any publications on loan data analysis on the theme and provide a brief description of the publication.
+	
+	\subsection{Discussion of Analytical themes available}
+		With regard to analytical themes available in FR Y-9C there are some themes listed below. 
+		\subsection{Product analysis}
+		 Schedule HC-C of FR Y-9C has Loan details which are HFI and HFS which are segregated by Collateral , Borrower, Purpose or a combination of these. We can use this data in HC-C to find the product mix in the loan portfolio of a bank which can in-turn be used for analysis. The product mix of a bank can be used in combination of sensitivity analysis to find out the sensitivity of a bank to a risk factor like interest rate. All of this can be analyzed by looking at the aggregated data presented in public report of the bank like the FR Y-9C report.
+		 \subsection{Concentration}
+		 Concentration is the amount of assets of the bank present in one product like a loan or a derivative. Concentration can exist in individual loan segments like a home mortgage loan, commercial real estate loan or jumbo loan or a bullet loan and so on. Based on the concentration, the sensitivity of bank's portfolio to various shocks like the interest rates, inflation and liquidity of the banking book can be measured. 
+		 \subsection{Loan Loss Reserves}
+		 Another indicator that can be checked and analyzed by aggregate reports is the amount of loan loss reserves in the bank and the change in the reserves each quarter. Schedule HI-B contains data on the changes to the loss reserves and HI-C contains detailed data on the loss reserves held at bank. The seasonality factor can also be measured by a report like the FR Y-9C. The loan loss reserves can also be analyzed based the economic cycle that the economy is and the allowances maintained by the bank.
+		 \subsection{Asset Quality}
+		 
 		    
 \section{Plan of the paper}
 1. Introduction
