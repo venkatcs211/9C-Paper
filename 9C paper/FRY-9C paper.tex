@@ -1333,18 +1333,99 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	\section {Analytical themes for Loan Portfolio research}
 	
-	The previous section introduced the rich datasets available with the public data which can extracted from the Federal Reserve and FFIEC websites and how the datasets can be used for Bank Data Analysis. In this section we will look at the themes that can be researched in detail based on the available dataset especially involving the FR Y-9C. This section will also try to see if there are any publications on loan data analysis on the theme and provide a brief description of the publication.
+	The previous section introduced the rich datasets available with the public data which can extracted from the Federal Reserve and FFIEC websites and how the datasets can be used for Bank Data Analysis. In this section we will look at the themes that can be researched in detail based on the available dataset especially involving the FR Y-9C. This section will also try to see if there are any publications on loan data analysis on the theme and provide a brief description of the publication. It is to be noted that the analytical themes provided in this section is by no means exhaustive and complete and the total amount of analytical themes at disposal with the FR Y-9C dataset is something that cannot be boxed into a section.
 	
 	\subsection{Discussion of Analytical themes available}
-		With regard to analytical themes available in FR Y-9C there are some themes listed below. 
+		Though there are endless data analyses directions possible using the data FR Y-9C there are some themes listed below. Each of the subsections listed below will have a basic level analysis done with the anonymized data of a bank taken from the publicly available FR Y-9C data.
 		\subsection{Product analysis}
 		 Schedule HC-C of FR Y-9C has Loan details which are HFI and HFS which are segregated by Collateral , Borrower, Purpose or a combination of these. We can use this data in HC-C to find the product mix in the loan portfolio of a bank which can in-turn be used for analysis. The product mix of a bank can be used in combination of sensitivity analysis to find out the sensitivity of a bank to a risk factor like interest rate. All of this can be analyzed by looking at the aggregated data presented in public report of the bank like the FR Y-9C report.
-		 \subsection{Concentration}
-		 Concentration is the amount of assets of the bank present in one product like a loan or a derivative. Concentration can exist in individual loan segments like a home mortgage loan, commercial real estate loan or jumbo loan or a bullet loan and so on. Based on the concentration, the sensitivity of bank's portfolio to various shocks like the interest rates, inflation and liquidity of the banking book can be measured. 
-		 \subsection{Loan Loss Reserves}
-		 Another indicator that can be checked and analyzed by aggregate reports is the amount of loan loss reserves in the bank and the change in the reserves each quarter. Schedule HI-B contains data on the changes to the loss reserves and HI-C contains detailed data on the loss reserves held at bank. The seasonality factor can also be measured by a report like the FR Y-9C. The loan loss reserves can also be analyzed based the economic cycle that the economy is and the allowances maintained by the bank.
-		 \subsection{Asset Quality}
 		 
+		 A simple analysis is carried out here on the product mix of a BHC's FR Y-9C using the numbers reported in HC-C alone.
+		 
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{HFI HFS Loan Distribution Summary}
+		 	\label{tab:loan_distribution}
+		 	\begin{tabular}{|p{0.8cm}|p{2.2cm}|p{1.2cm}|p{1.5cm}|p{1.3cm}|}
+		 		\hline
+		 		\textbf{Sl. No} & \textbf{Description} & \textbf{MDRM} & \textbf{Amount in 1000 \$} & \textbf{Percent of} \\
+		 		\hline
+		 		1 & Loans secured by real estate(Consolidated Level) & BHCK 1410 & 56992863 & 58\% \\
+		 		\hline
+		 		4.a & Commercial loans to US addresses(Consolidated Level) & BHCK 1763 & 3329788 & 24\% \\
+		 		\hline
+		 		4.b & Commercial loans to non US addresses(Consolidated Level)& BHCK 1764 & 66632 & 0\% \\
+		 		\hline
+		 		6.c & Automobile loans(Consolidated Level) & BHCK K137 & 3764610 & 4\% \\
+		 		\hline
+		 		12 & Total Loans (Consolidated Level) & BHCK 2122 & 97757548 & 100\% \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		 
+		 As we can see from the above the bank has 60 \% of its loan portfolio in real estate loans with small portions in commercial and industrial and automobile loans.
+		 
+		 \subsection{Concentration}
+		 Concentration is the percent of assets that exists with a specific counterparty, asset or asset class. IMF has two categories of concentration \cite{ConcRiskIMF}, by counterparty or by sector. Concentration is part of the Pillar II in Basel II and Basel III rules. Because Pillar II gives a lot of discretion for measurement and quantification, concentration risk is measured by individual regulators at each jurisdiction. In the US, the Office of the Comptroller of currency(OCC) defines concentration as the amount of exposure to a single counterparty or a group of related counterparties\cite{OCCConc}. Because a group of related counterparties form a sector , concentrations can be measured by the type of counterparty that a bank has exposure to. The threshold for concentration has been by the OCC as 25\% , so anything above 25\% is considered concentrated.
+		 
+		 In our example in table \eqref{tab:concentration_table} , while mortgages form only 15.8\% of the total loan book which is below the 25\% threshold for concentration set by the OCC, home mortgages make up 27\% of overall loans secured by real estate.
+		  
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{Loan Distribution by Category}
+		 	\label{tab:concentration_table}
+		 	\scriptsize
+		 	\begin{tabular}{|p{0.6cm}|p{1.8cm}|p{0.9cm}|p{1.1cm}|p{0.9cm}|p{0.7cm}|}
+		 		\hline
+		 		\textbf{Sl. No} & \textbf{Description} & \textbf{MDRM} & \textbf{Amount in 1000 \$} & \textbf{Percent of total HFI/HFS Loan book} & \textbf{Percent} \\
+		 		\hline
+		 		1 & Loans secured by real estate & BHCK 1410 & 56992863 & 58.30\% & 100.00\% \\
+		 		\hline
+		 		1.c.1 & Loans secured by 1-4 family residential properties - Revolving Open End Loans - Domestic Offices & BHCK 1797 & 4203358 & 4.30\% & 7.38\% \\
+		 		\hline
+		 		1.c.2.a & Loans secured by 1-4 family residential properties - Closed End Loans First Lien - Domestic Offices & BHCK 5367 & 15450206 & 15.80\% & 27.11\% \\
+		 		\hline
+		 		1.c.2.a & Loans secured by 1-4 family residential properties - Closed End Loans Junior Lien - Domestic Offices & BHCK 5368 & 80500 & 0.08\% & 0.14\% \\
+		 		\hline
+		 		1.d & Loans secured by multifamily properties - Domestic Offices & BHCK 1460 & 4610954 & 4.72\% & 8.09\% \\
+		 		\hline
+		 		12 & Total Loans & BHCK 2122 & 97757548 & 100.00\% & Not applic \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		 
+		 \subsection{Loan Loss Reserves}
+		 Another indicator that can be checked and analyzed by aggregate reports is the amount of loan loss reserves in the bank and the change in the reserves each quarter. Schedule HI-B contains data on the changes to the loss reserves and HI-C contains detailed data on the loss reserves held at bank. The seasonality factor can also be measured by a report like the FR Y-9C. The loan loss reserves can also be analyzed based the economic cycle that the economy is and the allowances maintained by the bank. 
+		 
+		 Table \eqref{tab:loan_allowance} provides the allowance percentage for each category of real estate loans. At 1.04\% residential real estate loans have the lowest allowance as a percent of loans. Column 1 provides the amortized cost which is the annual payment - interest payments.
+		 
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{Loan Categories with Amortized Cost and Allowance}
+		 	\label{tab:loan_allowance}
+		 	\tiny
+		 	\begin{tabular}{|p{0.4cm}|p{1.2cm}|p{0.7cm}|p{0.9cm}|p{0.7cm}|p{0.9cm}|p{0.6cm}|}
+		 		\hline
+		 		\textbf{Sl No} & \textbf{Line Item} & \textbf{MDRM} & \textbf{Amortized Cost Amount} & \textbf{MDRM2} & \textbf{Allowance Amount} & \textbf{\% Allowance} \\
+		 		\hline
+		 		1.a & Construction Loans & BHCK J04 & 9571187 & BHCK J12 & 232917 & 2.43\% \\
+		 		\hline
+		 		1.b & Commercial Real Estate Loans & BHCK J05 & 27332822 & BHCK J13 & 343404 & 1.26\% \\
+		 		\hline
+		 		1.c & Residential Real Estate Loans & BHCK J06 & 19390634 & BHCK J14 & 202590 & 1.04\% \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		 \subsection{Asset Quality}
+		 As has been mentioned in the previous sections, HC-N has got a the delinquency rates for a same MDRM in HC-C for almost all the MDRMs in HC-C in FR Y-9C. This makes a one on one comparison of asset quality very easy to make using the FR Y-9C. We can also throw in the product vise asset quality checks that can be done using the FR Y-9C . All of these provide a huge window of opportunities for data analysis using FR Y-9C data.
+		 \subsection{Systemic Risk}
+		 Systemic risk is directly not connected with Loan analysis, but the six systemic risk factors that drive FR Y-15 namely Size, Interconnectedness, Substituability, Complexity, Cross Jurisdictional activity and short term wholesale funding will indirectly impact factors like loan availability, interest rates, delinquency rates and reserves.
+		 \subsection{Liquidity}
+		 While not directly connected with Loan data analysis, the liquidity factor plays out in terms of the market for various debt based instruments like corporate bonds , mortgage backed securities, asset backed securities and government bonds. The liquidity factor also plays out in the derivative market as well in determining the spreads for all instruments in the derivative market. Liquidity data for banks can also be analyzed using the data available in Schedules HI and HC of FR Y-9C.
+		 
+	\section{Technique selection}
+	   The analytical themes listed above can be taken as a good start for loan dataset analysis provided by the FR Y-9C. This section will provide some of the techniques at a researcher's disposal for exploring the themes provided.
+	   
 		    
 \section{Plan of the paper}
 1. Introduction
@@ -1679,7 +1760,9 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 \bibitem{FFIEC041}“FFIEC 041 Current Information | FFIEC - FFIEC-041.” Accessed: Oct. 08, 2025. [Online]. Available: \url{https://www.ffiec.gov/resources/reporting-forms/ffiec041}
 \bibitem{FR2314} “Federal Reserve Board - Reporting Forms - FR2314.” Accessed: Oct. 22, 2025. [Online]. Available: \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_2314FR_2314S}
 \bibitem{FRY14Q} "Federal Reserve Board - Reporting Forms - FR Y-14Q", Accessed:Oct 27,2025 [Online]. Available \url{https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-14Q}
-
+\bibitem{ConcRiskIMF} "Measuring Concentration Risk A Partial Portfolio
+Approach", Accessed:Nov 8,2025 [Online]. Available: \url{https://www.imf.org/external/pubs/ft/wp/2016/wp16158.pdf}
+\bibitem{OCCConc} "Concentrations of Credit" Accessed : Nov 8,2025 [Online]. Available: \url{https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/concentrations-of-credit/pub-ch-concentrations.pdf} 
 
 
 
