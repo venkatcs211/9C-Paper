@@ -1337,7 +1337,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 	
 	\subsection{Discussion of Analytical themes available}
 		Though there are endless data analyses directions possible using the data FR Y-9C there are some themes listed below. Each of the subsections listed below will have a basic level analysis done with the anonymized data of a bank taken from the publicly available FR Y-9C data.
-		\subsection{Product analysis}
+		\subsection{Product analysis}\label{product_decomp}
 		 Schedule HC-C of FR Y-9C has Loan details which are HFI and HFS which are segregated by Collateral , Borrower, Purpose or a combination of these. We can use this data in HC-C to find the product mix in the loan portfolio of a bank which can in-turn be used for analysis. The product mix of a bank can be used in combination of sensitivity analysis to find out the sensitivity of a bank to a risk factor like interest rate. All of this can be analyzed by looking at the aggregated data presented in public report of the bank like the FR Y-9C report.
 		 
 		 A simple analysis is carried out here on the product mix of a BHC's FR Y-9C using the numbers reported in HC-C alone.
@@ -1365,7 +1365,7 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		 
 		 As we can see from the above the bank has 60 \% of its loan portfolio in real estate loans with small portions in commercial and industrial and automobile loans.
 		 
-		 \subsection{Concentration}
+		 \subsection{Concentration}\label{conc_ratios}
 		 Concentration is the percent of assets that exists with a specific counterparty, asset or asset class. IMF has two categories of concentration \cite{ConcRiskIMF}, by counterparty or by sector. Concentration is part of the Pillar II in Basel II and Basel III rules. Because Pillar II gives a lot of discretion for measurement and quantification, concentration risk is measured by individual regulators at each jurisdiction. In the US, the Office of the Comptroller of currency(OCC) defines concentration as the amount of exposure to a single counterparty or a group of related counterparties\cite{OCCConc}. Because a group of related counterparties form a sector , concentrations can be measured by the type of counterparty that a bank has exposure to. The threshold for concentration has been by the OCC as 25\% , so anything above 25\% is considered concentrated.
 		 
 		 In our example in table \eqref{tab:concentration_table} , while mortgages form only 15.8\% of the total loan book which is below the 25\% threshold for concentration set by the OCC, home mortgages make up 27\% of overall loans secured by real estate.
@@ -1394,16 +1394,16 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		 	\end{tabular}
 		 \end{table}
 		 
-		 \subsection{Loan Loss Reserves}
+		 \subsection{Loan Loss Reserves}\eqref{loss_ratios}
 		 Another indicator that can be checked and analyzed by aggregate reports is the amount of loan loss reserves in the bank and the change in the reserves each quarter. Schedule HI-B contains data on the changes to the loss reserves and HI-C contains detailed data on the loss reserves held at bank. The seasonality factor can also be measured by a report like the FR Y-9C. The loan loss reserves can also be analyzed based the economic cycle that the economy is and the allowances maintained by the bank. 
 		 
-		 Table \eqref{tab:loan_allowance} provides the allowance percentage for each category of real estate loans. At 1.04\% residential real estate loans have the lowest allowance as a percent of loans. Column 1 provides the amortized cost which is the annual payment - interest payments.
+		 Table \eqref{tab:loan_allowance} provides the allowance percentage for each category of real estate loans. At 1.04\% residential real estate loans have the lowest allowance amongst real estate loans. Column 1 provides the amortized cost which is the annual payment - interest payments.
 		 
 		 \begin{table}[htbp]
 		 	\centering
 		 	\caption{Loan Categories with Amortized Cost and Allowance}
 		 	\label{tab:loan_allowance}
-		 	\tiny
+		 	\scriptsize
 		 	\begin{tabular}{|p{0.4cm}|p{1.2cm}|p{0.7cm}|p{0.9cm}|p{0.7cm}|p{0.9cm}|p{0.6cm}|}
 		 		\hline
 		 		\textbf{Sl No} & \textbf{Line Item} & \textbf{MDRM} & \textbf{Amortized Cost Amount} & \textbf{MDRM2} & \textbf{Allowance Amount} & \textbf{\% Allowance} \\
@@ -1416,16 +1416,97 @@ Abdul-Khalik and P.C. Chen use the derivatives data from FRY-9C to examine the i
 		 		\hline
 		 	\end{tabular}
 		 \end{table}
-		 \subsection{Asset Quality}
+		 \subsection{Asset Quality}\label{acc_ratios}
 		 As has been mentioned in the previous sections, HC-N has got a the delinquency rates for a same MDRM in HC-C for almost all the MDRMs in HC-C in FR Y-9C. This makes a one on one comparison of asset quality very easy to make using the FR Y-9C. We can also throw in the product vise asset quality checks that can be done using the FR Y-9C . All of these provide a huge window of opportunities for data analysis using FR Y-9C data.
-		 \subsection{Systemic Risk}
-		 Systemic risk is directly not connected with Loan analysis, but the six systemic risk factors that drive FR Y-15 namely Size, Interconnectedness, Substituability, Complexity, Cross Jurisdictional activity and short term wholesale funding will indirectly impact factors like loan availability, interest rates, delinquency rates and reserves.
-		 \subsection{Liquidity}
-		 While not directly connected with Loan data analysis, the liquidity factor plays out in terms of the market for various debt based instruments like corporate bonds , mortgage backed securities, asset backed securities and government bonds. The liquidity factor also plays out in the derivative market as well in determining the spreads for all instruments in the derivative market. Liquidity data for banks can also be analyzed using the data available in Schedules HI and HC of FR Y-9C.
+		 
+		 Table \eqref{tab:loan_past_due} provides the amounts in each category of loans among residential and commercial loans . Also the percentage of loans at non-accrual is computed in the last column. The rich dataset provides a lot of opportunities to analyze the loan books of various banks operating in the US as can be visualized in the table.
+		 
+		 
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{Loan Past Due and Nonaccrual Status (figures in 1000\$)}
+		 	\label{tab:loan_past_due}
+		 	\scriptsize
+		 	\begin{tabular}{|p{1.2cm}|p{0.9cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.9cm}|}
+		 		\hline
+		 		\textbf{Description} & \textbf{HC-C Value} & \textbf{HC-N Col A - Past due till 89 days} & \textbf{HC-N Col B - Past due $>$90 days} & \textbf{HC-N Col C - Non accrual} & \textbf{Percentage of Non accrual loans} \\
+		 		\hline
+		 		Loans secured by 1-4 family residential properties - Revolving Open End Loans - Domestic Offices &  4203358 & 32929 & 0 & 71445 & 1.70\% \\
+		 		\hline
+		 		Loans secured by 1-4 family residential properties - Closed End Loans First Lien - Domestic Offices &  15450206 & 243032 & 478990 & 420428 & 2.72\% \\
+		 		\hline
+		 		Loans secured by 1-4 family residential properties - Closed End Loans Junior Lien - Domestic Offices &  80500 & 1289 & 36 & 7944 & 9.87\% \\
+		 		\hline
+		 		Commercial and Industrial Loans to US Addresses & 56992863 & 45030 & 10703 & 243017 & 0.43\% \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		 
+		 \subsection{Systemic Risk}\label{sys_decomp}
+		 Systemic risk is directly not connected with Loan analysis, but the six systemic risk factors that drive FR Y-15 namely Size, Interconnectedness, Substitutability, Complexity, Cross Jurisdictional activity and short term wholesale funding will indirectly impact factors like loan availability, interest rates, delinquency rates and reserves.
+		 
+		 The FR Y-9C does not have the aggregated data that the Fed uses to determine systemic risk in a single MDRM. However some of the details required for measuring systemic risk can be inferred from FR Y-9C.
+		 The variables used by the Fed for assessing systemic risk has been detailed in the report FR Y-15. A sample piece of MDRM from FR Y-15 and how the data can be provided from the FR Y-9C as well is discussed in this subsection.
+		 
+		 For our analysis, we will be taking the Line Gross Notional amount of derivative items subject to 20\% CCF. This is represented by the MDRM RISKM718 for US Headquartered banks and RISIM718 for FBOs of Foreign Banks which are required to file FR Y-15. 
+		 
+		 The same number can be derived from the schedule HC-R Part II of FR Y-9C as has been shown in \eqref{tab:off_balance_sheet}.
+		 
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{Off-Balance Sheet Items by Report Type}
+		 	\label{tab:off_balance_sheet}
+		 	\scriptsize
+		 	\begin{tabular}{|p{0.6cm}|p{3.2cm}|p{1.2cm}|p{0.8cm}|p{1.2cm}|}
+		 		\hline
+		 		\textbf{Sl. No} & \textbf{Line Item} & \textbf{MDRM} & \textbf{Report} & \textbf{Amount} \\
+		 		\hline
+		 		4.b & Gross Notional amounts for items with 20\% CCF & RISKM718 & FR Y-15 & 2984843 \\
+		 		\hline
+		 		18.a & Unused commitments - maturity of one year or less - 20\% CCF & BHCKS525 & FR Y-9C & 2980947 \\
+		 		\hline
+		 		14 & Commercial and similar letters of credit - 20\% CCF & BHCKG806 & FR Y-9C & 3896 \\
+		 		\hline
+		 		\multicolumn{2}{|l|}{\textbf{Total FR Y-9C : 2984843}} & & \multicolumn{2}{r|}{\textbf{ Total FR Y-15:2984843}} \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
+		 
+		 In a similar way a lot of Systemic risk parameters provided in FR Y-15 can be derived from FR Y-9C. And the detailed nature of MDRMs in FR Y-9C provides a more granular number which can be sliced and diced in an easier fashion.
+		 
+		 \subsection{Liquidity}\label{liq_trend}
+		 While not directly connected with Loan data analysis, the liquidity factor plays out in terms of the market for various debt based instruments like corporate bonds , mortgage backed securities, asset backed securities and government bonds. The liquidity factor also plays out in the derivative market as well in determining the spreads for all instruments in the derivative market. 
+		 
+		 Liquidity data for banks can also be analyzed using the data available in Schedules HI and HC of FR Y-9C. It needs to be mentioned that if a liquidity measure like cash flow is to be monitored at an aggregate basis, the FR Y-9LP would have data which is fit for purpose. With regard to the daily/monthly liquidity positions the FR-2052a would be the right report.
+		 
+		 The FR Y-9C is most suitable to see the aggregate positions in liquidity inducing trades like trades in repos. In table \eqref{tab:securities_financing}, we can see that the liquidity infused by repo transactions has increased by 156\% quarter over quarter.
+		 
+		 \begin{table}[htbp]
+		 	\centering
+		 	\caption{Securities Financing Transactions}
+		 	\label{tab:securities_financing}
+		 	\scriptsize
+		 	\begin{tabular}{|p{0.5cm}|p{2cm}|p{0.9cm}|p{0.7cm}|p{0.9cm}|p{0.7cm}|p{0.5cm}|}
+		 		\hline
+		 		\textbf{Sl. No} & \textbf{Line description} & \textbf{MDRM} & \textbf{Report} & \textbf{Current Quarter Amount} & \textbf{Previous quarter amount} & \textbf{Diff. in \%} \\
+		 		\hline
+		 		3b & Securities purchased under agreements to resell & BHCK B989 & FR Y-9C & 0 & 0 & \\
+		 		\hline
+		 		14.b & Securities sold under agreements to repurchase & BHCK B995 & FR Y-9C & 152515 & 594082 & 156\% \\
+		 		\hline
+		 	\end{tabular}
+		 \end{table}
 		 
 	\section{Technique selection}
 	   The analytical themes listed above can be taken as a good start for loan dataset analysis provided by the FR Y-9C. This section will provide some of the techniques at a researcher's disposal for exploring the themes provided.
 	   
+	   \subsection{Descriptive Statistics}
+	       The small examples given in the previous section were all examples of Analysis of the Descriptive Statistics provided from the data in FR Y-9C. At its core , descriptive statistics enables to understand the nature of the underlying data and provide the required details to summarize and describe the nature of the underlying data. The analysis is usually deterministic and no probability tests are carried out unlike inferential statistics.
+	       
+	       Description statistics produced are usually in the form of ratios , growth rates,trends and decomposition. In our case Sections \eqref{conc_ratios},\eqref{loss_ratios},\eqref{acc_ratios} use ratios to determine a result while sections on \eqref{product_decomp} and \eqref{sys_decomp} talk about decomposition of the loan book. The section on Liquidity \eqref{liq_trend} is on the trend data.
+	       
+	       
+	       
 		    
 \section{Plan of the paper}
 1. Introduction
