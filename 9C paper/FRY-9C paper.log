@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  26 NOV 2025 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.29)  27 NOV 2025 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2384,8 +2384,13 @@ Overfull \hbox (13.06511pt too wide) in paragraph at lines 837--857
 [11]
 
 
-Overfull \hbox (13.8484pt too wide) in paragraph at lines 969--1010
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 971--971
+[]\OT1/ptm/b/n/8 Schedule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
+[]\OT1/ptm/m/n/8 Optional
  []
 
 
@@ -3240,7 +3245,7 @@ LaTeX Warning: Reference `loss_ratios' on page 19 undefined on input line 1506.
 
 [19]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-667.
+668.
 
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -3250,58 +3255,58 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 [20]
 
-LaTeX Warning: Citation `b7' on page 21 undefined on input line 1716.
+LaTeX Warning: Citation `b7' on page 21 undefined on input line 1717.
 
 File: 9C Vs 10-Q Vs NCUA Grayscale.png Graphic file (type png)
 <use 9C Vs 10-Q Vs NCUA Grayscale.png>
 Package pdftex.def Info: 9C Vs 10-Q Vs NCUA Grayscale.png  used on input line 1
-772.
+773.
 (pdftex.def)             Requested size: 252.94438pt x 173.44757pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-783.
+784.
 (C:\Users\Lavishiva\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1783.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1784.
 
 
 
 
-LaTeX Warning: Citation `b1' on page 21 undefined on input line 1796.
+LaTeX Warning: Citation `b1' on page 21 undefined on input line 1797.
 
 
-LaTeX Warning: Citation `b2' on page 21 undefined on input line 1797.
-
-
-LaTeX Warning: Citation `b3' on page 21 undefined on input line 1798.
-
-
-LaTeX Warning: Citation `b3' on page 21 undefined on input line 1798.
-
-
-LaTeX Warning: Citation `b3' on page 21 undefined on input line 1798.
+LaTeX Warning: Citation `b2' on page 21 undefined on input line 1798.
 
 
 LaTeX Warning: Citation `b3' on page 21 undefined on input line 1799.
 
 
-LaTeX Warning: Citation `b4' on page 21 undefined on input line 1807.
+LaTeX Warning: Citation `b3' on page 21 undefined on input line 1799.
 
 
-LaTeX Warning: Citation `b5' on page 21 undefined on input line 1808.
+LaTeX Warning: Citation `b3' on page 21 undefined on input line 1799.
 
 
-LaTeX Warning: Citation `b6' on page 21 undefined on input line 1813.
+LaTeX Warning: Citation `b3' on page 21 undefined on input line 1800.
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 1817--1818
+LaTeX Warning: Citation `b4' on page 21 undefined on input line 1808.
+
+
+LaTeX Warning: Citation `b5' on page 21 undefined on input line 1809.
+
+
+LaTeX Warning: Citation `b6' on page 21 undefined on input line 1814.
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 1818--1819
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . everycrsreport . com
  / reports / R48291 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1817--1818
+Underfull \hbox (badness 10000) in paragraph at lines 1818--1819
 \OT1/ptm/m/n/8 html# : [] : text = Contrary % 20to % 20traditional % 20notions 
 % 20that ,[] be %
  []
@@ -3309,147 +3314,147 @@ Underfull \hbox (badness 10000) in paragraph at lines 1817--1818
 
 
 [21]
-Underfull \hbox (badness 5878) in paragraph at lines 1818--1819
+Underfull \hbox (badness 5878) in paragraph at lines 1819--1820
 []\OT1/ptm/m/n/8 \Federal Re-serve Board - Re-port-ing Forms." Ac-cessed: Sept.
 
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 1818--1819
+Underfull \hbox (badness 2277) in paragraph at lines 1819--1820
 \OT1/ptm/m/n/8 06, 2025. [On-line]. Avail-able: []$https : / / www . federalres
 erve . gov / apps /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1823--1824
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
 []\OT1/ptm/m/n/8 \Credit Union As-sets, Loans Out-stand-ing and Net In-come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1823--1824
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
 \OT1/ptm/m/n/8 In-crease | NCUA." Ac-cessed: Sept. 06, 2025. [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1823--1824
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
 \OT1/ptm/m/n/8 Avail-able:[]$https : / / ncua . gov / newsroom / press-[]releas
 e / 2025 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1823--1824
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
 \OT1/ptm/m/n/8 credit-[]union-[]assets-[]loans-[]outstanding-[]and-[]net-[]inco
 me-[]increase ? utm[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 []\OT1/ptm/m/n/8 \Number of Listed Com-pa-nies for United States
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 \OT1/ptm/m/n/8 (DDOM01USA644NWDB) | FRED | St. Louis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1824--1825
+Underfull \hbox (badness 10000) in paragraph at lines 1825--1826
 \OT1/ptm/m/n/8 Fed." Ac-cessed: Sept. 06, 2025. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1827--1828
+Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
 []$\OT1/ptm/m/n/8 https : / / fasb . org / page / PageContent ? pageId = /proje
 cts / recentlycompleted /
  []
 
 
-Overfull \hbox (154.38326pt too wide) in paragraph at lines 1827--1828
+Overfull \hbox (154.38326pt too wide) in paragraph at lines 1828--1829
 \OT1/ptm/m/n/8 fair-[]value-[]measurement-[]topic-[]820-[]fair-[]value-[]measur
 ement-[]of-[]equity-[]securities-[]subject-[]to-[]contractual-[]sale-[]restrict
 ions .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
 []\OT1/ptm/m/n/8 \UPDATE NO. 2013-01|BALANCE SHEET (TOPIC 210):
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 CLAR-I-FY-ING THE SCOPE OF DIS-CLO-SURES ABOUT
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 1828--1829
+Underfull \hbox (badness 8170) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 OFF-SET-TING AS-SETS AND LI-A-BIL-I-TIES." Ac-cessed: Sept.
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1828--1829
+Underfull \hbox (badness 1442) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 18, 2025. [On-line]. Avail-able: []$https : / / www . fasb . org
  / page / document ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 pdf = ASU2013-[]01 . pdf & title = UPDATE % 20NO . %202013-[]01 
 % E2 % 80 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 94BALANCE % 20SHEET % 20(TOPIC % 20210) : %20CLARIFYING %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1828--1829
+Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
 \OT1/ptm/m/n/8 20THE % 20SCOPE % 20OF % 20DISCLOSURES % 20ABOUT %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
 \OT1/ptm/m/n/8 https://www.federalreserve.gov/econres/notes/feds-notes/bank-len
 ding-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
 \OT1/ptm/m/n/8 to-private-credit-size-characteristics-and-financial-stability-i
 mplications-
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 1830--1831
+Underfull \hbox (badness 2158) in paragraph at lines 1831--1832
 []\OT1/ptm/m/n/8 A. (Aloke) Ghosh, H. Jarva, and S. G. Ryan, \Bank Reg-u-la-
  []
 
 
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 1843--1844
+Underfull \hbox (badness 2020) in paragraph at lines 1844--1845
 []\OT1/ptm/m/n/8 "Federal Re-serve Board - Re-port-ing Forms - FR Y-14Q", Ac-
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 1846--1847
+Underfull \hbox (badness 7012) in paragraph at lines 1847--1848
 []\OT1/ptm/m/n/8 "Concentrations of Credit" Ac-cessed : Nov 8,2025 [On-line].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
+Underfull \hbox (badness 10000) in paragraph at lines 1847--1848
 \OT1/ptm/m/n/8 Avail-able: []$https : / / www . occ . gov / publications-[]and-
 []resources /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
+Underfull \hbox (badness 10000) in paragraph at lines 1847--1848
 \OT1/ptm/m/n/8 publications / comptrollers-[]handbook / ^^Lles / concentrations
 -[]of-[]credit /
  []
 
 
-Overfull \hbox (198.79132pt too wide) in paragraph at lines 2019--2152
+Overfull \hbox (198.79132pt too wide) in paragraph at lines 2020--2153
  [][] 
  []
 
@@ -3493,8 +3498,8 @@ Package rerunfilecheck Info: File `"FRY-9C paper".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24208 strings out of 468148
- 477118 string characters out of 5429125
- 959587 words of memory out of 5000000
+ 477064 string characters out of 5429125
+ 959586 words of memory out of 5000000
  52200 multiletter control sequences out of 15000+600000
  677336 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3516,7 +3521,7 @@ cal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Lavishiva/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Lavishiva/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Lavishi
 va/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "FRY-9C paper.pdf" (25 pages, 618890 bytes).
+Output written on "FRY-9C paper.pdf" (25 pages, 618895 bytes).
 PDF statistics:
  739 PDF objects out of 1000 (max. 8388607)
  200 named destinations out of 1000 (max. 500000)

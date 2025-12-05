@@ -1,0 +1,19 @@
+I have a directory containing the FR Y-9C data of a bank for every quarter since Q2 2020. The FR Y-9C is a report containing financial information of a bank at a consolidated level. The data is .csv files. The folder also contains .pdf files which should be ignored.
+ Each row contains the MDRM of the data item, the description and the number agains the MDRM. For example see rows below
+
+Report Date	Reporting date in numeric format	20200930
+ID_RSSD	Reporting entity identifier	1037003
+BHCK0081	NONINTEREST BEARING BALANCES AND CURRENCY AND COIN DUE FROM DEPOSITORY INSTITUTIONS (BHC CONSOLIDATED)	1489232
+BHCK0395	INT-BEARING BALANCES IN U.S. OFFICES (BHC CONSOLIDATED)	20122164
+
+I want you to write a Python script extracting a MDRM name, description and value for that MDRM for each quarter. Also you will have to impute the value for the MDRM between quarters as well.
+
+The output should be in the below table format which also gives examples
+
+Period "MDRM Name" "MDRM Description" Value Remark
+2020-09-30 BHCK0081 "NONINTEREST BEARING BALANCES AND CURRENCY" 1489232 "Quarterly data"
+2020-10-31 BHCK0081 "NONINTEREST BEARING BALANCES AND CURRENCY" 1489800 "Imputed"
+2020-11-30 BHCK0081 "NONINTEREST BEARING BALANCES AND CURRENCY" 1495624 "Imputed"
+2020-12-31 BHCK0081 "NONINTEREST BEARING BALANCES AND CURRENCY" 1496826 "Quarterly data"
+
+For imputation you can use any method but explain your choice of method.

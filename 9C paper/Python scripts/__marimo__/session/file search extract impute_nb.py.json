@@ -1,0 +1,170 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.7"
+  },
+  "cells": [
+    {
+      "id": "vITl",
+      "code_hash": "5eca530caaa6b408fc15c7045b0a62da",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"script-to-extract-quarterly-values-of-fr-y-9c-and-impute-values-in-between-for-month-ends\">Script to extract Quarterly values of FR Y-9C and impute values in between for month ends</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pynY",
+      "code_hash": "a9fafb1603f95c5f78cf23331e26385c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Imports below</span>\n<span class=\"paragraph\"><strong>Purpose</strong> copy pasted from Julius AI</span>\n<span class=\"paragraph\">Script to:</span>\n<ol>\n<li>Read all FR Y-9C CSVs in a directory</li>\n<li>Extract a specific MDRM's value per quarter</li>\n<li>Build a monthly time series with linear interpolation</li>\n<li>Mark original quarter data vs imputed values</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "1a97661c5f5898b447f7245a343764d9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jGFU",
+      "code_hash": "deaa1b47f00567476f70e015e596c7c5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Script copy pasted from Julius AI</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qqJV",
+      "code_hash": "1f1445a23f7db93578c869b7c4589bf8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">The following variables will have to be configured</span>\n<ol>\n<li>data_dir - The path where all the files are in</li>\n<li>target_mdrm - The MDRM for which values are to be extracted and values imputed as well</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WXAx",
+      "code_hash": "479d6f865b5a6fbc003e5de0fac566b0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TonJ",
+      "code_hash": "c9282c2a2553b794cb4ba39bead4bd69",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Displaying folder below to ensure separation between creation code cell and display code cell</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "sSwN",
+      "code_hash": "ff67a30d9648d3404ed061d590ede4f2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xfoy",
+      "code_hash": "b8b38e46c041a725beb62c34b2c63931",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "IoZj",
+      "code_hash": "54cbbbf910cc63a4a0b33cf7cd5cd1f5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ubfM",
+      "code_hash": "2468d7eb2f8e94eca20da0ee837cbd07",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qBYU",
+      "code_hash": "08e9bda2a30140b720a33b61250a350c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"select-a-folder-to-process\">Select a Folder to Process</h2></span><marimo-ui-element object-id='WXAx-0' random-id='afb37fa7-77c7-7253-7af8-81db808e9593'><marimo-file-browser data-initial-value='[]' data-label='null' data-initial-path='&quot;C:&#92;&#92;Users&#92;&#92;Lavishiva&quot;' data-selection-mode='&quot;file&quot;' data-filetypes='[]' data-multiple='false' data-restrict-navigation='false'></marimo-file-browser></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><strong>Currently Selected Path:</strong> <code>.</code></span></span><marimo-ui-element object-id='ubfM-0' random-id='0eba530d-4445-b545-7b99-1514258544cb'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Process Folder: &lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;primary&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element><span class=\"markdown prose dark:prose-invert contents\"><hr /></span><span class=\"markdown prose dark:prose-invert contents\"></span></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PUys",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
